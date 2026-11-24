@@ -1,1 +1,3107 @@
-{"updated": null, "count": 0, "years": []}
+{
+ "updated": "2026-11-24T08:06:07Z",
+ "author_id": "mXUOEzwAAAAJ",
+ "count": 365,
+ "years": [
+  {
+   "year": "2026",
+   "items": [
+    {
+     "title": "The 10th AI city challenge",
+     "authors": "Z Tang, S Wang, DC Anastasiu, MC Chang, A Sharma, Q Kong, ...",
+     "venue": "arXiv preprint arXiv:2608.17044, 2026",
+     "cited_by": 13,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:rHJHxKgnXwkC",
+     "citation_id": "mXUOEzwAAAAJ:rHJHxKgnXwkC"
+    },
+    {
+     "title": "FaceLiVTv2: An Improved Hybrid Architecture for Efficient Mobile Face Recognition",
+     "authors": "N Setyawan, CC Sun, MH Hsu, WK Kuo, JW Hsieh",
+     "venue": "IEEE Transactions on Biometrics, Behavior, and Identity Science, 2026",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:wKETBy42zhYC",
+     "citation_id": "mXUOEzwAAAAJ:wKETBy42zhYC"
+    },
+    {
+     "title": "MICROVITV2: BEYOND THE FLOPS FOR EDGE ENERGY-FRIENDLY VISION TRANSFORMERS",
+     "authors": "N Setyawan, CC Sun, MH Hsu, WK Kuo, JW Hsieh",
+     "venue": "IEEE International Conference on Image Processing 2026, 2026",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:yxmsSjX2EkcC",
+     "citation_id": "mXUOEzwAAAAJ:yxmsSjX2EkcC"
+    },
+    {
+     "title": "4th Workshop on Maritime Computer Vision (MaCVi): Challenge Overview",
+     "authors": "B Kiefer, JL Augustin, J Muhovič, M Jeong, A Wiliem, J Pers, M Kristan, ...",
+     "venue": "arXiv preprint arXiv:2604.13244, 2026",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:CB2v5VPnA5kC",
+     "citation_id": "mXUOEzwAAAAJ:CB2v5VPnA5kC"
+    },
+    {
+     "title": "MLA-RiceNet: A Multi-level Attention CNN for Rice Leaf Disease Classification",
+     "authors": "AK Sharma, YF Huang, FL Lin, JW Hsieh, YC Chang, R Tanone",
+     "venue": "International Conference on Advanced Information Networking and Applications …, 2026",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:XUvXOeBm_78C",
+     "citation_id": "mXUOEzwAAAAJ:XUvXOeBm_78C"
+    },
+    {
+     "title": "TinyFormer: Preserving Tiny Objects in YOLO-DETR Hybrid Real-time Detectors",
+     "authors": "JW Hsieh, MY Kao, GW Kurniawan, KC Peng",
+     "venue": "arXiv preprint arXiv:2605.25046, 2026",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:prdVHNxh-e8C",
+     "citation_id": "mXUOEzwAAAAJ:prdVHNxh-e8C"
+    },
+    {
+     "title": "CoDAT: Collaborative dual-attention transformer with low-cost temporal modeling for efficient edge action recognition",
+     "authors": "N Setyawan, CC Sun, MH Hsu, WK Kuo, JM Guo, JW Hsieh",
+     "venue": "IEEE Internet of Things Journal, 2026",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Ade32sEp0pkC",
+     "citation_id": "mXUOEzwAAAAJ:Ade32sEp0pkC"
+    },
+    {
+     "title": "LEAP-VLA: Latent-Enhanced Action Prototyping via Continuous Residual Latent Spaces for Vision-Language-Action Models",
+     "authors": "BY Yu, KC Peng, JW Hsieh",
+     "venue": "European Conference on Computer Vision (ECCV), 2026",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:AXkvAH5U_nMC",
+     "citation_id": "mXUOEzwAAAAJ:AXkvAH5U_nMC"
+    },
+    {
+     "title": "Partial Ring Scan: Revisiting Scan Order in Vision State Space Models",
+     "authors": "YK Hsieh, JW Hsieh, MC Chang, YC Tseng, KC Peng",
+     "venue": "International Conference on Machine Learning (ICML), 2026",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LdasjJ6CEcoC",
+     "citation_id": "mXUOEzwAAAAJ:LdasjJ6CEcoC"
+    },
+    {
+     "title": "Addressing Long-Tail Noisy Label Learning Problems: a Two-Stage Solution with Label Refurbishment Considering Label Rarity",
+     "authors": "YK Hsieh, JW Hsieh, X li, MC Chang, YC Tseng",
+     "venue": "arXiv preprint arxiv.org/abs/2403.02363, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:PYBJJbyH-FwC",
+     "citation_id": "mXUOEzwAAAAJ:PYBJJbyH-FwC"
+    },
+    {
+     "title": "Confidence Scores in Open-Vocabulary Detection are a Biased Mixture of Scale and Semantics",
+     "authors": "YT Soon, JW Hsieh",
+     "venue": "International Conference on Pattern Recognition, 189-202, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LPtt_HFRSbwC",
+     "citation_id": "mXUOEzwAAAAJ:LPtt_HFRSbwC"
+    },
+    {
+     "title": "Confidence Scores in Open-Vocabulary Detection Are a Biased Mixture of Scale and Semantics",
+     "authors": "JW Hsieh, YT Soon",
+     "venue": "2026 International Workshops and Challenges, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:QyXJ3EUuO1IC",
+     "citation_id": "mXUOEzwAAAAJ:QyXJ3EUuO1IC"
+    },
+    {
+     "title": "Confidence Scores in Open-Vocabulary Detection Are a Biased Mixture of Scale and Semantics",
+     "authors": "Y Tang Soon, JW Hsieh",
+     "venue": "arXiv e-prints, arXiv: 2607.10993, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:jE2MZjpN3IcC",
+     "citation_id": "mXUOEzwAAAAJ:jE2MZjpN3IcC"
+    },
+    {
+     "title": "Counting without Scale: Scale-Consistent Error Correction for Crowd Counting",
+     "authors": "YK Hsieh, X Li, CC Sun, YC Tseng, MC Chang, KC Peng, JW Hsieh",
+     "venue": "Neural Information Processing Systems (NeurIPS), 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HGTzPopzzJcC",
+     "citation_id": "mXUOEzwAAAAJ:HGTzPopzzJcC"
+    },
+    {
+     "title": "Effect of Laser Posterior Nasal Neurolysis for the Treatment of Chronic Rhinitis: A Randomized Controlled Trial",
+     "authors": "JY Liao, EY Wang, YS Hsu, MS Tsai, CJ Wu, CH Chang, YL Hwang, ...",
+     "venue": "International Forum of Allergy & Rhinology, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:FiytvqdAVhgC",
+     "citation_id": "mXUOEzwAAAAJ:FiytvqdAVhgC"
+    },
+    {
+     "title": "FE-DETRAC: An Infrastructure Fisheye Video Benchmark with Distortion-Aware Hybrid Data Association for Multi-Object Tracking",
+     "authors": "CI Huang, WY Chen, JW Hsieh, PY Chen, MC Chang, M Gochoo, ...",
+     "venue": "IEEE Internet of Things Journal, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:3NQIlFlcGxIC",
+     "citation_id": "mXUOEzwAAAAJ:3NQIlFlcGxIC"
+    },
+    {
+     "title": "Foveal-Mamba: Inside-Out Ring Scanning with Recurrent Offset Prediction for Visual State Space Models",
+     "authors": "YK Hsieh, JW Hsieh*, KC Peng, X Li, CC Sun, YC Tseng, MC Chang",
+     "venue": "Neural Information Processing Systems (NeurIPS), 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:OBSaB-F7qqsC",
+     "citation_id": "mXUOEzwAAAAJ:OBSaB-F7qqsC"
+    },
+    {
+     "title": "GPS-denied Drone Navigation via Cross-Domain Keypoint Matching",
+     "authors": "JW Hsieh, HK Chen",
+     "venue": "IEEE International Conference on Image Processing 2026, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Br1UauaknNIC",
+     "citation_id": "mXUOEzwAAAAJ:Br1UauaknNIC"
+    },
+    {
+     "title": "Lightweight Multi-task CNN for Otoscopic Image: An Efficient and Explainable Approach for Automated Middle Ear Disease Diagnosis",
+     "authors": "YT Soon, JW Hsieh",
+     "venue": "International Conference on Ubi-Media Computing, 343-357, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:CdxZDUztZiMC",
+     "citation_id": "mXUOEzwAAAAJ:CdxZDUztZiMC"
+    },
+    {
+     "title": "Lightweight Regularized Wavelet-Domain Low-Frequency Color Compensation for Underwater Image Enhancement on Consumer Devices",
+     "authors": "WC Hu, XR Huang, HS Hu, JW Hsieh, LB Chen",
+     "venue": "2026 IEEE 2nd International Conference on Consumer Technology (ICCT-Pacific …, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:SjuI4pbJlxcC",
+     "citation_id": "mXUOEzwAAAAJ:SjuI4pbJlxcC"
+    },
+    {
+     "title": "LiteAttNet: An Attention-Enhanced Neural Architecture for Tomato Leaf Disease Recognition",
+     "authors": "AK Sharma, YF Huang, TH Tan, YC Chang, JW Hsieh, W Chen",
+     "venue": "2026 International Conference on Computer, Control, Informatics and its …, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:-jrNzM816MMC",
+     "citation_id": "mXUOEzwAAAAJ:-jrNzM816MMC"
+    },
+    {
+     "title": "MAESTRO: Multi-Anchor and Dual-Constraint Enhanced Sequential Training for Robust Optimization in Image Editing",
+     "authors": "PT Ku, JW Hsieh*, YK Hsieh, YT Hsieh, CC Sun, MC Chang, X Li",
+     "venue": "2026 International Conference on Advanced Visual and Signal-Based Systems (AVSS), 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:MAUkC_7iAq8C",
+     "citation_id": "mXUOEzwAAAAJ:MAUkC_7iAq8C"
+    },
+    {
+     "title": "Optimization-Diverse Transformer Adaptation with Gated Heterogeneous Fusion for Robust Thermal Object Detection",
+     "authors": "CM Tsai, JW Hsieh, MC Chang",
+     "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:owLR8QvbtFgC",
+     "citation_id": "mXUOEzwAAAAJ:owLR8QvbtFgC"
+    },
+    {
+     "title": "Pushing Past Saturation: An EEG Spike-Detection System for NeuroMM-2026 Track-1",
+     "authors": "MC Chiang, KC Peng, BY Yu, JW Hsieh",
+     "venue": "ACM International Conference on Multimedia (ACMMM), https://openreview.net …, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:jFemdcug13IC",
+     "citation_id": "mXUOEzwAAAAJ:jFemdcug13IC"
+    },
+    {
+     "title": "RepSFNet: A Single Fusion Network with Structural Reparameterization for Crowd Counting",
+     "authors": "M Nurul Achmadiah, CC Sun, WK Kuo, JW Hsieh",
+     "venue": "arXiv e-prints, arXiv: 2601.20369, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:cK4Rrx0J3m0C",
+     "citation_id": "mXUOEzwAAAAJ:cK4Rrx0J3m0C"
+    },
+    {
+     "title": "SILVA-Mamba: Spatial-Integrity For Landslide Segmentation Via Vectorized HILBERT Scanning and Adaptive Mamba",
+     "authors": "YT Hsieh, CC Hsu, X Li, MC Chang, JW Hsieh",
+     "venue": "IEEE International Conference on Image Processing 2026, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:1yWc8FF-_SYC",
+     "citation_id": "mXUOEzwAAAAJ:1yWc8FF-_SYC"
+    },
+    {
+     "title": "SLDCNet: Shallow Latent Density Collective Representation for Underwater Fish School Abnormality Recognition",
+     "authors": "WC Hu, HH Wang, XR Huang, YJ Su, JW Hsieh, LB Chen",
+     "venue": "2026 8th International Conference on Computer Communication and the Internet …, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:DBa1UEJaJKAC",
+     "citation_id": "mXUOEzwAAAAJ:DBa1UEJaJKAC"
+    },
+    {
+     "title": "SoREL: Soft-Label Refurbishment with Ensemble Learning for Noisy Long-Tailed Classification",
+     "authors": "JW Hsieh, YH Wu, YK Hsieh, X Li, KC Peng, MC Chang",
+     "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:IaI1MmNe2tcC",
+     "citation_id": "mXUOEzwAAAAJ:IaI1MmNe2tcC"
+    },
+    {
+     "title": "Ubi-Media Computing, Pervasive Systems, Algorithms and Networks: 14th International Conference on Ubi-Media Computing, Ubi-Media 2026, Penang, Malaysia, January 18–22, 2026 …",
+     "authors": "L Hui, CH Hsu, RSS Singh",
+     "venue": "Springer Nature, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:kw52XkFRtyQC",
+     "citation_id": "mXUOEzwAAAAJ:kw52XkFRtyQC"
+    },
+    {
+     "title": "Utility of deep learning for degree calculation of aortic arch calcification in chest-X ray",
+     "authors": "CK Wu, CY Huang, TX Shen, YS Tsai, JW Hsieh",
+     "venue": "BMC Medical Imaging, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:-mN3Mh-tlDkC",
+     "citation_id": "mXUOEzwAAAAJ:-mN3Mh-tlDkC"
+    },
+    {
+     "title": "UTRE-NAS: Universal Training-Related Estimate for Cell-based Neural Architecture Search",
+     "authors": "YM Zhang, JW Hsieh, CC Lee, KC Fan",
+     "venue": "International Journal of Pattern Recognition and Artificial Intelligence …, 2026",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:j7_hQOaDUrUC",
+     "citation_id": "mXUOEzwAAAAJ:j7_hQOaDUrUC"
+    }
+   ]
+  },
+  {
+   "year": "2025",
+   "items": [
+    {
+     "title": "The 9th AI City Challenge",
+     "authors": "Z Tang, S Wang, DC Anastasiu, MC Chang, A Sharma, Q Kong, N Kobori, ...",
+     "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision …, 2025",
+     "cited_by": 107,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:7H_MAutzIkAC",
+     "citation_id": "mXUOEzwAAAAJ:7H_MAutzIkAC"
+    },
+    {
+     "title": "Microvit: A vision transformer with low complexity self attention for edge device",
+     "authors": "N Setyawan, CC Sun, MH Hsu, WK Kuo, JW Hsieh",
+     "venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS), 1-5, 2025",
+     "cited_by": 30,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:lvd772isFD0C",
+     "citation_id": "mXUOEzwAAAAJ:lvd772isFD0C"
+    },
+    {
+     "title": "FaceLiVT: Face Recognition Using Linear Vision Transformer with Structural Reparameterization for Mobile Device",
+     "authors": "JWH Novendra Setyawan, Chi-Chia Sun, Mao-Hsiu Hsu, Wen-Kai Kuo",
+     "venue": "2025 IEEE International Conference on Image Processing (ICIP), 2025",
+     "cited_by": 23,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:43bX7VzcjpAC",
+     "citation_id": "mXUOEzwAAAAJ:43bX7VzcjpAC"
+    },
+    {
+     "title": "Cross-scale overlapping patch-based attention network for road crack detection",
+     "authors": "PH Chen, JW Hsieh, YK Hsieh, CW Chang, DY Huang",
+     "venue": "IEEE Transactions on Intelligent Transportation Systems 26 (6), 7587-7599, 2025",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:vDZJ-YLwNdEC",
+     "citation_id": "mXUOEzwAAAAJ:vDZJ-YLwNdEC"
+    },
+    {
+     "title": "xLSTM-based urban traffic flow prediction for intelligent transportation governance",
+     "authors": "CI Huang, JS Chang, JW Hsieh, JH Wu, WY Chang",
+     "venue": "Applied Sciences 15 (14), 7859, 2025",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4X0JR2_MtJMC",
+     "citation_id": "mXUOEzwAAAAJ:4X0JR2_MtJMC"
+    },
+    {
+     "title": "Chronic rhinitis surgery: association between preoperative severity and response rate",
+     "authors": "CY Huang, JY Liao, BH Kang, YS Lin, JW Hsieh",
+     "venue": "American Journal of Rhinology & Allergy 39 (2), 109-117, 2025",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:fbc8zXXH2BUC",
+     "citation_id": "mXUOEzwAAAAJ:fbc8zXXH2BUC"
+    },
+    {
+     "title": "Scale-aware crowd counting network with annotation error modeling",
+     "authors": "YK Hsieh, JW Hsieh, X Li, YM Zhang, YC Tseng, MC Chang",
+     "venue": "IEEE Transactions on Image Processing 34, 2750-2764, 2025",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:BJbdYPG6LGMC",
+     "citation_id": "mXUOEzwAAAAJ:BJbdYPG6LGMC"
+    },
+    {
+     "title": "Fast-cos: a fast one-stage object detector based on reparameterized attention vision transformer for autonomous driving",
+     "authors": "N Setyawan, GW Kurniawan, CC Sun, WK Kuo, JW Hsieh",
+     "venue": "arXiv preprint arXiv:2502.07417, 2025",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:gVv57TyPmFsC",
+     "citation_id": "mXUOEzwAAAAJ:gVv57TyPmFsC"
+    },
+    {
+     "title": "RepSFNet: A Single Fusion Network with Structural Reparameterization for Crowd Counting",
+     "authors": "MN Achmadiah, CC Sun, WK Kuo, JW Hsieh",
+     "venue": "2025 IEEE International Conference on Advanced Visual and Signal-Based …, 2025",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:lgwcVrK6X84C",
+     "citation_id": "mXUOEzwAAAAJ:lgwcVrK6X84C"
+    },
+    {
+     "title": "Lightweight computation single-image fog removal based on a new improved adaptive dark channel prior",
+     "authors": "CC Sun, AA Bryantono, JW Hsieh",
+     "venue": "IEEE Transactions on Intelligent Transportation Systems, 2025",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:U4n9YNQMCAIC",
+     "citation_id": "mXUOEzwAAAAJ:U4n9YNQMCAIC"
+    },
+    {
+     "title": "Classification of Indonesian Language News Documents Using RNN and Transformers",
+     "authors": "MR Agam, N Setyawan, CC Sun, HK Su, JW Hsieh",
+     "venue": "2025 IEEE International Conference on Consumer Electronics-Taiwan (ICCE …, 2025",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:jgBuDB5drN8C",
+     "citation_id": "mXUOEzwAAAAJ:jgBuDB5drN8C"
+    },
+    {
+     "title": "Design and Implementation of a GenAI-Based Music Creation System",
+     "authors": "CW Chang, YJ Chen, YC Chang, JW Hsieh, DY Huang",
+     "venue": "International Symposium on Pervasive Systems, Algorithms and Networks, 296-306, 2025",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:AHdEip9mkN0C",
+     "citation_id": "mXUOEzwAAAAJ:AHdEip9mkN0C"
+    },
+    {
+     "title": "Facelivt: Energy efficient face recognition with linear vision transformer for limited resource device",
+     "authors": "N Setyawan, JX Gu, CC Sun, MH Hsu, WK Kuo, CA Shen, JW Hsieh",
+     "venue": "2025 IEEE Asia Pacific Conference on Circuits and Systems (APCCAS), 1-5, 2025",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:PaBasH6fAo0C",
+     "citation_id": "mXUOEzwAAAAJ:PaBasH6fAo0C"
+    },
+    {
+     "title": "PETS2025: multi-authority multi-sensor maritime surveillance challenge and evaluation",
+     "authors": "T Markchom, J Boyle, L Chen, J Ferryman, M Marturini, S Veigl, A Opitz, ...",
+     "venue": "2025 IEEE International Conference on Advanced Visual and Signal-Based …, 2025",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:CaZNVDsoPx4C",
+     "citation_id": "mXUOEzwAAAAJ:CaZNVDsoPx4C"
+    },
+    {
+     "title": "Scalable Adaptive Sparse Attention Pruning: A Dynamic Approach for Efficient Neural Attention Mechanisms",
+     "authors": "GW Kurniawan, JW Hsieh, CC Sun",
+     "venue": "2025 IEEE 8th International Conference on Multimedia Information Processing …, 2025",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:kVjdVfd2voEC",
+     "citation_id": "mXUOEzwAAAAJ:kVjdVfd2voEC"
+    },
+    {
+     "title": "BF-YOLOv7: Enhancing Helmet Rule Violation Detection",
+     "authors": "CM Tsai, JW Hsieh, MC Chang",
+     "venue": "International Conference on Industrial, Engineering and Other Applications …, 2025",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:F1b5ZUV5XREC",
+     "citation_id": "mXUOEzwAAAAJ:F1b5ZUV5XREC"
+    },
+    {
+     "title": "Block-based Symmetric Pruning and Fusion for Efficient Vision Transformers",
+     "authors": "YK Hsieh, JW Hsieh, X Li, YM Chang, YC Tseng",
+     "venue": "arXiv preprint arXiv:2507.12125, 2025",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:2tRrZ1ZAMYUC",
+     "citation_id": "mXUOEzwAAAAJ:2tRrZ1ZAMYUC"
+    },
+    {
+     "title": "Faster Container Code Detection and Recognition",
+     "authors": "AC Liu, JW Hsieh, CC Chang",
+     "venue": "2025 7th International Conference on Computer Communication and the Internet …, 2025",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ALROH1vI_8AC",
+     "citation_id": "mXUOEzwAAAAJ:ALROH1vI_8AC"
+    },
+    {
+     "title": "Grad-CAM-Integrated Deep Learning Framework for Automated Bone Marrow Cell Classification",
+     "authors": "AK Sharma, YF Huang, SH Liu, FL Lin, B Sridharan, JW Hsieh",
+     "venue": "2025 13th International Conference on Awareness Science and Technology …, 2025",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:v1_lew4L6wgC",
+     "citation_id": "mXUOEzwAAAAJ:v1_lew4L6wgC"
+    },
+    {
+     "title": "ISSR-UNet: Intrinsic Supervision Shuffle Residual UNet for Underwater Image Restoration",
+     "authors": "CC Chang, JW Hsieh, CC Chou, YH Lee, PW Lin, LY Chu",
+     "venue": "2025 IEEE International Conference on Advanced Visual and Signal-Based …, 2025",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:48xauSegjOkC",
+     "citation_id": "mXUOEzwAAAAJ:48xauSegjOkC"
+    },
+    {
+     "title": "Semantic-Guided Natural Language and Visual Fusion for Cross-Modal Interaction Based on Tiny Object Detection",
+     "authors": "XH Huang, HK Su, CC Sun, JW Hsieh",
+     "venue": "arXiv preprint arXiv:2511.05474, 2025",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:zCSUwVk65WsC",
+     "citation_id": "mXUOEzwAAAAJ:zCSUwVk65WsC"
+    },
+    {
+     "title": "WRSU-Net: Enhanced Underwater Image Restoration Using W-Net and ReSU-Block for Multi-scale Feature Fusion",
+     "authors": "HK Chen, JW Hsieh, HT Huang, MY Kao",
+     "venue": "International Symposium on Pervasive Systems, Algorithms and Networks, 328-335, 2025",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:sJsF-0ZLhtgC",
+     "citation_id": "mXUOEzwAAAAJ:sJsF-0ZLhtgC"
+    }
+   ]
+  },
+  {
+   "year": "2024",
+   "items": [
+    {
+     "title": "Smiletrack: Similarity learning for occlusion-aware multiple object tracking",
+     "authors": "YH Wang, JW Hsieh, PY Chen, MC Chang, HH So, X Li",
+     "venue": "Proceedings of the AAAI conference on artificial intelligence 38 (6), 5740-5748, 2024",
+     "cited_by": 209,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HbR8gkJAVGIC",
+     "citation_id": "mXUOEzwAAAAJ:HbR8gkJAVGIC"
+    },
+    {
+     "title": "Aiot-based shrimp larvae counting system using scaled multilayer feature fusion network",
+     "authors": "YK Hsieh, JW Hsieh, WC Hu, YC Tseng",
+     "venue": "IEEE Internet of Things Journal 11 (22), 36438-36451, 2024",
+     "cited_by": 14,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:0N-VGjzr574C",
+     "citation_id": "mXUOEzwAAAAJ:0N-VGjzr574C"
+    },
+    {
+     "title": "Mean-Shift Based Differentiable Architecture Search",
+     "authors": "JW Hsieh, CH Chou, MC Chang, PY Chen, S Santra, CS Huang",
+     "venue": "IEEE Transactions on Artificial Intelligence, 2024",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:PoWvk5oyLR8C",
+     "citation_id": "mXUOEzwAAAAJ:PoWvk5oyLR8C"
+    },
+    {
+     "title": "MOTE-NAS: Multi-Objective Training-based Estimate for Efficient Neural Architecture Search",
+     "authors": "YM Chang, JW Hsieh, X Li, MC Chang, CC Lee, KC Fan",
+     "venue": "Neural Information Processing Systems 2024, 2024",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ZzlSgRqYykMC",
+     "citation_id": "mXUOEzwAAAAJ:ZzlSgRqYykMC"
+    },
+    {
+     "title": "Pushing the limit of fine-tuning for few-shot learning: where feature reusing meets cross-scale attention",
+     "authors": "YY Chen, JW Hsieh, X Li, MC Chang",
+     "venue": "Proceedings of the AAAI Conference on Artificial Intelligence 38 (10), 11434 …, 2024",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:q3CdL3IzO_QC",
+     "citation_id": "mXUOEzwAAAAJ:q3CdL3IzO_QC"
+    },
+    {
+     "title": "Image manipulation detection with implicit neural representation and limited supervision",
+     "authors": "Z Zhang, M Li, X Li, MC Chang, JW Hsieh",
+     "venue": "European Conference on Computer Vision, 255-273, 2024",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:P7Ujq4OLJYoC",
+     "citation_id": "mXUOEzwAAAAJ:P7Ujq4OLJYoC"
+    },
+    {
+     "title": "Posterior nasal nerve neurolysis in addition to radiofrequency ablation of the inferior turbinates for patients with chronic rhinitis",
+     "authors": "CY Huang, JY Liao, HL Teng, BH Kang, YS Lin, JW Hsieh",
+     "venue": "ORL 86 (5-6), 191-199, 2024",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:5MTHONV0fEkC",
+     "citation_id": "mXUOEzwAAAAJ:5MTHONV0fEkC"
+    },
+    {
+     "title": "Addressing long-tail noisy label learning problems: a two-stage solution with label refurbishment considering label rarity",
+     "authors": "YH Wu, JW Hsieh, L Xin, SY Teng, YK Hsieh, MC Chang",
+     "venue": "arXiv preprint arXiv:2403.02363, 2024",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:xtoqd-5pKcoC",
+     "citation_id": "mXUOEzwAAAAJ:xtoqd-5pKcoC"
+    },
+    {
+     "title": "ParFormer: A vision transformer with parallel mixer and sparse channel attention patch embedding",
+     "authors": "N Setyawan, GW Kurniawan, CC Sun, JW Hsieh, JM Guo, WK Kuo",
+     "venue": "arXiv preprint arXiv:2403.15004, 2024",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:gKiMpY-AVTkC",
+     "citation_id": "mXUOEzwAAAAJ:gKiMpY-AVTkC"
+    },
+    {
+     "title": "ParFormer: vision transformer baseline with parallel local global token mixer and convolution attention patch embedding",
+     "authors": "N Setyawan, GW Kurniawan, CC Sun, JW Hsieh, HK Su, WK Kuo",
+     "venue": "arXiv preprint arXiv:2403.15004, 2024",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:XvxMoLDsR5gC",
+     "citation_id": "mXUOEzwAAAAJ:XvxMoLDsR5gC"
+    },
+    {
+     "title": "Few Shot Multiple-Font Character Recognition for Ship Monitoring.",
+     "authors": "C CHANG, JW Hsieh, C Chang, DY HUANP, YUS TSAP",
+     "venue": "Journal of Information Science & Engineering 40 (3), 521, 2024",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:IUKN3-7HHlwC",
+     "citation_id": "mXUOEzwAAAAJ:IUKN3-7HHlwC"
+    },
+    {
+     "title": "MEI) IATrack: Advanced Matching Strategy for Detection-Based Multi-Object Tracking.",
+     "authors": "W Chang, JUNWEI HSIE, C Chang, K Fan",
+     "venue": "Journal of Information Science & Engineering 40 (3), 507, 2024",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Ug5p-4gJ2f0C",
+     "citation_id": "mXUOEzwAAAAJ:Ug5p-4gJ2f0C"
+    },
+    {
+     "title": "NAS-based Recursive Stage Partial Network (RSPNet) for Light-Weight Semantic Segmentation",
+     "authors": "YC Wang, JW Hsieh, YK Hsieh, CW Chang",
+     "venue": "2024 International Computer Symposium (ICS), 213-218, 2024",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:AvfA0Oy_GE0C",
+     "citation_id": "mXUOEzwAAAAJ:AvfA0Oy_GE0C"
+    },
+    {
+     "title": "CASML: Combining Cross-Scale Attention and Separate Mix-Layer for Lightweight Classification Network",
+     "authors": "PY Liao, YM Zhang, JW Hsieh, CC Lee, KC Fan",
+     "venue": "2024 33rd Wireless and Optical Communications Conference (WOCC), 186-191, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:u-coK7KVo8oC",
+     "citation_id": "mXUOEzwAAAAJ:u-coK7KVo8oC"
+    },
+    {
+     "title": "Class-Specific Channel Attention For Few Shot Learning",
+     "authors": "YK Hsieh, JW Hsieh, YY Chen",
+     "venue": "2024 IEEE International Conference on Image Processing (ICIP), 1012-1018, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:nZcligLrVowC",
+     "citation_id": "mXUOEzwAAAAJ:nZcligLrVowC"
+    },
+    {
+     "title": "Patch-Based Prototypical Cross-Scale Attention Network for Anomaly Detection",
+     "authors": "TL Wang, JW Hsieh, YK Hsieh",
+     "venue": "International Conference on Pattern Recognition, 366-381, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Aul-kAQHnToC",
+     "citation_id": "mXUOEzwAAAAJ:Aul-kAQHnToC"
+    },
+    {
+     "title": "RATs-NAS: Redirection of Adjacent Trails on Graph Convolutional Networks for Predictor-Based Neural Architecture Search",
+     "authors": "YM Zhang, JW Hsieh, CC Lee, KC Fan",
+     "venue": "IEEE Transactions on Artificial Intelligence 5 (12), 6672-6682, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:OP4eGU-M3BUC",
+     "citation_id": "mXUOEzwAAAAJ:OP4eGU-M3BUC"
+    },
+    {
+     "title": "SCC-NET: Segmentation of Clinical Cancer image for Head and Neck Squamous Cell Carcinoma",
+     "authors": "CY Huang, CC Tsai, LA Hwang, BH Kang, YS Lin, HH Su, GT Shen, ...",
+     "venue": "Journal of Medical Imaging, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:QYdC8u9Cj1oC",
+     "citation_id": "mXUOEzwAAAAJ:QYdC8u9Cj1oC"
+    },
+    {
+     "title": "Set-Nas: Sample-Efficient Training For Neural Architecture Search With Strong Predictor And Stratified Sampling",
+     "authors": "YM Zhang, JW Hsieh, YH Chang, X Li, MC Chang, CC Lee, KC Fan",
+     "venue": "2024 IEEE International Conference on Image Processing (ICIP), 680-686, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Ehil0879vHcC",
+     "citation_id": "mXUOEzwAAAAJ:Ehil0879vHcC"
+    },
+    {
+     "title": "Strengthening 3D Point Cloud Classification through Self-Attention and Plane Features",
+     "authors": "JC Liu, JW Hsieh, YM Zhang, CC Lee, KC Fan",
+     "venue": "2024 IEEE International Conference on Advanced Video and Signal Based …, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:F9fV5C73w3QC",
+     "citation_id": "mXUOEzwAAAAJ:F9fV5C73w3QC"
+    },
+    {
+     "title": "Underwater Image Enhancement Using Encoder-Decoder Scale Attention Network",
+     "authors": "KK Lee, JW Hsieh, YK Hsieh, AT Hsieh",
+     "venue": "2024 6th International Conference on Computer Communication and the Internet …, 2024",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:a3BOlSfXSfwC",
+     "citation_id": "mXUOEzwAAAAJ:a3BOlSfXSfwC"
+    }
+   ]
+  },
+  {
+   "year": "2023",
+   "items": [
+    {
+     "title": "SARAS-Net: Scale and relation aware Siamese network for change detection",
+     "authors": "CP Chen, JW Hsieh, PY Chen, YK Hsieh, BS Wang",
+     "venue": "Proceedings of the AAAI Conference on Artificial Intelligence 37 (12), 14187 …, 2023",
+     "cited_by": 123,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:p__nRnzSRKYC",
+     "citation_id": "mXUOEzwAAAAJ:p__nRnzSRKYC"
+    },
+    {
+     "title": "Fisheye8k: A benchmark and dataset for fisheye camera object detection",
+     "authors": "M Gochoo, ME Otgonbold, E Ganbold, JW Hsieh, MC Chang, PY Chen, ...",
+     "venue": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
+     "cited_by": 95,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:VaXvl8Fpj5cC",
+     "citation_id": "mXUOEzwAAAAJ:VaXvl8Fpj5cC"
+    },
+    {
+     "title": "Mixnet: toward accurate detection of challenging scene text in the wild",
+     "authors": "YX Zeng, JW Hsieh, X Li, MC Chang",
+     "venue": "arXiv preprint arXiv:2308.12817, 2023",
+     "cited_by": 30,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:S16KYo8Pm5AC",
+     "citation_id": "mXUOEzwAAAAJ:S16KYo8Pm5AC"
+    },
+    {
+     "title": "Cooperative multi-objective reinforcement learning for traffic signal control and carbon emission reduction",
+     "authors": "CR Tang, JW Hsieh, SY Teng",
+     "venue": "arXiv preprint arXiv:2306.09662, 2023",
+     "cited_by": 14,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:M7yex6snE4oC",
+     "citation_id": "mXUOEzwAAAAJ:M7yex6snE4oC"
+    },
+    {
+     "title": "Video analytics for detecting motorcyclist helmet rule violations",
+     "authors": "CM Tsai, JW Hsieh, MC Chang, GL He, PY Chen, WT Chang, YK Hsieh",
+     "venue": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
+     "cited_by": 12,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:k8Z6L05lTy4C",
+     "citation_id": "mXUOEzwAAAAJ:k8Z6L05lTy4C"
+    },
+    {
+     "title": "Fisheye multiple object tracking by learning distortions without dewarping",
+     "authors": "PY Chen, JW Hsieh, MC Chang, M Gochoo, FP Lin, YS Chen",
+     "venue": "2023 IEEE International Conference on Image Processing (ICIP), 1855-1859, 2023",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:i2xiXl-TujoC",
+     "citation_id": "mXUOEzwAAAAJ:i2xiXl-TujoC"
+    },
+    {
+     "title": "Prb-fpn+: Video analytics for enforcing motorcycle helmet laws",
+     "authors": "BS Wang, PY Chen, YK Hsieh, JW Hsieh, MC Chang, JX He, SY Teng, ...",
+     "venue": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:kz9GbA2Ns4gC",
+     "citation_id": "mXUOEzwAAAAJ:kz9GbA2Ns4gC"
+    },
+    {
+     "title": "RATs-NAS: Redirection of adjacent trails on GCN for neural architecture search",
+     "authors": "YM Zhang, JW Hsieh, CC Lee, KC Fan",
+     "venue": "arXiv preprint arXiv:2305.04206, 2023",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:lmc2jWPfTJgC",
+     "citation_id": "mXUOEzwAAAAJ:lmc2jWPfTJgC"
+    },
+    {
+     "title": "Scale-Aware Crowd Count Network with Annotation Error Correction",
+     "authors": "YK Hsieh, JW Hsieh, YC Tseng, MC Chang, L Xin",
+     "venue": "arXiv preprint arXiv:2312.16771, 2023",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Dip1O2bNi0gC",
+     "citation_id": "mXUOEzwAAAAJ:Dip1O2bNi0gC"
+    },
+    {
+     "title": "Siamese-NAS: Using Trained Samples Efficiently to Find Lightweight Neural Architecture by Prior Knowledge",
+     "authors": "YM Zhang, JW Hsieh, CC Lee, KC Fan",
+     "venue": "2023 Congress in Computer Science, Computer Engineering, & Applied Computing …, 2023",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:URolC5Kub84C",
+     "citation_id": "mXUOEzwAAAAJ:URolC5Kub84C"
+    },
+    {
+     "title": "[產學合作] 以 5G 與智慧無人機建構之海岸巡防與環境永續調查系統",
+     "authors": "翁健棋",
+     "venue": "國立陽明交通大學資訊學院, 2023",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HeT0ZceujKMC",
+     "citation_id": "mXUOEzwAAAAJ:HeT0ZceujKMC"
+    },
+    {
+     "title": "Detecting the Interplay Between DNA Methylation and Lipid Production in Plants",
+     "authors": "JW Hsieh, YC Liu, LT Huang, Y Nakamura, PY Chen",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:yqoGN6RLRZoC",
+     "citation_id": "mXUOEzwAAAAJ:yqoGN6RLRZoC"
+    },
+    {
+     "title": "Latency-Aware Neural Architecture Search With Estimated Latency Based on Complexity and MAC",
+     "authors": "DH Chen",
+     "venue": "PQDT-Global, 2023",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NyGDZy8z5eUC",
+     "citation_id": "mXUOEzwAAAAJ:NyGDZy8z5eUC"
+    },
+    {
+     "title": "Strengthening Spatial Relations to Multi-scale Features for Few-Shot Learning",
+     "authors": "YK Hsieh, JW Hsieh, YY Chen, YC Tseng",
+     "venue": "2023 5th International Conference on Computer Communication and the Internet …, 2023",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:e_rmSamDkqQC",
+     "citation_id": "mXUOEzwAAAAJ:e_rmSamDkqQC"
+    }
+   ]
+  },
+  {
+   "year": "2022",
+   "items": [
+    {
+     "title": "SHEL5K: An extended dataset and benchmarking for safety helmet detection",
+     "authors": "ME Otgonbold, M Gochoo, F Alnajjar, L Ali, TH Tan, JW Hsieh, PY Chen",
+     "venue": "Sensors 22 (6), 2315, 2022",
+     "cited_by": 84,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:yB1At4FlUx8C",
+     "citation_id": "mXUOEzwAAAAJ:yB1At4FlUx8C"
+    },
+    {
+     "title": "CSL-YOLO: A cross-stage lightweight object detector with low FLOPs",
+     "authors": "YM Zhang, CC Lee, JW Hsieh, KC Fan",
+     "venue": "2022 IEEE International Symposium on Circuits and Systems (ISCAS), 2730-2734, 2022",
+     "cited_by": 53,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Z5m8FVwuT1cC",
+     "citation_id": "mXUOEzwAAAAJ:Z5m8FVwuT1cC"
+    },
+    {
+     "title": "SFPN: Synthetic FPN for Object Detection",
+     "authors": "KCF Yu-Ming Zhang, Jun-Wei Hsieh, Chun-Chieh Lee",
+     "venue": "2022 IEEE International Conference on Image Processing (ICIP), 1316-1320, 2022",
+     "cited_by": 38,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tYavs44e6CUC",
+     "citation_id": "mXUOEzwAAAAJ:tYavs44e6CUC"
+    },
+    {
+     "title": "Mixed stage partial network and background data augmentation for surveillance object detection",
+     "authors": "PY Chen, JW Hsieh, M Gochoo, YS Chen",
+     "venue": "IEEE Transactions on Intelligent Transportation Systems 23 (12), 23533-23547, 2022",
+     "cited_by": 28,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:BUYA1_V_uYcC",
+     "citation_id": "mXUOEzwAAAAJ:BUYA1_V_uYcC"
+    },
+    {
+     "title": "Real-time vehicle counting by deep-learning networks",
+     "authors": "CM Tsai, FY Shih, JW Hsieh",
+     "venue": "2022 International Conference on Machine Learning and Cybernetics (ICMLC …, 2022",
+     "cited_by": 13,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:BwyfMAYsbu0C",
+     "citation_id": "mXUOEzwAAAAJ:BwyfMAYsbu0C"
+    },
+    {
+     "title": "Automatic meter reading based on bi-fusion MSP network and carry-out rechecking",
+     "authors": "JY Liao, JW Hsieh, CW Ma",
+     "venue": "IEEE Access 10, 96710-96719, 2022",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:vDijr-p_gm4C",
+     "citation_id": "mXUOEzwAAAAJ:vDijr-p_gm4C"
+    },
+    {
+     "title": "COFENet: Co-Feature Neural Network Model for Fine-Grained Image Classification",
+     "authors": "BS Wang, JW Hsieh, YK Hsieh, PY Chen",
+     "venue": "2022 IEEE International Conference on Image Processing (ICIP), 3928-3932, 2022",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ML0RJ9NH7IQC",
+     "citation_id": "mXUOEzwAAAAJ:ML0RJ9NH7IQC"
+    },
+    {
+     "title": "Multi-fusion feature pyramid for real-time hand detection",
+     "authors": "CW Chang, S Santra, JW Hsieh, P Hendri, CF Lin",
+     "venue": "Multimedia Tools and Applications 81 (9), 11917-11929, 2022",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:XD-gHx7UXLsC",
+     "citation_id": "mXUOEzwAAAAJ:XD-gHx7UXLsC"
+    },
+    {
+     "title": "Integrating Low-Cost LiDAR and Stereo Camera for 3D Object Detection with Lidar-Stereo Fusion and Cost Volume Enhancement",
+     "authors": "SM Kao, CW Ma, JW Hsieh",
+     "venue": "TENCON 2022-2022 IEEE Region 10 Conference (TENCON), 1-6, 2022",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:TIZ-Mc8IlK0C",
+     "citation_id": "mXUOEzwAAAAJ:TIZ-Mc8IlK0C"
+    },
+    {
+     "title": "Class-Specific Channel Attention for Few-Shot Learning",
+     "authors": "YY Chen, JW Hsieh, MC Chang",
+     "venue": "arXiv preprint arXiv:2209.01332, 2022",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:uWiczbcajpAC",
+     "citation_id": "mXUOEzwAAAAJ:uWiczbcajpAC"
+    },
+    {
+     "title": "Degree Calculation of Aortic Arch Calcification in Hemodialysis Patients Using Deep Learning",
+     "authors": "TX Shen, JW Hsieh, YS Tsai",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:buQ7SEKw-1sC",
+     "citation_id": "mXUOEzwAAAAJ:buQ7SEKw-1sC"
+    },
+    {
+     "title": "NAS-based Messaged U-Nets with Reversible Pooling for Image Segmentation",
+     "authors": "YC Wang",
+     "venue": "PQDT-Global, 2022",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:otzGkya1bYkC",
+     "citation_id": "mXUOEzwAAAAJ:otzGkya1bYkC"
+    },
+    {
+     "title": "Scale-Aware Crowd Counting Using a Joint Likelihood Density Map and Synthetic Fusion Pyramid Network",
+     "authors": "YK Hsieh, JW Hsieh, YC Tseng, MC Chang, BS Wang",
+     "venue": "arXiv preprint arXiv:2211.06835, 2022",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4MWp96NkSFoC",
+     "citation_id": "mXUOEzwAAAAJ:4MWp96NkSFoC"
+    },
+    {
+     "title": "SSS-Net: Spatial and Scaling Aware Siamese Network for Change Detection",
+     "authors": "CP Chen",
+     "venue": "PQDT-Global, 2022",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:jL-93Qbq4QoC",
+     "citation_id": "mXUOEzwAAAAJ:jL-93Qbq4QoC"
+    },
+    {
+     "title": "基於物件偵測之多物件追蹤關聯策略",
+     "authors": "WS Chang",
+     "venue": "National Central University, 2022",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:3htObqc8RwsC",
+     "citation_id": "mXUOEzwAAAAJ:3htObqc8RwsC"
+    }
+   ]
+  },
+  {
+   "year": "2021",
+   "items": [
+    {
+     "title": "Parallel residual bi-fusion feature pyramid network for accurate single-shot object detection",
+     "authors": "PY Chen, MC Chang, JW Hsieh, YS Chen",
+     "venue": "IEEE Transactions on Image Processing 30, 9099 - 9111, 2021",
+     "cited_by": 170,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:JQOojiI6XY0C",
+     "citation_id": "mXUOEzwAAAAJ:JQOojiI6XY0C"
+    },
+    {
+     "title": "Gradient descent effects on differential neural architecture search: A survey",
+     "authors": "S Santra, JW Hsieh, CF Lin",
+     "venue": "IEEE Access 9, 89602-89618, 2021",
+     "cited_by": 71,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ye4kPcJQO24C",
+     "citation_id": "mXUOEzwAAAAJ:ye4kPcJQO24C"
+    },
+    {
+     "title": "Binary sensors-based privacy-preserved activity recognition of elderly living alone using an RNN",
+     "authors": "TH Tan, L Badarch, WX Zeng, M Gochoo, FS Alnajjar, JW Hsieh",
+     "venue": "Sensors 21 (16), 5371, 2021",
+     "cited_by": 31,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ZuybSZzF8UAC",
+     "citation_id": "mXUOEzwAAAAJ:ZuybSZzF8UAC"
+    },
+    {
+     "title": "Learnable discrete wavelet pooling (LDW-Pooling) for convolutional networks",
+     "authors": "BS Wang, JW Hsieh, MC Chang, PY Chen, L Ke, S Lyu",
+     "venue": "arXiv preprint arXiv:2109.06638, 2021",
+     "cited_by": 30,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:UHK10RUVsp4C",
+     "citation_id": "mXUOEzwAAAAJ:UHK10RUVsp4C"
+    },
+    {
+     "title": "Multi-Teacher Single-Student Visual Transformer with Multi-Level Attention for Face Spoofing Detection.",
+     "authors": "YH Huang, JW Hsieh, MC Chang, L Ke, S Lyu, AS Santra",
+     "venue": "BMVC, 125, 2021",
+     "cited_by": 19,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:dQ2og3OwTAUC",
+     "citation_id": "mXUOEzwAAAAJ:dQ2og3OwTAUC"
+    },
+    {
+     "title": "Air-writing recognition using reverse time ordered stroke context",
+     "authors": "TH Tsai, JW Hsieh, CW Chang, CR Lay, KC Fan",
+     "venue": "Journal of Visual Communication and Image Representation 78, 103065, 2021",
+     "cited_by": 10,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:70eg2SAEIzsC",
+     "citation_id": "mXUOEzwAAAAJ:70eg2SAEIzsC"
+    },
+    {
+     "title": "Towards deep learning-based sarcopenia screening with body joint composition analysis",
+     "authors": "YC Chen, JW Hsieh, YH Yang, CH Lee, PY Yu, PY Chen, AS Santa",
+     "venue": "2021 IEEE International Conference on Image Processing (ICIP), 3807-3811, 2021",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:uLbwQdceFCQC",
+     "citation_id": "mXUOEzwAAAAJ:uLbwQdceFCQC"
+    },
+    {
+     "title": "andYong-Sheng Chen",
+     "authors": "PY Chen, MC Chang, JW Hsieh",
+     "venue": "Parallel residual bi-fusion featurepyramid network for accurate single-shot …, 2021",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HIFyuExEbWQC",
+     "citation_id": "mXUOEzwAAAAJ:HIFyuExEbWQC"
+    },
+    {
+     "title": "Gradient Descent Effects on Differential Neural Architecture Search: A Survey [J]",
+     "authors": "S Santanu, HJ Wei, LC Fang",
+     "venue": "IEEE ACCESS 9, 2021",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:0CzhzZyukY4C",
+     "citation_id": "mXUOEzwAAAAJ:0CzhzZyukY4C"
+    },
+    {
+     "title": "Deep real-time hand detectoin using CFPN on embedded systems",
+     "authors": "P Hendri, JW Hsieh, PY Chen, M Gochoo, YS Chen",
+     "venue": "2020 25th International Conference on Pattern Recognition (ICPR), 10128-10133, 2021",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WqliGbK-hY8C",
+     "citation_id": "mXUOEzwAAAAJ:WqliGbK-hY8C"
+    },
+    {
+     "title": "MultiMedia Modeling: 27th International Conference, MMM 2021, Prague, Czech Republic, June 22–24, 2021, Proceedings, Part I",
+     "authors": "J Lokoč, T Skopal, K Schoeffmann, V Mezaris, X Li, S Vrochidis, I Patras",
+     "venue": "Springer Nature, 2021",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:fFSKOagxvKUC",
+     "citation_id": "mXUOEzwAAAAJ:fFSKOagxvKUC"
+    },
+    {
+     "title": "Learnable Discrete Wavelet Pooling (LDW-Pooling) For Convolutional Networks",
+     "authors": "L Ke",
+     "venue": "ArXiv, 2021",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NDuN12AVoxsC",
+     "citation_id": "mXUOEzwAAAAJ:NDuN12AVoxsC"
+    },
+    {
+     "title": "Suspected Vehicle Detection for Driving Without License Plate Using Symmelets and Edge Connectivity",
+     "authors": "JW Hsieh, HC Chen, PY Chen, SP Huang",
+     "venue": "Journal of Internet Technology 22 (2), 473-481, 2021",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:eq2jaN3J8jMC",
+     "citation_id": "mXUOEzwAAAAJ:eq2jaN3J8jMC"
+    }
+   ]
+  },
+  {
+   "year": "2020",
+   "items": [
+    {
+     "title": "CSPNet: A new backbone that can enhance learning capability of CNN",
+     "authors": "CY Wang, HYM Liao, YH Wu, PY Chen, JW Hsieh, IH Yeh",
+     "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2020",
+     "cited_by": 7369,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NhqRSupF_l8C",
+     "citation_id": "mXUOEzwAAAAJ:NhqRSupF_l8C"
+    },
+    {
+     "title": "CSPNet: AnewbackbonethatcanenhancelearningcapabilityofCNN",
+     "authors": "LHY WangcY, YH Wu",
+     "venue": "IEEE/CVFConferenceonComputerVisionandPatternRecognitionWorkshops. Piscataway …, 2020",
+     "cited_by": 74,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:cWzG1nlazyYC",
+     "citation_id": "mXUOEzwAAAAJ:cWzG1nlazyYC"
+    },
+    {
+     "title": "Recursive hybrid fusion pyramid network for real-time small object detection on embedded devices",
+     "authors": "PY Chen, JW Hsieh, CY Wang, HYM Liao",
+     "venue": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2020",
+     "cited_by": 44,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:mVmsd5A6BfQC",
+     "citation_id": "mXUOEzwAAAAJ:mVmsd5A6BfQC"
+    },
+    {
+     "title": "CSPNet: A new backbone that can enhance learning capability of CNN",
+     "authors": "WCYLHYMW YH, CPYHJWY IH",
+     "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2020",
+     "cited_by": 33,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:GtLg2Ama23sC",
+     "citation_id": "mXUOEzwAAAAJ:GtLg2Ama23sC"
+    },
+    {
+     "title": "Lownet: Privacy preserved ultra-low resolution posture image classification",
+     "authors": "M Gochoo, TH Tan, F Alnajjar, JW Hsieh, PY Chen",
+     "venue": "2020 IEEE International Conference on Image Processing (ICIP), 663-667, 2020",
+     "cited_by": 15,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:_B80troHkn4C",
+     "citation_id": "mXUOEzwAAAAJ:_B80troHkn4C"
+    },
+    {
+     "title": "Drone-based vehicle flow estimation and its application to traffic conflict hotspot detection at intersections",
+     "authors": "PY Chen, JW Hsieh, M Gochoo, MC Chang, CY Wang, YS Chen, ...",
+     "venue": "2020 IEEE International Conference on Image Processing (ICIP), 1521-1525, 2020",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:PELIpwtuRlgC",
+     "citation_id": "mXUOEzwAAAAJ:PELIpwtuRlgC"
+    },
+    {
+     "title": "IEEE Comp, SOC CSPNet: A New Backbone that can Enhance Learning Capability of CNN",
+     "authors": "CY Wang, HYM Liao, YH Wu, PY Chen, JW Hsieh, IH Yeh",
+     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR …, 2020",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:sNmaIFBj_lkC",
+     "citation_id": "mXUOEzwAAAAJ:sNmaIFBj_lkC"
+    },
+    {
+     "title": "Marine pollution detection based on deep learning and optical flow",
+     "authors": "CH Wu, JW Hsieh, CY Wang, CH Ho",
+     "venue": "2020 International Computer Symposium (ICS), 376-381, 2020",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:9vf0nzSNQJEC",
+     "citation_id": "mXUOEzwAAAAJ:9vf0nzSNQJEC"
+    },
+    {
+     "title": "Hong-Yuan Mark Liao I-Hau Yeh Yueh-Hua Wu Ping-Yang Chen and Jun-Wei Hsieh. Cspnet: A new backbone that can enhance learning capability of cnn",
+     "authors": "CY Wang",
+     "venue": "2020 IEEE/CVF Conference on Computer Vision and Pat-tern Recognition …, 2020",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Dem6FJhTUoYC",
+     "citation_id": "mXUOEzwAAAAJ:Dem6FJhTUoYC"
+    },
+    {
+     "title": "Jun-WeiHsieh, and I-Hau Yeh",
+     "authors": "CY Wang, HYM Liao, YH Wu, PY Chen",
+     "venue": "Cspnet: A new backbone that can enhance learning capabilityof cnn …, 2020",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HtS1dXgVpQUC",
+     "citation_id": "mXUOEzwAAAAJ:HtS1dXgVpQUC"
+    },
+    {
+     "title": "CSPNet: A New Backbone that can Enhance Learning Capability of CNN. 1571–1580",
+     "authors": "CY Wang, H Liao, YH Wu, PY Chen, JW Hsieh, IH Yeh",
+     "venue": "",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:1Ye0OR6EYb4C",
+     "citation_id": "mXUOEzwAAAAJ:1Ye0OR6EYb4C"
+    },
+    {
+     "title": "CSPNet: A new backbone that can enhance the learning capability of CNN. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshop (CVPR Workshop)",
+     "authors": "CY Wang, HYM Liao, YH Wu, PY Chen, JW Hsieh, IH Yeh",
+     "venue": "",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:MhiOAD_qIWkC",
+     "citation_id": "mXUOEzwAAAAJ:MhiOAD_qIWkC"
+    },
+    {
+     "title": "Driver license field detection using real-time deep networks",
+     "authors": "CM Tsai, JW Hsieh, MC Chang, YC Lin",
+     "venue": "International Conference on Industrial, Engineering and Other Applications …, 2020",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tkaPQYYpVKoC",
+     "citation_id": "mXUOEzwAAAAJ:tkaPQYYpVKoC"
+    },
+    {
+     "title": "MULTI-PASS YOLOV3 FOR SCOOTER LICENSE PLATE DETECTION AND RECOGNITION (Best paper candidate)",
+     "authors": "MC Chang, JW Hsieh, CM Tsai, ZY Lin",
+     "venue": "The 33rd IPPR Conference On Computer Vision, Graphics, And Image Processing …, 2020",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:0KyAp5RtaNEC",
+     "citation_id": "mXUOEzwAAAAJ:0KyAp5RtaNEC"
+    }
+   ]
+  },
+  {
+   "year": "2019",
+   "items": [
+    {
+     "title": "Novel IoT-based privacy-preserving yoga posture recognition system using low-resolution infrared sensors and deep learning",
+     "authors": "M Gochoo, TH Tan, SC Huang, T Batjargal, JW Hsieh, FS Alnajjar, ...",
+     "venue": "IEEE Internet of Things Journal 6 (4), 7192-7200, 2019",
+     "cited_by": 129,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:TFP_iSt0sucC",
+     "citation_id": "mXUOEzwAAAAJ:TFP_iSt0sucC"
+    },
+    {
+     "title": "Enriching variety of layer-wise learning information by gradient combination",
+     "authors": "CY Wang, HYM Liao, PY Chen, JW Hsieh",
+     "venue": "2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW …, 2019",
+     "cited_by": 42,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:b0M2c_1WBrUC",
+     "citation_id": "mXUOEzwAAAAJ:b0M2c_1WBrUC"
+    },
+    {
+     "title": "Smaller object detection for real-time embedded traffic flow estimation using fish-eye cameras",
+     "authors": "PY Chen, JW Hsieh, M Gochoo, CY Wang, HYM Liao",
+     "venue": "2019 IEEE international conference on image processing (ICIP), 2956-2960, 2019",
+     "cited_by": 26,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:M3NEmzRMIkIC",
+     "citation_id": "mXUOEzwAAAAJ:M3NEmzRMIkIC"
+    },
+    {
+     "title": "Use SSD to detect the digital region in electricity meter",
+     "authors": "CM Tsai, TD Shou, SC Chen, JW Hsieh",
+     "venue": "2019 International conference on machine learning and cybernetics (ICMLC), 1-7, 2019",
+     "cited_by": 22,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:TQgYirikUcIC",
+     "citation_id": "mXUOEzwAAAAJ:TQgYirikUcIC"
+    },
+    {
+     "title": "Real-time video-based person re-identification surveillance with light-weight deep convolutional networks",
+     "authors": "CY Wang, PY Chen, MC Chen, JW Hsieh, HYM Liao",
+     "venue": "2019 16th IEEE International Conference on Advanced Video and Signal Based …, 2019",
+     "cited_by": 12,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4JMBOYKVnBMC",
+     "citation_id": "mXUOEzwAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+     "title": "MultiMedia Modeling: 26th International Conference, MMM 2020, Daejeon, South Korea, January 5–8, 2020, Proceedings, Part II",
+     "authors": "YM Ro, WH Cheng, J Kim, WT Chu, P Cui, JW Choi, MC Hu, W De Neve",
+     "venue": "Springer Nature, 2019",
+     "cited_by": 8,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:QD3KBmkZPeQC",
+     "citation_id": "mXUOEzwAAAAJ:QD3KBmkZPeQC"
+    },
+    {
+     "title": "Four Categories Vehicle Detection in Hsuehshan Tunnel via Single Shot Multibox Detector",
+     "authors": "CM Tsai, T Shou, JW Hsieh, KH Chen",
+     "venue": "2019 Twelfth International Conference on Ubi-Media Computing (Ubi-Media …, 2019",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:QIV2ME_5wuYC",
+     "citation_id": "mXUOEzwAAAAJ:QIV2ME_5wuYC"
+    },
+    {
+     "title": "Chronic kidney disease stage classification using renal artery doppler-derived parameters",
+     "authors": "M Gochoo, JW Hsieh, CH Lee, YC Chen, YC Shih",
+     "venue": "2019 IEEE International Conference on Systems, Man and Cybernetics (SMC …, 2019",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LPZeul_q3PIC",
+     "citation_id": "mXUOEzwAAAAJ:LPZeul_q3PIC"
+    }
+   ]
+  },
+  {
+   "year": "2018",
+   "items": [
+    {
+     "title": "Drone-based vacant parking space detection",
+     "authors": "CF Peng, JW Hsieh, SW Leu, CH Chuang",
+     "venue": "2018 32nd International Conference on Advanced Information Networking and …, 2018",
+     "cited_by": 57,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:t6usbXjVLHcC",
+     "citation_id": "mXUOEzwAAAAJ:t6usbXjVLHcC"
+    },
+    {
+     "title": "Person authentication by air-writing using 3D sensor and time order stroke context",
+     "authors": "LW Chiu, JW Hsieh, CR Lai, HF Chiang, SC Cheng, KC Fan",
+     "venue": "International Conference on Smart Multimedia, 260-273, 2018",
+     "cited_by": 15,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4TOpqqG69KYC",
+     "citation_id": "mXUOEzwAAAAJ:4TOpqqG69KYC"
+    },
+    {
+     "title": "Image and Video Technology: 8th Pacific-Rim Symposium, PSIVT 2017, Wuhan, China, November 20-24, 2017, Revised Selected Papers",
+     "authors": "M Paul, C Hitoshi, Q Huang",
+     "venue": "Springer, 2018",
+     "cited_by": 14,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:7wO8s98CvbsC",
+     "citation_id": "mXUOEzwAAAAJ:7wO8s98CvbsC"
+    },
+    {
+     "title": "Real-time vehicle re-identification system using symmelets and homs",
+     "authors": "HC Chen, JW Hsieh, SP Huang",
+     "venue": "2018 15TH IEEE International conference on advanced video and signal based …, 2018",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:1qzjygNMrQYC",
+     "citation_id": "mXUOEzwAAAAJ:1qzjygNMrQYC"
+    },
+    {
+     "title": "Smart Multimedia: First International Conference, ICSM 2018, Toulon, France, August 24–26, 2018, Revised Selected Papers",
+     "authors": "A Basu, S Berretti",
+     "venue": "Springer, 2018",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ODE9OILHJdcC",
+     "citation_id": "mXUOEzwAAAAJ:ODE9OILHJdcC"
+    },
+    {
+     "title": "Binarization of Call Number Images For Helping Elderly Retired Volunteer to Manage Books in Library",
+     "authors": "CM Tsai, TD Shou, JW Hsieh, MT Chang",
+     "venue": "2018 International Conference on Machine Learning and Cybernetics (ICMLC) 2 …, 2018",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:7PzlFSSx8tAC",
+     "citation_id": "mXUOEzwAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+     "title": "Real-Time Vehicle Re-Identification System Using Symmelets and Deep PatchMatch Nets",
+     "authors": "JW Hsieh, HC Chen",
+     "venue": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC …, 2018",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:D03iK_w7-QYC",
+     "citation_id": "mXUOEzwAAAAJ:D03iK_w7-QYC"
+    },
+    {
+     "title": "Three-dimensional reconstruction and 3D printing of kidney from computed tomography",
+     "authors": "YZ Huang, JW Hsieh, CH Lee, YC Chen, PJ Chuang",
+     "venue": "2018 1st International Cognitive Cities Conference (IC3), 204-206, 2018",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:olpn-zPbct0C",
+     "citation_id": "mXUOEzwAAAAJ:olpn-zPbct0C"
+    },
+    {
+     "title": "Alignment of Deep Features in 3D Models for Camera Pose Estimation",
+     "authors": "JY Su, SC Cheng, CC Chang, JW Hsieh",
+     "venue": "International Conference on Multimedia Modeling, 440-452, 2018",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4OULZ7Gr8RgC",
+     "citation_id": "mXUOEzwAAAAJ:4OULZ7Gr8RgC"
+    },
+    {
+     "title": "An approach to aligning regions of interest on infrared palm-dorsum images captured in contactless scenarios",
+     "authors": "CL Lin, HF Chiang, HY Cheng, CW Kuo, JW Hsieh",
+     "venue": "Journal of Marine Science and Technology–Taiwan 26 (1), 7, 2018",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:fQNAKQ3IYiAC",
+     "citation_id": "mXUOEzwAAAAJ:fQNAKQ3IYiAC"
+    },
+    {
+     "title": "Smart Multimedia",
+     "authors": "LW Chiu, JW Hsieh, CR Lai, HF Chiang, SC Cheng, KC Fan",
+     "venue": "Proceedings of the Person Authentication by Air-Writing Using 3D Sensor and …, 2018",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:mlAyqtXpCwEC",
+     "citation_id": "mXUOEzwAAAAJ:mlAyqtXpCwEC"
+    }
+   ]
+  },
+  {
+   "year": "2017",
+   "items": [
+    {
+     "title": "Vehicle detection in Hsuehshan tunnel using background subtraction and deep belief network",
+     "authors": "BJ Huang, JW Hsieh, CM Tsai",
+     "venue": "Asian Conference on Intelligent Information and Database Systems, 217-226, 2017",
+     "cited_by": 17,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Tiz5es2fbqcC",
+     "citation_id": "mXUOEzwAAAAJ:Tiz5es2fbqcC"
+    },
+    {
+     "title": "Reverse time ordered stroke context for air-writing recognition",
+     "authors": "TH Tsai, JW Hsieh, HC Chen, SC Huang",
+     "venue": "2017 10th International Conference on Ubi-media Computing and Workshops (Ubi …, 2017",
+     "cited_by": 10,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:qxL8FJ1GzNcC",
+     "citation_id": "mXUOEzwAAAAJ:qxL8FJ1GzNcC"
+    },
+    {
+     "title": "Video action classification using symmelets and deep learning",
+     "authors": "S Alghyaline, JW Hsieh, CH Chuang",
+     "venue": "2017 IEEE international conference on systems, man, and cybernetics (SMC …, 2017",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NMxIlDl6LWMC",
+     "citation_id": "mXUOEzwAAAAJ:NMxIlDl6LWMC"
+    },
+    {
+     "title": "Behavioral intention model of taiwanese fans watching chinese professional baseball game online",
+     "authors": "MC Hsu, CH Wu, JW Hsieh",
+     "venue": "Journal of Sports Research 26 (1), 1-20, 2017",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:6ZxmRoH8BuwC",
+     "citation_id": "mXUOEzwAAAAJ:6ZxmRoH8BuwC"
+    },
+    {
+     "title": "Suspected vehicle detection for driving without license plate using symmelets and edge connectivity",
+     "authors": "JW Hsieh",
+     "venue": "2017 14th IEEE International Conference on Advanced Video and Signal Based …, 2017",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:8AbLer7MMksC",
+     "citation_id": "mXUOEzwAAAAJ:8AbLer7MMksC"
+    },
+    {
+     "title": "Program Committee Program Co-Chairs",
+     "authors": "JW Hsieh, A Roychoudhury, A Saifullah, A Mok, A Easwaran, CG Lee, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WJVC3Jt7v1AC",
+     "citation_id": "mXUOEzwAAAAJ:WJVC3Jt7v1AC"
+    }
+   ]
+  },
+  {
+   "year": "2016",
+   "items": [
+    {
+     "title": "Motion-based vehicle detection in Hsuehshan Tunnel",
+     "authors": "CM Tsai, JW Hsieh, FY Shih",
+     "venue": "2016 Eighth International Conference on Advanced Computational Intelligence …, 2016",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WA5NYHcadZ8C",
+     "citation_id": "mXUOEzwAAAAJ:WA5NYHcadZ8C"
+    },
+    {
+     "title": "Sign language recognition system via Kinect: Number and english alphabet",
+     "authors": "WY Yeh, TH Tseng, JW Hsieh, CM Tsai",
+     "venue": "2016 International Conference on Machine Learning and Cybernetics (ICMLC) 2 …, 2016",
+     "cited_by": 9,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:CHSYGLWDkRkC",
+     "citation_id": "mXUOEzwAAAAJ:CHSYGLWDkRkC"
+    },
+    {
+     "title": "Model-based 3D scene reconstruction using a moving RGB-D camera",
+     "authors": "SC Cheng, JY Su, JM Chen, JW Hsieh",
+     "venue": "International Conference on Multimedia Modeling, 214-225, 2016",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:IjCSPb-OGe4C",
+     "citation_id": "mXUOEzwAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+     "title": "Efficiently mining frequent itemsets in transactional databases",
+     "authors": "S Alghyaline, JW Hsieh, JZC Lai",
+     "venue": "Journal of Marine Science and Technology–Taiwan 24 (2), 12, 2016",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4fKUyHm3Qg0C",
+     "citation_id": "mXUOEzwAAAAJ:4fKUyHm3Qg0C"
+    },
+    {
+     "title": "Efficient DPM-based object detection using shift with importance sampling",
+     "authors": "BYBY Wong, JW Hsieh, CJ Hsiao, SC Chien, FC Chang",
+     "venue": "2016 International Computer Symposium (ICS), 339-344, 2016",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:XiSMed-E-HIC",
+     "citation_id": "mXUOEzwAAAAJ:XiSMed-E-HIC"
+    },
+    {
+     "title": "Action classification using data mining and Paris of SURF-based trajectories",
+     "authors": "S Alghyaline, JW Hsieh, HF Chiang, RY Lin",
+     "venue": "2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC …, 2016",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tS2w5q8j5-wC",
+     "citation_id": "mXUOEzwAAAAJ:tS2w5q8j5-wC"
+    },
+    {
+     "title": "MultiMedia Modeling: 23rd International Conference, MMM 2017, Reykjavik, Iceland, January 4-6, 2017, Proceedings, Part II",
+     "authors": "L Amsaleg, GÞ Guðmundsson, C Gurrin, BÞ Jónsson, S Satoh",
+     "venue": "Springer, 2016",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:1taIhTC69MYC",
+     "citation_id": "mXUOEzwAAAAJ:1taIhTC69MYC"
+    },
+    {
+     "title": "Model-based Vehicle Make and Model Recognition from Roads",
+     "authors": "LC Chen",
+     "venue": "Advances in Intelligent Information Hiding and Multimedia Signal Processing …, 2016",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:kzcrU_BdoSEC",
+     "citation_id": "mXUOEzwAAAAJ:kzcrU_BdoSEC"
+    },
+    {
+     "title": "Moment-based symmetry detection for scene modeling and recognition using RGB-D images",
+     "authors": "JY Su, SC Cheng, JW Hsieh, TH Hsu",
+     "venue": "2016 23rd International Conference on Pattern Recognition (ICPR), 3621-3626, 2016",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:lSLTfruPkqcC",
+     "citation_id": "mXUOEzwAAAAJ:lSLTfruPkqcC"
+    },
+    {
+     "title": "Visual location search using symmelets",
+     "authors": "CP Liao, JW Hsieh, HF Chiang, Y Tsao",
+     "venue": "2016 IEEE International Conference on Image Processing (ICIP), 51-55, 2016",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ULOm3_A8WrAC",
+     "citation_id": "mXUOEzwAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+     "title": "Visual Navigation Using Symmetrical Surfs",
+     "authors": "CP Liao, JW Hsieh, HF Chiang, CM Lin",
+     "venue": "PROCEEDINGS OF THE 9TH IEEE INTERNATIONAL CONFERENCE ON UBI-MEDIA COMPUTING …, 2016",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Se3iqnhoufwC",
+     "citation_id": "mXUOEzwAAAAJ:Se3iqnhoufwC"
+    }
+   ]
+  },
+  {
+   "year": "2015",
+   "items": [
+    {
+     "title": "Vehicle make and model recognition using sparse representation and symmetrical SURFs",
+     "authors": "LC Chen, JW Hsieh, Y Yan, DY Chen",
+     "venue": "Pattern Recognition 48 (6), 1979-1998, 2015",
+     "cited_by": 99,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:738O_yMBCRsC",
+     "citation_id": "mXUOEzwAAAAJ:738O_yMBCRsC"
+    },
+    {
+     "title": "Real-time vehicle color identification using symmetrical SURFs and chromatic strength",
+     "authors": "LC Chen, JW Hsieh, HF Chiang, TH Tsai",
+     "venue": "2015 IEEE international symposium on circuits and systems (ISCAS), 2804-2807, 2015",
+     "cited_by": 15,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:u9iWguZQMMsC",
+     "citation_id": "mXUOEzwAAAAJ:u9iWguZQMMsC"
+    },
+    {
+     "title": "Robust rear light status recognition using symmetrical surfs",
+     "authors": "LC Chen, JW Hsieh, SC Cheng, ZR Yang",
+     "venue": "2015 IEEE 18th International Conference on Intelligent Transportation …, 2015",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:eJXPG6dFmWUC",
+     "citation_id": "mXUOEzwAAAAJ:eJXPG6dFmWUC"
+    },
+    {
+     "title": "Modeling and recognizing action contexts in persons using sparse representation",
+     "authors": "HF Chiang, JW Hsieh, CH Chuang, KT Chuang, Y Yan",
+     "venue": "Journal of Visual Communication and Image Representation 30, 252-265, 2015",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:eMMeJKvmdy0C",
+     "citation_id": "mXUOEzwAAAAJ:eMMeJKvmdy0C"
+    },
+    {
+     "title": "Low-cost facial expression on mobile platform",
+     "authors": "CC Chu, DY Chen, JW Hsieh",
+     "venue": "2015 International Conference on Machine Learning and Cybernetics (ICMLC) 2 …, 2015",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:zA6iFVUQeVQC",
+     "citation_id": "mXUOEzwAAAAJ:zA6iFVUQeVQC"
+    },
+    {
+     "title": "PLSA-based sparse representation for vehicle color classification",
+     "authors": "SY Wang, JW Hsieh, Y Yan, LC Chen, D Chen",
+     "venue": "2015 12th IEEE International Conference on Advanced Video and Signal Based …, 2015",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:O3NaXMp0MMsC",
+     "citation_id": "mXUOEzwAAAAJ:O3NaXMp0MMsC"
+    },
+    {
+     "title": "Human movement analysis around a view circle using time-order similarity distributions",
+     "authors": "CH Chuang, JW Hsieh, HF Chiang, YD Chiou",
+     "venue": "Journal of Visual Communication and Image Representation 30, 22-34, 2015",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:RGFaLdJalmkC",
+     "citation_id": "mXUOEzwAAAAJ:RGFaLdJalmkC"
+    },
+    {
+     "title": "Vehicle Make and Model Recognition Using Symmetrical SURF",
+     "authors": "CL Chen, JW Hsieh, Y Yan, DY Chen",
+     "venue": "ELSEVIER SCI LTDTHE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB …, 2015",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:foquWX3nUaYC",
+     "citation_id": "mXUOEzwAAAAJ:foquWX3nUaYC"
+    }
+   ]
+  },
+  {
+   "year": "2014",
+   "items": [
+    {
+     "title": "Symmetrical SURF and its applications to vehicle detection and vehicle make and model recognition",
+     "authors": "JW Hsieh, LC Chen, DY Chen",
+     "venue": "IEEE Transactions on intelligent transportation systems 15 (1), 6-20, 2014",
+     "cited_by": 265,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:e5wmG9Sq2KIC",
+     "citation_id": "mXUOEzwAAAAJ:e5wmG9Sq2KIC"
+    },
+    {
+     "title": "Vehicle color classification under different lighting conditions through color correction",
+     "authors": "JW Hsieh, LC Chen, SY Chen, DY Chen, S Alghyaline, HF Chiang",
+     "venue": "IEEE sensors journal 15 (2), 971-983, 2014",
+     "cited_by": 58,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:VL0QpB8kHFEC",
+     "citation_id": "mXUOEzwAAAAJ:VL0QpB8kHFEC"
+    },
+    {
+     "title": "Vehicle licence plate recognition using super-resolution technique",
+     "authors": "CH Chuang, LW Tsai, MS Deng, JW Hsieh, KC Fan",
+     "venue": "2014 11th IEEE International Conference on Advanced Video and Signal Based …, 2014",
+     "cited_by": 43,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:bnK-pcrLprsC",
+     "citation_id": "mXUOEzwAAAAJ:bnK-pcrLprsC"
+    },
+    {
+     "title": "Nighttime turn signal detection by scatter modeling and reflectance-based direction recognition",
+     "authors": "DY Chen, YJ Peng, LC Chen, JW Hsieh",
+     "venue": "IEEE Sensors Journal 14 (7), 2317-2326, 2014",
+     "cited_by": 26,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:u5HHmVD_uO8C",
+     "citation_id": "mXUOEzwAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+     "title": "Abnormal scene change detection from a moving camera using bags of patches and spider-web map",
+     "authors": "JW Hsieh, CH Chuang, S Alghyaline, HF Chiang, CH Chiang",
+     "venue": "IEEE Sensors Journal 15 (5), 2866-2881, 2014",
+     "cited_by": 23,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:08ZZubdj9fEC",
+     "citation_id": "mXUOEzwAAAAJ:08ZZubdj9fEC"
+    },
+    {
+     "title": "Real-time traffic light detection on resource-limited mobile platform",
+     "authors": "YT Chiu, DY Chen, JW Hsieh",
+     "venue": "2014 IEEE International Conference on Consumer Electronics-Taiwan, 211-212, 2014",
+     "cited_by": 22,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:MXK_kJrjxJIC",
+     "citation_id": "mXUOEzwAAAAJ:MXK_kJrjxJIC"
+    },
+    {
+     "title": "Stage classification in chronic kidney disease by ultrasound image",
+     "authors": "JW Hsieh, CH Lee, YC Chen, WS Lee, HF Chiang",
+     "venue": "Proceedings of the 29th international conference on image and vision …, 2014",
+     "cited_by": 20,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:maZDTaKrznsC",
+     "citation_id": "mXUOEzwAAAAJ:maZDTaKrznsC"
+    },
+    {
+     "title": "PLSA-based sparse representation for object classification",
+     "authors": "Y Yan, JW Hsieh, HF Chiang, SC Cheng, DY Chen",
+     "venue": "2014 22nd International Conference on Pattern Recognition, 1295-1300, 2014",
+     "cited_by": 8,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:f2IySw72cVMC",
+     "citation_id": "mXUOEzwAAAAJ:f2IySw72cVMC"
+    },
+    {
+     "title": "MultiMedia Modeling: 20th Anniversary International Conference, MMM 2014, Dublin, Ireland, January 6-10, 2014, Proceedings, Part I",
+     "authors": "C Gurrin, F Hopfgartner, W Hurst, H Johansen, H Lee, N O’Connor",
+     "venue": "Springer, 2014",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4xDN1ZYqzskC",
+     "citation_id": "mXUOEzwAAAAJ:4xDN1ZYqzskC"
+    },
+    {
+     "title": "Handheld object detection and its related event analysis using ratio histogram and mixture of HMMs",
+     "authors": "JW Hsieh, JC Cheng, LC Chen, CH Chuang, DY Chen",
+     "venue": "Journal of Visual Communication and Image Representation 25 (6), 1399-1415, 2014",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:JV2RwH3_ST0C",
+     "citation_id": "mXUOEzwAAAAJ:JV2RwH3_ST0C"
+    },
+    {
+     "title": "Member, IEEE, Yang-JiePeng, Li-Chih Chen, and Jun-Wei Hsieh, Member, IEEE,“Nighttime Turn Signal Detection by Scatter Modeling and Reflectance-Based Direction Recognition”",
+     "authors": "DY Chen",
+     "venue": "IEEE SENSORS JOURNAL 14 (7), 2014",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:fEOibwPWpKIC",
+     "citation_id": "mXUOEzwAAAAJ:fEOibwPWpKIC"
+    },
+    {
+     "title": "Object classification using PLSA and sparse representation",
+     "authors": "JW Hsieh, Y Yan, LC Chen, HF Chiang, HY Liu",
+     "venue": "Information Technology and Applications in Outlying Islands (ITAOI), 2014 …, 2014",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ZeXyd9-uunAC",
+     "citation_id": "mXUOEzwAAAAJ:ZeXyd9-uunAC"
+    },
+    {
+     "title": "Pedestrian detection using SURF and Shift with Importance Sampling",
+     "authors": "BY Wong, JW Hsieh, LC Chen, DY Chen, HY Liu, CP Liao",
+     "venue": "2014 IEEE International Conference on Consumer Electronics-Taiwan, 201-202, 2014",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:YsMSGLbcyi4C",
+     "citation_id": "mXUOEzwAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+     "title": "Robust nighttime turn sig nal direction recognition",
+     "authors": "DY Chen, YJ Peng, JW Hsieh, CP Ho",
+     "venue": "2014 IEEE International Conference on Consumer Electronics-Taiwan, 205-206, 2014",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:VOx2b1Wkg3QC",
+     "citation_id": "mXUOEzwAAAAJ:VOx2b1Wkg3QC"
+    },
+    {
+     "title": "Wrinkle of fingers based robust person identification",
+     "authors": "FH Chan, DY Chen, JW Hsieh, CH Chuang",
+     "venue": "2014 International Conference on Machine Learning and Cybernetics 2, 871-875, 2014",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:hC7cP41nSMkC",
+     "citation_id": "mXUOEzwAAAAJ:hC7cP41nSMkC"
+    },
+    {
+     "title": "Fast 3D Human Body Gesture Recognition with Multiple Principal Planes Approximation",
+     "authors": "CY Cheng, SC Cheng, JW Hsieh",
+     "venue": "Proceedings of the 29th International Conference on Image and Vision …, 2014",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HoB7MX3m0LUC",
+     "citation_id": "mXUOEzwAAAAJ:HoB7MX3m0LUC"
+    },
+    {
+     "title": "車牌偵測辨識方法及其系統",
+     "authors": "JW Hsieh",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:RYcK_YlVTxYC",
+     "citation_id": "mXUOEzwAAAAJ:RYcK_YlVTxYC"
+    }
+   ]
+  },
+  {
+   "year": "2013",
+   "items": [
+    {
+     "title": "Vehicle license plate recognition method and system thereof",
+     "authors": "JW Hsieh, SY Chen",
+     "venue": "US Patent 8,509,486, 2013",
+     "cited_by": 71,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:B3FOqHPlNUQC",
+     "citation_id": "mXUOEzwAAAAJ:B3FOqHPlNUQC"
+    },
+    {
+     "title": "Vehicle make and model recognition using symmetrical SURF",
+     "authors": "JW Hsieh, LC Chen, DY Chen, SC Cheng",
+     "venue": "2013 10th IEEE International Conference on Advanced Video and Signal Based …, 2013",
+     "cited_by": 22,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:AXPGKjj_ei8C",
+     "citation_id": "mXUOEzwAAAAJ:AXPGKjj_ei8C"
+    },
+    {
+     "title": "A smart handheld device navigation system based on detecting visual code",
+     "authors": "CH Chuang, JW Hsieh, KC Fan",
+     "venue": "2013 international conference on machine learning and cybernetics 3, 1407-1412, 2013",
+     "cited_by": 10,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:abG-DnoFyZgC",
+     "citation_id": "mXUOEzwAAAAJ:abG-DnoFyZgC"
+    },
+    {
+     "title": "Real-time vehicle make and model recognition from roads",
+     "authors": "LC Chen, JW Hsieh, Y Yan, BY Wong",
+     "venue": "2013 12th Conference on Information Technology and Applications in Outlying …, 2013",
+     "cited_by": 10,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:5Ul4iDaHHb8C",
+     "citation_id": "mXUOEzwAAAAJ:5Ul4iDaHHb8C"
+    },
+    {
+     "title": "Advances in Multimedia Modeling: 19th International Conference, MMM 2012, Huangshan, China, January 7-9, 2012, Proceedings, Part II",
+     "authors": "S Li, A El Saddik, M Wang, T Mei, N Sebe, S Yan, R Hong, C Gurrin",
+     "venue": "Springer, 2013",
+     "cited_by": 8,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:yFnVuubrUp4C",
+     "citation_id": "mXUOEzwAAAAJ:yFnVuubrUp4C"
+    },
+    {
+     "title": "Modeling and recognizing action contexts in persons using sparse representation",
+     "authors": "KT Chuang, JW Hsieh, Y Yan",
+     "venue": "Advances in Intelligent Systems and Applications-Volume 2: Proceedings of …, 2013",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:rO6llkc54NcC",
+     "citation_id": "mXUOEzwAAAAJ:rO6llkc54NcC"
+    },
+    {
+     "title": "Special Issue of the 17th International Conference on Multimedia Modeling Preface",
+     "authors": "JW Hsieh",
+     "venue": "JOURNAL OF MARINE SCIENCE AND TECHNOLOGY-TAIWAN 21 (6), 2013",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NJ774b8OgUMC",
+     "citation_id": "mXUOEzwAAAAJ:NJ774b8OgUMC"
+    }
+   ]
+  },
+  {
+   "year": "2012",
+   "items": [
+    {
+     "title": "Vehicle color classification under different lighting conditions through color correction",
+     "authors": "JW Hsieh, LC Chen, SY Chen, SC Lin, DY Chen",
+     "venue": "2012 IEEE International Symposium on Circuits and Systems (ISCAS), 1859-1862, 2012",
+     "cited_by": 8,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:uWQEDVKXjbEC",
+     "citation_id": "mXUOEzwAAAAJ:uWQEDVKXjbEC"
+    },
+    {
+     "title": "Human body part segmentation of interacting people by learning blob models",
+     "authors": "CH Chuang, JW Hsieh, CC Lee, YN Chen, LW Tsai",
+     "venue": "2012 Eighth International Conference on Intelligent Information Hiding and …, 2012",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:dfsIfKJdRG4C",
+     "citation_id": "mXUOEzwAAAAJ:dfsIfKJdRG4C"
+    },
+    {
+     "title": "Occluded human action analysis using dynamic manifold model",
+     "authors": "LC Chen, JW Hsieh, CH Chuang, CY Huang, DY Chen",
+     "venue": "Proceedings of the 21st International Conference on Pattern Recognition …, 2012",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:KxtntwgDAa4C",
+     "citation_id": "mXUOEzwAAAAJ:KxtntwgDAa4C"
+    },
+    {
+     "title": "Advances in multimedia modeling: 18th international conference, MMM 2012, Klagenfurt, Austria, january 4-6, 2012, proceedings",
+     "authors": "K Schoeffmann, B Mérialdo, AG Hauptmann, CW Ngo, Y Andreopoulos, ...",
+     "venue": "Springer, 2012",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:OR75R8vi5nAC",
+     "citation_id": "mXUOEzwAAAAJ:OR75R8vi5nAC"
+    },
+    {
+     "title": "Template matching and Monte Carlo Markova chain for people counting under occlusions",
+     "authors": "JW Hsieh, FJ Fang, GJ Lin, YS Wang",
+     "venue": "International Conference on Multimedia Modeling, 761-771, 2012",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:9ZlFYXVOiuMC",
+     "citation_id": "mXUOEzwAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+     "title": "VEHICLE LICENSE PLATE RECOGNITION METHOD AND SYSTEM THEREOF",
+     "authors": "H JUN-WEI, CSIN YU",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:KaMxkj08jr0C",
+     "citation_id": "mXUOEzwAAAAJ:KaMxkj08jr0C"
+    },
+    {
+     "title": "手持物件偵測與相關事件分析",
+     "authors": "謝君偉， 陳勵志， 莊啟宏， 鄭俊誠， 陳敦裕",
+     "venue": "前瞻科技與管理 2 (1), 1-23, 2012",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:qjMakFHDy7sC",
+     "citation_id": "mXUOEzwAAAAJ:qjMakFHDy7sC"
+    },
+    {
+     "title": "車牌偵測辨識方法及其系統",
+     "authors": "謝君偉， 陳信宇",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:z_wVstp3MssC",
+     "citation_id": "mXUOEzwAAAAJ:z_wVstp3MssC"
+    }
+   ]
+  },
+  {
+   "year": "2011",
+   "items": [
+    {
+     "title": "Frame difference history image for gait recognition",
+     "authors": "CC Lee, CH Chuang, JW Hsieh, MX Wu, KC Fan",
+     "venue": "2011 International Conference on Machine Learning and Cybernetics 4, 1785-1788, 2011",
+     "cited_by": 18,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:W7OEmFMy1HYC",
+     "citation_id": "mXUOEzwAAAAJ:W7OEmFMy1HYC"
+    },
+    {
+     "title": "Jointing Edge Labeling and Geometrical Constraint for Lane Detection and its Application to Suspicious Driving Behavior Analysis.",
+     "authors": "SY Chen, JW Hsieh, DY Chen",
+     "venue": "J. Inf. Sci. Eng. 27 (2), 715-732, 2011",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:vbGhcppDl1QC",
+     "citation_id": "mXUOEzwAAAAJ:vbGhcppDl1QC"
+    },
+    {
+     "title": "Advances in Image and Video Technology: 5th Pacific Rim Symposium, PSIVT 2011, Gwangju, South Korea, November 20-23, 2011, Proceedings",
+     "authors": "YS Ho",
+     "venue": "Springer Science & Business Media, 2011",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:bKqednn6t2AC",
+     "citation_id": "mXUOEzwAAAAJ:bKqednn6t2AC"
+    },
+    {
+     "title": "Handhold object detection and event analysis using visual interaction clues",
+     "authors": "JW Hsieh, CL Lin, JC Cheng, P Wu, DY Chen",
+     "venue": "17th International Conference on Distributed Multimedia Systems, DMS 2011, 48-53, 2011",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LgRImbQfgY4C",
+     "citation_id": "mXUOEzwAAAAJ:LgRImbQfgY4C"
+    },
+    {
+     "title": "Proceedings of the 17th international conference on Advances in multimedia modeling-Volume Part II",
+     "authors": "KT Lee, JW Hsieh, WH Tsai, HYM Liao, T Chen",
+     "venue": "Springer-Verlag, 2011",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:VLnqNzywnoUC",
+     "citation_id": "mXUOEzwAAAAJ:VLnqNzywnoUC"
+    }
+   ]
+  },
+  {
+   "year": "2010",
+   "items": [
+    {
+     "title": "Apparatus for behavior analysis and method thereof",
+     "authors": "YT Hsu, JW Hsieh, HY Liao",
+     "venue": "US Patent App. 11/546,400, 2010",
+     "cited_by": 87,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:EUQCXRtRnyEC",
+     "citation_id": "mXUOEzwAAAAJ:EUQCXRtRnyEC"
+    },
+    {
+     "title": "Human smoking event detection using visual interaction clues",
+     "authors": "P Wu, JW Hsieh, JC Cheng, SC Cheng, SY Tseng",
+     "venue": "2010 20th International Conference on Pattern Recognition, 4344-4347, 2010",
+     "cited_by": 71,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:j3f4tGmQtD8C",
+     "citation_id": "mXUOEzwAAAAJ:j3f4tGmQtD8C"
+    },
+    {
+     "title": "Segmentation of human body parts using deformable triangulation",
+     "authors": "JW Hsieh, CH Chuang, SY Chen, CC Chen, KC Fan",
+     "venue": "IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and …, 2010",
+     "cited_by": 52,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:KlAtU1dfN6UC",
+     "citation_id": "mXUOEzwAAAAJ:KlAtU1dfN6UC"
+    },
+    {
+     "title": "Vision-based vehicle surveillance and parking lot management using multiple cameras",
+     "authors": "LC Chen, JW Hsieh, WR Lai, CX Wu, SY Chen",
+     "venue": "2010 Sixth International Conference on Intelligent Information Hiding and …, 2010",
+     "cited_by": 34,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:vV6vV6tmYwMC",
+     "citation_id": "mXUOEzwAAAAJ:vV6vV6tmYwMC"
+    },
+    {
+     "title": "Advances in Multimedia Modeling: 17th International Multimedia Modeling Conference, MMM 2011, Taipei, Taiwan, January 5-7, 2011, Proceedings",
+     "authors": "KT Lee, WH Tsai, HYM Liao, T Chen, JW Hsieh, CC Tseng",
+     "venue": "Springer Science & Business Media, 2010",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:_5tno0g5mFcC",
+     "citation_id": "mXUOEzwAAAAJ:_5tno0g5mFcC"
+    },
+    {
+     "title": "Occluded human body segmentation and its application to behavior analysis",
+     "authors": "JW Hsieh, SY Chen, CH Chuang, MF Chueh, SS Yu",
+     "venue": "Proceedings of 2010 IEEE International Symposium on Circuits and Systems …, 2010",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:k_IJM867U9cC",
+     "citation_id": "mXUOEzwAAAAJ:k_IJM867U9cC"
+    },
+    {
+     "title": "Human behavior recognition from arbitrary views",
+     "authors": "CH Chuang, JW Hsieh, YD Chiou, IR Tsay, MH Jin",
+     "venue": "2010 IEEE International Symposium on Circuits and Systems (ISCAS), 2654-2657, 2010",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LkGwnXOMwfcC",
+     "citation_id": "mXUOEzwAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+     "title": "Vision-Based Vehicle Surveillance and Parking Lot Management Using‎ Multiple‎ Cameras‖,‎ in‎ 2010‎ Sixth‎ International‎ Conference‎ on‎ Intelligent Information Hiding and Multimedia …",
+     "authors": "LC Chen, JW Hsieh, WR Lai, CX Wu, SY Chen",
+     "venue": "Oct, 2010",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:IRz6iEL74y4C",
+     "citation_id": "mXUOEzwAAAAJ:IRz6iEL74y4C"
+    },
+    {
+     "title": "Cross-view object identification using principal color transformation",
+     "authors": "SY Chen, JW Hsieh, DY Chen",
+     "venue": "2010 International Conference on Machine Learning and Cybernetics 6, 2777-2781, 2010",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:iH-uZ7U-co4C",
+     "citation_id": "mXUOEzwAAAAJ:iH-uZ7U-co4C"
+    },
+    {
+     "title": "Apparatus for behavior analysis and method thereof",
+     "authors": "YT Hsu, JW Hsieh, HY Liao",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:t7zJ5fGR-2UC",
+     "citation_id": "mXUOEzwAAAAJ:t7zJ5fGR-2UC"
+    },
+    {
+     "title": "Vehicle orientation analysis using eigen color, edge map, and normalized cut clustering",
+     "authors": "JC Wu, JW Hsieh, SY Chen, CM Tu, YS Chen",
+     "venue": "International Journal of Pattern Recognition and Artificial Intelligence 24 …, 2010",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:YFjsv_pBGBYC",
+     "citation_id": "mXUOEzwAAAAJ:YFjsv_pBGBYC"
+    }
+   ]
+  },
+  {
+   "year": "2009",
+   "items": [
+    {
+     "title": "Carried object detection using ratio histogram and its application to suspicious event analysis",
+     "authors": "CH Chuang, JW Hsieh, LW Tsai, SY Chen, KC Fan",
+     "venue": "IEEE transactions on circuits and systems for video technology 19 (6), 911-916, 2009",
+     "cited_by": 66,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:35N4QoGY0k4C",
+     "citation_id": "mXUOEzwAAAAJ:35N4QoGY0k4C"
+    },
+    {
+     "title": "Recognition of Vehicle License Plates from a Video Sequence.",
+     "authors": "IC Tsai, JC Wu, JW Hsieh, YS Chen",
+     "venue": "IAENG International Journal of Computer Science 36 (1), 1, 2009",
+     "cited_by": 31,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:5ugPr518TE4C",
+     "citation_id": "mXUOEzwAAAAJ:5ugPr518TE4C"
+    },
+    {
+     "title": "Pedestrian segmentation using deformable triangulation and kernel density estimation",
+     "authors": "J Hsieh, SY Chen, CH Chuang, YS Chen, ZY Guo, KC Fan",
+     "venue": "2009 International Conference on Machine Learning and Cybernetics 6, 3270-3274, 2009",
+     "cited_by": 8,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Mojj43d5GZwC",
+     "citation_id": "mXUOEzwAAAAJ:Mojj43d5GZwC"
+    },
+    {
+     "title": "Vehicle retrieval using eigen color and multiple instance learning",
+     "authors": "SY Chen, JW Hsieh, JC Wu, YS Chen",
+     "venue": "2009 Fifth International Conference on Intelligent Information Hiding and …, 2009",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:1sJd4Hv_s6UC",
+     "citation_id": "mXUOEzwAAAAJ:1sJd4Hv_s6UC"
+    },
+    {
+     "title": "A fast cube-based video shot retrieval using 3D moment-preserving technique",
+     "authors": "WK Huang, CH Chung, SC Cheng, JW Hsieh",
+     "venue": "2009 16th IEEE International Conference on Image Processing (ICIP), 241-244, 2009",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:hMod-77fHWUC",
+     "citation_id": "mXUOEzwAAAAJ:hMod-77fHWUC"
+    },
+    {
+     "title": "Abnormal Event Analysis Using Patching Matching and Concentric Features",
+     "authors": "JW Hsieh, SY Chen, CH Chiang",
+     "venue": "International Conference on Knowledge-Based and Intelligent Information and …, 2009",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:_FxGoFyzp5QC",
+     "citation_id": "mXUOEzwAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+     "title": "多相機環境下之車輛監控與停車管理系統",
+     "authors": "吳智軒",
+     "venue": "元智大學電機工程學系學位論文, 1-49, 2009",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:KUbvn5osdkgC",
+     "citation_id": "mXUOEzwAAAAJ:KUbvn5osdkgC"
+    },
+    {
+     "title": "特徵顏色表示方法及其在物體偵測上之應用",
+     "authors": "LW Tsai",
+     "venue": "National Central University, 2009",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:OcBU2YAGkTUC",
+     "citation_id": "mXUOEzwAAAAJ:OcBU2YAGkTUC"
+    },
+    {
+     "title": "遮蔽情況下之肢體分割技術與其行為分析之應用",
+     "authors": "JW Hsieh, SY Chen, MH Jin",
+     "venue": "2009 全國計算機會議, 2009",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:3fE2CSJIrl8C",
+     "citation_id": "mXUOEzwAAAAJ:3fE2CSJIrl8C"
+    }
+   ]
+  },
+  {
+   "year": "2008",
+   "items": [
+    {
+     "title": "Video-based human movement analysis and its application to surveillance systems",
+     "authors": "JW Hsieh, YT Hsu, HYM Liao, CC Chen",
+     "venue": "IEEE Transactions on Multimedia 10 (3), 372-384, 2008",
+     "cited_by": 147,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:dhFuZR0502QC",
+     "citation_id": "mXUOEzwAAAAJ:dhFuZR0502QC"
+    },
+    {
+     "title": "Road sign detection using eigen colour",
+     "authors": "LW Tsai, JW Hsieh, CH Chuang, YJ Tseng, KC Fan, CC Lee",
+     "venue": "IET computer vision 2 (3), 164-177, 2008",
+     "cited_by": 80,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WbkHhVStYXYC",
+     "citation_id": "mXUOEzwAAAAJ:WbkHhVStYXYC"
+    },
+    {
+     "title": "Lane detection using directional random walks",
+     "authors": "LW Tsai, JW Hsieh, CH Chuang, KC Fan",
+     "venue": "2008 IEEE Intelligent Vehicles Symposium, 303-306, 2008",
+     "cited_by": 63,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:_Qo2XoVZTnwC",
+     "citation_id": "mXUOEzwAAAAJ:_Qo2XoVZTnwC"
+    },
+    {
+     "title": "Morphology-based text line extraction",
+     "authors": "JC Wu, JW Hsieh, YS Chen",
+     "venue": "Machine Vision and Applications 19 (3), 195-207, 2008",
+     "cited_by": 60,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4DMP91E08xMC",
+     "citation_id": "mXUOEzwAAAAJ:4DMP91E08xMC"
+    },
+    {
+     "title": "Boosted road sign detection and recognition",
+     "authors": "SY Chen, JW Hsieh",
+     "venue": "2008 International Conference on Machine Learning and Cybernetics 7, 3823-3826, 2008",
+     "cited_by": 42,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:SeFeTyx0c_EC",
+     "citation_id": "mXUOEzwAAAAJ:SeFeTyx0c_EC"
+    },
+    {
+     "title": "Human action recognition using star templates and delaunay triangulation",
+     "authors": "CH Chuang, JW Hsieh, LW Tsai, KC Fan",
+     "venue": "2008 International Conference on Intelligent Information Hiding and …, 2008",
+     "cited_by": 22,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Zph67rFs4hoC",
+     "citation_id": "mXUOEzwAAAAJ:Zph67rFs4hoC"
+    },
+    {
+     "title": "Suspicious object detection using fuzzy-color histogram",
+     "authors": "CH Chuang, JW Hsieh, LW Tsai, PS Ju, KC Fan",
+     "venue": "2008 IEEE International Symposium on Circuits and Systems (ISCAS), 3546-3549, 2008",
+     "cited_by": 12,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:hqOjcs7Dif8C",
+     "citation_id": "mXUOEzwAAAAJ:hqOjcs7Dif8C"
+    },
+    {
+     "title": "Boosted string representation and its application to video surveillance",
+     "authors": "JW Hsieh, YT Hsu",
+     "venue": "Pattern Recognition 41 (10), 3078-3091, 2008",
+     "cited_by": 11,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:J_g5lzvAfSwC",
+     "citation_id": "mXUOEzwAAAAJ:J_g5lzvAfSwC"
+    },
+    {
+     "title": "Efficient image matching using concentric sampling features and boosting process",
+     "authors": "P Wu, JW Hsieh",
+     "venue": "2008 15th IEEE International Conference on Image Processing, 2004-2007, 2008",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:yD5IFk8b50cC",
+     "citation_id": "mXUOEzwAAAAJ:yD5IFk8b50cC"
+    },
+    {
+     "title": "Chen, and HYM,“Video-based human movement analysis and its application to surveillance systems,”",
+     "authors": "JW Hsieh, YT Hsu, CC Liao",
+     "venue": "IEEE Transactions on Multimedia, 372-384, 2008",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:evX43VCCuoAC",
+     "citation_id": "mXUOEzwAAAAJ:evX43VCCuoAC"
+    },
+    {
+     "title": "Grid-based template matching for people counting',[C]",
+     "authors": "HJ Wei, P Chengshuang, FK Chin",
+     "venue": "Proc. of IEEE 9th Workshop on Multimedia Signal Processing. Washington DC …, 2008",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:_Re3VWB3Y0AC",
+     "citation_id": "mXUOEzwAAAAJ:_Re3VWB3Y0AC"
+    },
+    {
+     "title": "YM and Chih-Chiang Chen,\"",
+     "authors": "JW Hsieh, YTH Chung-Li, H Liao",
+     "venue": "Video-Based Human Movement Analysis and Its Application to Surveillance …, 2008",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:0izLItjtcgwC",
+     "citation_id": "mXUOEzwAAAAJ:0izLItjtcgwC"
+    }
+   ]
+  },
+  {
+   "year": "2007",
+   "items": [
+    {
+     "title": "Vehicle detection using normalized color and edge map",
+     "authors": "LW Tsai, JW Hsieh, KC Fan",
+     "venue": "IEEE transactions on Image Processing 16 (3), 850-864, 2007",
+     "cited_by": 355,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tOudhMTPpwUC",
+     "citation_id": "mXUOEzwAAAAJ:tOudhMTPpwUC"
+    },
+    {
+     "title": "Grid-based template matching for people counting",
+     "authors": "JW Hsieh, CS Peng, KC Fan",
+     "venue": "2007 IEEE 9th Workshop on Multimedia Signal Processing, 316-319, 2007",
+     "cited_by": 27,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:wbdj-CoPYUoC",
+     "citation_id": "mXUOEzwAAAAJ:wbdj-CoPYUoC"
+    },
+    {
+     "title": "Scale and skew‐invariant road sign recognition",
+     "authors": "YS Liu, DJ Duh, SY Chen, RS Liu, JW Hsieh",
+     "venue": "International Journal of Imaging Systems and Technology 17 (1), 28-39, 2007",
+     "cited_by": 23,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:J-pR_7NvFogC",
+     "citation_id": "mXUOEzwAAAAJ:J-pR_7NvFogC"
+    },
+    {
+     "title": "Edge-based lane change detection and its application to suspicious driving behavior analysis",
+     "authors": "SY Chen, JW Hsieh",
+     "venue": "Third International Conference on Intelligent Information Hiding and …, 2007",
+     "cited_by": 21,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ufrVoPGSRksC",
+     "citation_id": "mXUOEzwAAAAJ:ufrVoPGSRksC"
+    },
+    {
+     "title": "License Plate Recognition from Low-Quality Videos.",
+     "authors": "CC Chen, JW Hsieh",
+     "venue": "MVA, 122-125, 2007",
+     "cited_by": 17,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:BqipwSGYUEgC",
+     "citation_id": "mXUOEzwAAAAJ:BqipwSGYUEgC"
+    },
+    {
+     "title": "Suspicious object detection and robbery event analysis",
+     "authors": "CH Chuang, JW Hsieh, KC Fan",
+     "venue": "2007 16th International Conference on Computer Communications and Networks …, 2007",
+     "cited_by": 15,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:UeHWp8X0CEIC",
+     "citation_id": "mXUOEzwAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+     "title": "Road sign detection using eigen color",
+     "authors": "LW Tsai, YJ Tseng, JW Hsieh, KC Fan, JJ Li",
+     "venue": "Asian Conference on Computer Vision, 169-179, 2007",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:geHnlv5EZngC",
+     "citation_id": "mXUOEzwAAAAJ:geHnlv5EZngC"
+    },
+    {
+     "title": "Driver Drowsiness Recognition Based on Computer Vision Technology",
+     "authors": "LW Tsai, JW Hsieh, KC Fan",
+     "venue": "IEEE Transactions on Image Processing 16 (3), 850-864, 2007",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ZfRJV9d4-WMC",
+     "citation_id": "mXUOEzwAAAAJ:ZfRJV9d4-WMC"
+    },
+    {
+     "title": "Vehicle Orientation Detection Using Vehicle Color and Normalized Cut Clustering.",
+     "authors": "JC Wu, JW Hsieh, YS Chen, CM Tu",
+     "venue": "MVA, 457-460, 2007",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:bEWYMUwI8FkC",
+     "citation_id": "mXUOEzwAAAAJ:bEWYMUwI8FkC"
+    }
+   ]
+  },
+  {
+   "year": "2006",
+   "items": [
+    {
+     "title": "Automatic traffic surveillance system for vehicle tracking and classification",
+     "authors": "JW Hsieh, SH Yu, YS Chen, WF Hu",
+     "venue": "IEEE Transactions on intelligent transportation systems 7 (2), 175-187, 2006",
+     "cited_by": 642,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:a0OBvERweLwC",
+     "citation_id": "mXUOEzwAAAAJ:a0OBvERweLwC"
+    },
+    {
+     "title": "Motion-based video retrieval by trajectory matching",
+     "authors": "JW Hsieh, SL Yu, YS Chen",
+     "venue": "IEEE Transactions on Circuits and Systems for Video Technology 16 (3), 396-409, 2006",
+     "cited_by": 99,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:9yKSN-GCB0IC",
+     "citation_id": "mXUOEzwAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+     "title": "Building a remote supervisory control network system for smart home applications",
+     "authors": "YP Tsou, JW Hsieh, CT Lin, CY Chen",
+     "venue": "2006 IEEE International Conference on Systems, Man and Cybernetics 3, 1826-1830, 2006",
+     "cited_by": 89,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:KbBQZpvPDL4C",
+     "citation_id": "mXUOEzwAAAAJ:KbBQZpvPDL4C"
+    },
+    {
+     "title": "Segmentation of human body parts using deformable triangulation",
+     "authors": "CC Chen, JW Hsieh, YT Hsu, CY Huang",
+     "venue": "18th international conference on pattern recognition (ICPR'06) 1, 355-358, 2006",
+     "cited_by": 18,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:qUcmZB5y_30C",
+     "citation_id": "mXUOEzwAAAAJ:qUcmZB5y_30C"
+    },
+    {
+     "title": "Video object segmentation using kernel-based models and spatiotemporal similarity",
+     "authors": "JW Hsieh, JX Lee",
+     "venue": "2006 International Conference on Image Processing, 1821-1824, 2006",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NaGl4SEjCO4C",
+     "citation_id": "mXUOEzwAAAAJ:NaGl4SEjCO4C"
+    },
+    {
+     "title": "Detecting license plates from videos using morphological operations and adaboosting algorithm",
+     "authors": "CC Chen, JW Hsieh, JC Wu, YS Chen",
+     "venue": "",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:SdhP9T11ey4C",
+     "citation_id": "mXUOEzwAAAAJ:SdhP9T11ey4C"
+    },
+    {
+     "title": "Unusual behavior analysis and its application to surveillance systems",
+     "authors": "YT Hsu, JW Hsieh, HYM Liao",
+     "venue": "19th IPPR Conference on Computer Vision, Graphics and Image Processing, 2006",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HE397vMXCloC",
+     "citation_id": "mXUOEzwAAAAJ:HE397vMXCloC"
+    },
+    {
+     "title": "Boosted String Representation and Its Application to Video Surveillance",
+     "authors": "YT Hsu, JW Hsieh",
+     "venue": "2006 International Conference on Intelligent Information Hiding and …, 2006",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tuHXwOkdijsC",
+     "citation_id": "mXUOEzwAAAAJ:tuHXwOkdijsC"
+    },
+    {
+     "title": "利用金屬色及 N 群分割法進行車輛方向定位",
+     "authors": "涂政閔",
+     "venue": "元智大學電機工程學系學位論文, 1-46, 2006",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:r_AWSJRzSzQC",
+     "citation_id": "mXUOEzwAAAAJ:r_AWSJRzSzQC"
+    },
+    {
+     "title": "應用無線感測網路傳輸影像資料設計與實現",
+     "authors": "鄒玉萍",
+     "venue": "元智大學電機工程學系學位論文, 1-79, 2006",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:EYYDruWGBe4C",
+     "citation_id": "mXUOEzwAAAAJ:EYYDruWGBe4C"
+    }
+   ]
+  },
+  {
+   "year": "2005",
+   "items": [
+    {
+     "title": "Aircraft type recognition in satellite images",
+     "authors": "JW Hsieh, JM Chen, CH Chuang, KC Fan",
+     "venue": "IEE Proceedings-Vision, Image and Signal Processing 152 (3), 307-315, 2005",
+     "cited_by": 83,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:eQOLeE2rZwMC",
+     "citation_id": "mXUOEzwAAAAJ:eQOLeE2rZwMC"
+    },
+    {
+     "title": "Vehicle detection using normalized color and edge map",
+     "authors": "LW Tsai, JW Hsieh, KC Fan",
+     "venue": "IEEE International Conference on Image Processing 2005 2, II-598, 2005",
+     "cited_by": 45,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:M05iB0D1s5AC",
+     "citation_id": "mXUOEzwAAAAJ:M05iB0D1s5AC"
+    },
+    {
+     "title": "Human behavior analysis using deformable triangulations",
+     "authors": "Y Hsu, J Hsieh, H Kao, HM Liao",
+     "venue": "2005 IEEE 7th Workshop on Multimedia Signal Processing, 1-4, 2005",
+     "cited_by": 22,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:0EnyYjriUFMC",
+     "citation_id": "mXUOEzwAAAAJ:0EnyYjriUFMC"
+    },
+    {
+     "title": "A fast method to detect and recognize scaled and skewed road signs",
+     "authors": "YS Liou, DJ Duh, SY Chen, JW Hsieh",
+     "venue": "International Conference on Advanced Concepts for Intelligent Vision Systems …, 2005",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:g5m5HwL7SMYC",
+     "citation_id": "mXUOEzwAAAAJ:g5m5HwL7SMYC"
+    },
+    {
+     "title": "Vehicle Detection Using Normalized Color and Edge Map, Image Processing, 2005. ICIP 2005",
+     "authors": "L Tsai, J Hsieh, K Fan",
+     "venue": "IEEE International Conference on. IEEE 2, 2005",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:a9-T7VOCCH8C",
+     "citation_id": "mXUOEzwAAAAJ:a9-T7VOCCH8C"
+    },
+    {
+     "title": "Vehicle Occlusion Identification System by Perceptive Roadway Modeling.",
+     "authors": "WF Hu, YS Chen, JW Hsieh",
+     "venue": "MVA, 392-397, 2005",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:umqufdRvDiIC",
+     "citation_id": "mXUOEzwAAAAJ:umqufdRvDiIC"
+    }
+   ]
+  },
+  {
+   "year": "2004",
+   "items": [
+    {
+     "title": "Fast stitching algorithm for moving object detection and mosaic construction",
+     "authors": "JW Hsieh",
+     "venue": "Image and Vision Computing 22 (4), 291-306, 2004",
+     "cited_by": 103,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:roLk4NBRz8UC",
+     "citation_id": "mXUOEzwAAAAJ:roLk4NBRz8UC"
+    },
+    {
+     "title": "Apparatus and method for providing panoramic images",
+     "authors": "JW Hsieh, CC Chiang, DL Way",
+     "venue": "US Patent 6,798,923, 2004",
+     "cited_by": 38,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:aqlVkmm33-oC",
+     "citation_id": "mXUOEzwAAAAJ:aqlVkmm33-oC"
+    },
+    {
+     "title": "A shadow elimination method for vehicle analysis",
+     "authors": "JW Hsieh, SH Yu, YS Chen, WF Hu",
+     "venue": "Proceedings of the 17th International Conference on Pattern Recognition …, 2004",
+     "cited_by": 37,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:bFI3QPDXJZMC",
+     "citation_id": "mXUOEzwAAAAJ:bFI3QPDXJZMC"
+    },
+    {
+     "title": "Tracking multiple moving objects using a level-set method",
+     "authors": "CJ Chang, JW Hsieh, YS Chen, WF Hu",
+     "venue": "International Journal of Pattern Recognition and Artificial Intelligence 18 …, 2004",
+     "cited_by": 20,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:5nxA0vEk-isC",
+     "citation_id": "mXUOEzwAAAAJ:5nxA0vEk-isC"
+    },
+    {
+     "title": "Trajectory-based video retrieval by string matching",
+     "authors": "JW Hsieh, SL Yu, YS Chen",
+     "venue": "2004 International Conference on Image Processing, 2004. ICIP'04. 4, 2243-2246, 2004",
+     "cited_by": 10,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:3s1wT3WcHBgC",
+     "citation_id": "mXUOEzwAAAAJ:3s1wT3WcHBgC"
+    },
+    {
+     "title": "Novel aircraft type recognition with learning capabilities in satellite images",
+     "authors": "JW Hsieh, JM Chen, CH Chuang, KC Fan",
+     "venue": "2004 International Conference on Image Processing, 2004. ICIP'04. 3, 1715-1718, 2004",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:kNdYIx-mwKoC",
+     "citation_id": "mXUOEzwAAAAJ:kNdYIx-mwKoC"
+    },
+    {
+     "title": "Construction of Panoramic Images for Monitoring Environment",
+     "authors": "CC Hu, CC Han, JW Hsieh, KC Fan",
+     "venue": "IPPR Conference on Computer Vision, Graphics and Image Processing (CVGIP), 2004",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:V3AGJWp-ZtQC",
+     "citation_id": "mXUOEzwAAAAJ:V3AGJWp-ZtQC"
+    },
+    {
+     "title": "Learning visual concepts from image instances",
+     "authors": "謝君偉， 江政欽， 黃雅軒",
+     "venue": "Journal of information science and engineering 20 (6), 1197-1212, 2004",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:2osOgNQ5qMEC",
+     "citation_id": "mXUOEzwAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+     "title": "Short Paper_",
+     "authors": "J HSIEH, CC CHIANG, YEAS HUANG, WEL GRIMSON",
+     "venue": "Journal of information science and engineering 20, 1197-1212, 2004",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:sSrBHYA8nusC",
+     "citation_id": "mXUOEzwAAAAJ:sSrBHYA8nusC"
+    }
+   ]
+  },
+  {
+   "year": "2003",
+   "items": [
+    {
+     "title": "Shadow elimination for effective moving object detection by Gaussian shadow modeling",
+     "authors": "JW Hsieh, WF Hu, CJ Chang, YS Chen",
+     "venue": "Image and Vision Computing 21 (6), 505-516, 2003",
+     "cited_by": 237,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:M3ejUd6NZC8C",
+     "citation_id": "mXUOEzwAAAAJ:M3ejUd6NZC8C"
+    },
+    {
+     "title": "Spatial template extraction for image retrieval by region matching",
+     "authors": "JW Hsieh, WEL Grimson",
+     "venue": "IEEE Transactions on Image Processing 12 (11), 1404-1415, 2003",
+     "cited_by": 49,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:2P1L_qKh6hAC",
+     "citation_id": "mXUOEzwAAAAJ:2P1L_qKh6hAC"
+    },
+    {
+     "title": "Method and apparatus for content-based image retrieval with learning function",
+     "authors": "JW Hsieh, CC Chiang, YS Huang",
+     "venue": "US Patent 6,606,623, 2003",
+     "cited_by": 36,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:K3LRdlH-MEoC",
+     "citation_id": "mXUOEzwAAAAJ:K3LRdlH-MEoC"
+    },
+    {
+     "title": "Fast algorithm for aligning images having large displacements",
+     "authors": "JW Hsieh, CC Chiang",
+     "venue": "IEICE TRANSACTIONS on Information and Systems 86 (7), 1321-1324, 2003",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ldfaerwXgEUC",
+     "citation_id": "mXUOEzwAAAAJ:ldfaerwXgEUC"
+    },
+    {
+     "title": "Motion Analysis-An Automatic Traffic Surveillance System for Vehicle Tracking and Classification",
+     "authors": "SH Yu, JW Hsieh, YS Chen, WF Hu",
+     "venue": "Lecture Notes in Computer Science 2749, 379-386, 2003",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Ak0FvsSvgGUC",
+     "citation_id": "mXUOEzwAAAAJ:Ak0FvsSvgGUC"
+    },
+    {
+     "title": "Motion-based Video Retrieval by Trajectory Matching",
+     "authors": "SL Yu, JW Hsieh, YS Chen",
+     "venue": "16th IPPR Conference on Computer Vision, Graphics and Image Processing …, 2003",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:GnPB-g6toBAC",
+     "citation_id": "mXUOEzwAAAAJ:GnPB-g6toBAC"
+    },
+    {
+     "title": "Moving Object Detection and Mosaic Construction by Image Stitching",
+     "authors": "JW Hsieh",
+     "venue": "",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:fPk4N6BV_jEC",
+     "citation_id": "mXUOEzwAAAAJ:fPk4N6BV_jEC"
+    },
+    {
+     "title": "Fast Algorithm for Aligning Images Having Large Displacements",
+     "authors": "HJ Wei, C Cheng-Chin",
+     "venue": "IEICE transactions on information and systems 86 (7), 1321-1324, 2003",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:_Ybze24A_UAC",
+     "citation_id": "mXUOEzwAAAAJ:_Ybze24A_UAC"
+    }
+   ]
+  },
+  {
+   "year": "2002",
+   "items": [
+    {
+     "title": "Morphology-based license plate detection from complex scenes",
+     "authors": "JW Hsieh, SH Yu, YS Chen",
+     "venue": "2002 International Conference on Pattern Recognition 3, 176-179, 2002",
+     "cited_by": 277,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:UxriW0iASnsC",
+     "citation_id": "mXUOEzwAAAAJ:UxriW0iASnsC"
+    },
+    {
+     "title": "Prototype optimization for nearest-neighbor classification",
+     "authors": "YS Huang, CC Chiang, JW Shieh, E Grimson",
+     "venue": "Pattern Recognition 35 (6), 1237-1245, 2002",
+     "cited_by": 56,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:hMsQuOkrut0C",
+     "citation_id": "mXUOEzwAAAAJ:hMsQuOkrut0C"
+    },
+    {
+     "title": "Shadow elimination for effective moving object detection with gaussian models",
+     "authors": "CJ Chang, WF Hu, JW Hsieh, YS Chen",
+     "venue": "2002 International Conference on Pattern Recognition 2, 540-543, 2002",
+     "cited_by": 42,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:YOwf2qJgpHMC",
+     "citation_id": "mXUOEzwAAAAJ:YOwf2qJgpHMC"
+    },
+    {
+     "title": "Morphology-based license plate detection in images of differently illuminated and oriented cars",
+     "authors": "JW Hsieh, SH Yu, YS Chen",
+     "venue": "Journal of electronic Imaging 11 (4), 507-516, 2002",
+     "cited_by": 39,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:kRWSkSYxWN8C",
+     "citation_id": "mXUOEzwAAAAJ:kRWSkSYxWN8C"
+    },
+    {
+     "title": "Morphology-based license plate detection from complex scenes",
+     "authors": "SH Yu, JW Hsieh, YS Chen",
+     "venue": "IEEE Proc. of Intern. Conf. on Pattern Recognition.–2002.–3.–P, 176-179, 2002",
+     "cited_by": 28,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WC9gN4BGCRcC",
+     "citation_id": "mXUOEzwAAAAJ:WC9gN4BGCRcC"
+    },
+    {
+     "title": "Producing transitions between vistas",
+     "authors": "CC Chiang, JW Hsieh, T Cheng",
+     "venue": "US Patent 6,477,268, 2002",
+     "cited_by": 15,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:eflP2zaiRacC",
+     "citation_id": "mXUOEzwAAAAJ:eflP2zaiRacC"
+    },
+    {
+     "title": "Multiple-person tracking system for content analysis",
+     "authors": "JW Hsieh, YS Huang",
+     "venue": "International journal of pattern recognition and artificial intelligence 16 …, 2002",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:l7t_Zn2s7bgC",
+     "citation_id": "mXUOEzwAAAAJ:l7t_Zn2s7bgC"
+    },
+    {
+     "title": "Shadow elimination for effective object detection",
+     "authors": "CJ Chang, WF Hu, JW Hsieh, YS Chen",
+     "venue": "15th IPPR conference on computer vision, graphic and image processing, 185-192, 2002",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:-_dYPAW6P2MC",
+     "citation_id": "mXUOEzwAAAAJ:-_dYPAW6P2MC"
+    },
+    {
+     "title": "Morphologybaase license plate detection in image of diferently illuminated-——4042·——and oriented cars",
+     "authors": "JW Hsieh, SH Yu, YS Chen",
+     "venue": "Journal ofElectronic lmaging 1 (4), 507, 2002",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tzM49s52ZIMC",
+     "citation_id": "mXUOEzwAAAAJ:tzM49s52ZIMC"
+    },
+    {
+     "title": "Yung-Sheng,“Morphology-based License Plate Detection from Complex Scene,”",
+     "authors": "JW Hsieh, SH Yu",
+     "venue": "Journal of Electronic Imaging 11 (4), 507-516, 2002",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tKAzc9rXhukC",
+     "citation_id": "mXUOEzwAAAAJ:tKAzc9rXhukC"
+    },
+    {
+     "title": "CHEN Yung-sheng. Morphology Based License Plate Detection from Complex Scenes",
+     "authors": "JW HSIEH, SY HAO",
+     "venue": "Proceedings of the 16th International Conference on Patten Recognition. Los …, 2002",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:DUooU5lO8OsC",
+     "citation_id": "mXUOEzwAAAAJ:DUooU5lO8OsC"
+    }
+   ]
+  },
+  {
+   "year": "2001",
+   "items": [
+    {
+     "title": "Similarity retrieval in image databases by boosted common shape features among query images",
+     "authors": "JJ Chen, CY Liul, YS Huang, JW Hsieh",
+     "venue": "Pacific-Rim Conference on Multimedia, 285-292, 2001",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:vRqMK49ujn8C",
+     "citation_id": "mXUOEzwAAAAJ:vRqMK49ujn8C"
+    },
+    {
+     "title": "Multiple-person tracking system for content analysis",
+     "authors": "JW Hsieh, LW Huang, YS Huang",
+     "venue": "Pacific-Rim Conference on Multimedia, 897-902, 2001",
+     "cited_by": 5,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:BrmTIyaxlBUC",
+     "citation_id": "mXUOEzwAAAAJ:BrmTIyaxlBUC"
+    },
+    {
+     "title": "A fuzzy inference system for simplifying surfaces with color",
+     "authors": "CC Chang, SK Yang, JW Hsieh, DZ Duan, MF Lin",
+     "venue": "Pacific-Rim Conference on Multimedia, 1078-1083, 2001",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:L8Ckcad2t8MC",
+     "citation_id": "mXUOEzwAAAAJ:L8Ckcad2t8MC"
+    }
+   ]
+  },
+  {
+   "year": "2000",
+   "items": [
+    {
+     "title": "Region-based image retrieval",
+     "authors": "JW Hsieh, WEL Grimson, CC Chiang, YS Huang",
+     "venue": "Proceedings 2000 International Conference on Image Processing (Cat. No …, 2000",
+     "cited_by": 19,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:P5F9QuxV20EC",
+     "citation_id": "mXUOEzwAAAAJ:P5F9QuxV20EC"
+    }
+   ]
+  },
+  {
+   "year": "1999",
+   "items": [
+    {
+     "title": "Using relevance feedback to learn visual concepts from image instances",
+     "authors": "JW Hsieh, CC Chiang, YS Huang",
+     "venue": "Proceedings 10th International Conference on Image Analysis and Processing …, 1999",
+     "cited_by": 6,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:SP6oXDckpogC",
+     "citation_id": "mXUOEzwAAAAJ:SP6oXDckpogC"
+    },
+    {
+     "title": "Contentbased retrieval technology for image and video databases",
+     "authors": "JW Hsieh, CC Chiang, YY Chen",
+     "venue": "Computer and Communication, 40-47, 1999",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:35r97b3x0nAC",
+     "citation_id": "mXUOEzwAAAAJ:35r97b3x0nAC"
+    }
+   ]
+  },
+  {
+   "year": "1998",
+   "items": [
+    {
+     "title": "Multiscale edge detection on range images via normal changes",
+     "authors": "CJ Sze, HYM Liao, HL Hung, KC Fan, JW Hsieh",
+     "venue": "IEEE Transactions on Circuits and Systems II: Analog and Digital Signal …, 1998",
+     "cited_by": 19,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:zYLM7Y9cAGgC",
+     "citation_id": "mXUOEzwAAAAJ:zYLM7Y9cAGgC"
+    }
+   ]
+  },
+  {
+   "year": "1997",
+   "items": [
+    {
+     "title": "Image registration using a new edge-based approach",
+     "authors": "JW Hsieh, HYM Liao, KC Fan, MT Ko, YP Hung",
+     "venue": "Computer vision and image understanding 67 (2), 112-130, 1997",
+     "cited_by": 225,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:2KloaMYe4IUC",
+     "citation_id": "mXUOEzwAAAAJ:2KloaMYe4IUC"
+    },
+    {
+     "title": "New automatic multi-level thresholding technique for segmentation of thermal images",
+     "authors": "JS Chang, HYM Liao, MK Hor, JW Hsieh, MY Chern",
+     "venue": "Image and vision computing 15 (1), 23-34, 1997",
+     "cited_by": 79,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WF5omc3nYNoC",
+     "citation_id": "mXUOEzwAAAAJ:WF5omc3nYNoC"
+    },
+    {
+     "title": "A new wavelet-based edge detector via constrained optimization",
+     "authors": "JW Hsieh, MT Ko, HYM Liao, KC Fan",
+     "venue": "Image and Vision Computing 15 (7), 511-527, 1997",
+     "cited_by": 59,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:u-x6o8ySG0sC",
+     "citation_id": "mXUOEzwAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+     "title": "Panovr sdk—a software development kit for integrating photo-realistic panoramic images and 3-d graphical objects into virtual worlds",
+     "authors": "CC Chiang, A Huang, TS Wang, M Huang, YY Chen, JW Hsieh, JW Chen, ...",
+     "venue": "Proceedings of the ACM symposium on Virtual reality software and technology …, 1997",
+     "cited_by": 20,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:_kc_bZDykSQC",
+     "citation_id": "mXUOEzwAAAAJ:_kc_bZDykSQC"
+    },
+    {
+     "title": "A New Edge-based Technique for Image Registration,\"",
+     "authors": "JW Hsieh, HYM Liao, KC Fan, MT Ko, YP Huang",
+     "venue": "Computer Vision and Image Understanding 67 (2), 112-130, 1997",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:OTTXONDVkokC",
+     "citation_id": "mXUOEzwAAAAJ:OTTXONDVkokC"
+    },
+    {
+     "title": "Multiscale edge detection via normal changes",
+     "authors": "CJ Sze, HYM Liao, HL Hung, KC Fan, JW Hsieh",
+     "venue": "International Conference on Image Analysis and Processing, 22-29, 1997",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:mB3voiENLucC",
+     "citation_id": "mXUOEzwAAAAJ:mB3voiENLucC"
+    },
+    {
+     "title": "Kuo-Chin Fanjm Ming-Tat ko, and Yi-Ping Hung,“Image Registration Using a New Edge-based Approach”",
+     "authors": "JW Hsieh, HYM Liao",
+     "venue": "Computer Vision and Image Understanding 67 (2), 112-130, 1997",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:L7CI7m0gUJcC",
+     "citation_id": "mXUOEzwAAAAJ:L7CI7m0gUJcC"
+    },
+    {
+     "title": "Tsing-Shin Wang, Matthew Huang, Yunn-Yen Chen, Jun-Wei Hsieh, Ju-Wei Chen and Tse Cheng,“PanoVR SDK-A Software Development Kit for Integrating Photo-Realistic Panoramic Images …",
+     "authors": "CC Chiang",
+     "venue": "ACM VRST’97, 1997",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ILKRHgRFtOwC",
+     "citation_id": "mXUOEzwAAAAJ:ILKRHgRFtOwC"
+    }
+   ]
+  },
+  {
+   "year": "1996",
+   "items": [
+    {
+     "title": "A fast algorithm for image registration without predetermining correspondences",
+     "authors": "JW Hsieh, HYM Liao, KC Fam, MT Ko",
+     "venue": "Proceedings of 13th International Conference on Pattern Recognition 1, 765-769, 1996",
+     "cited_by": 30,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HDshCWvjkbEC",
+     "citation_id": "mXUOEzwAAAAJ:HDshCWvjkbEC"
+    }
+   ]
+  },
+  {
+   "year": "1995",
+   "items": [
+    {
+     "title": "Wavelet-based shape from shading",
+     "authors": "JW Hsieh, HYM Liao, MT Ko, KC Fan",
+     "venue": "Graphical Models and Image Processing 57 (4), 343-362, 1995",
+     "cited_by": 54,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:pqnbT2bcN3wC",
+     "citation_id": "mXUOEzwAAAAJ:pqnbT2bcN3wC"
+    },
+    {
+     "title": "Wavelet-Based Image Analysis",
+     "authors": "JW Hsieh",
+     "venue": "National Central University, 1995",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:PVgj2kMGcgYC",
+     "citation_id": "mXUOEzwAAAAJ:PVgj2kMGcgYC"
+    },
+    {
+     "title": "A New Edge-Based Approach for Image Registration",
+     "authors": "JW Hsieh, HYM Liao, KC Fan, MT Ko, YP Hong",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WZBGuue-350C",
+     "citation_id": "mXUOEzwAAAAJ:WZBGuue-350C"
+    }
+   ]
+  },
+  {
+   "year": "1994",
+   "items": [
+    {
+     "title": "Wavelet-based shape from shading [C/CD]",
+     "authors": "JW HSIEH, HY LIAO",
+     "venue": "IEEE International Conference, 125-129, 1994",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:2VqYfGB8ITEC",
+     "citation_id": "mXUOEzwAAAAJ:2VqYfGB8ITEC"
+    },
+    {
+     "title": "Wavelet-Based Shape from Shading (preliminary version)",
+     "authors": "JW Hsieh, HYM Liao, MT Ko, KC Fan",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:SpbeaW3--B0C",
+     "citation_id": "mXUOEzwAAAAJ:SpbeaW3--B0C"
+    }
+   ]
+  },
+  {
+   "year": "1993",
+   "items": [
+    {
+     "title": "Camera-based bar code recognition system using neural net",
+     "authors": "SJ Liu, HY Liao, LH Chen, HR Tyan, JW Hsieh",
+     "venue": "Proceedings of 1993 International Conference on Neural Networks (IJCNN-93 …, 1993",
+     "cited_by": 23,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ns9cj8rnVeAC",
+     "citation_id": "mXUOEzwAAAAJ:ns9cj8rnVeAC"
+    },
+    {
+     "title": "A new approach for edge detection using wavelet transforms",
+     "authors": "JW Hsieh, HY Liao, KC Fan",
+     "venue": "Asian Conference on Computer Vision 525, 1993",
+     "cited_by": 7,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:anf4URPfarAC",
+     "citation_id": "mXUOEzwAAAAJ:anf4URPfarAC"
+    },
+    {
+     "title": "A Markov random field based texture classification using fuzzy c-means clustering algorithm",
+     "authors": "JW Hsieh, HYM Liao, HR Tyan, KC Fan",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LhH-TYMQEocC",
+     "citation_id": "mXUOEzwAAAAJ:LhH-TYMQEocC"
+    }
+   ]
+  },
+  {
+   "year": "1911",
+   "items": [
+    {
+     "title": "CSPNet: A new backbone that can enhance learning capability of CNN. arXiv 2019",
+     "authors": "CY Wang, HYM Liao, IH Yeh, YH Wu, PY Chen, JW Hsieh",
+     "venue": "arXiv preprint arXiv:1911.11929 4, 1911",
+     "cited_by": 77,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:PVjk1bu6vJQC",
+     "citation_id": "mXUOEzwAAAAJ:PVjk1bu6vJQC"
+    },
+    {
+     "title": "Cspnet: A new backbone that can enhance learning capability of CNN. CoRR abs/1911.11929 (2019)",
+     "authors": "C Wang, HM Liao, I Yeh, Y Wu, P Chen, J Hsieh",
+     "venue": "arXiv preprint arXiv:1911.11929, 1911",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:86PQX7AUzd4C",
+     "citation_id": "mXUOEzwAAAAJ:86PQX7AUzd4C"
+    },
+    {
+     "title": "CSPNet: A New Backbone that can Enhance Learning Capability of CNN.” arXiv, Nov. 26, 2019. Accessed: Aug. 18, 2022",
+     "authors": "CY Wang, HYM Liao, IH Yeh, YH Wu, PY Chen, JW Hsieh",
+     "venue": "",
+     "cited_by": 4,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4fGpz3EwCPoC",
+     "citation_id": "mXUOEzwAAAAJ:4fGpz3EwCPoC"
+    },
+    {
+     "title": "CSPNet: A New Backbone than can Enhance Learning Capability of CNN. arXiv. DOI: 10.48550",
+     "authors": "CY Wang, HYM Liao, JH Yeh, YH Wu, PY Chen, JW Hsieh",
+     "venue": "arXiv, 1911",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:YohjEiUPhakC",
+     "citation_id": "mXUOEzwAAAAJ:YohjEiUPhakC"
+    },
+    {
+     "title": "CSPNet: A New Backbone that can Enhance Learning Capability of CNN. arXiv; 2019;[DOI: https://dx. doi. org/10.48550/arXiv",
+     "authors": "CY Wang, HYM Liao, IH Yeh, YH Wu, PY Chen, JW Hsieh",
+     "venue": "arXiv preprint arXiv:1911.11929, 1911",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:DJbcl8HfkQkC",
+     "citation_id": "mXUOEzwAAAAJ:DJbcl8HfkQkC"
+    },
+    {
+     "title": "CSPNet: a new backbone that can enhance learning capability of CNN. CoRR abs",
+     "authors": "C Wang, HM Liao, I Yeh, Y Wu, P Chen, J Hsieh",
+     "venue": "arXiv preprint arXiv:1911.11929, 1911",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:hCrLmN-GePgC",
+     "citation_id": "mXUOEzwAAAAJ:hCrLmN-GePgC"
+    },
+    {
+     "title": "M, Yeh IH., Wu YH, Chen PY, Hsieh JW (2019) CSPNet: a new backbone that can enhance learning capability of CNN",
+     "authors": "CY Wang, HY Liao",
+     "venue": "arXiv preprint arXiv:1911.11929, 1911",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:FAceZFleit8C",
+     "citation_id": "mXUOEzwAAAAJ:FAceZFleit8C"
+    }
+   ]
+  },
+  {
+   "year": "Other",
+   "items": [
+    {
+     "title": "M, Wu YH, Chen PY, Hsieh JW, Yeh IH (2020) Cspnet: A new backbone that can enhance learning capability of cnn",
+     "authors": "CY Wang, HY Liao",
+     "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 0",
+     "cited_by": 14,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:8d8msizDQcsC",
+     "citation_id": "mXUOEzwAAAAJ:8d8msizDQcsC"
+    },
+    {
+     "title": "Cspnet: A new backbone that can enhance learning capability of CNN. CoRR (2019)",
+     "authors": "C Wang, HY Liao, IH Yeh",
+     "venue": "arXiv preprint arXiv:1911.11929, 0",
+     "cited_by": 3,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:9pM33mqn1YgC",
+     "citation_id": "mXUOEzwAAAAJ:9pM33mqn1YgC"
+    },
+    {
+     "title": "MixNet: toward accurate detection of challenging scene text in the wild. 2023",
+     "authors": "YX Zeng, JW Hsieh, X Li, MC Chang",
+     "venue": "URL https://arxiv. org/abs/2308.12817, 0",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:PyEswDtIyv0C",
+     "citation_id": "mXUOEzwAAAAJ:PyEswDtIyv0C"
+    },
+    {
+     "title": "Yeh (2020).“CSPNet: A new backbone that can enhance learning capability of CNN”. 2020 IEEE",
+     "authors": "CY Wang, HYM Liao, YH Wu, PY Chen, JWH ja I-Hau",
+     "venue": "CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 0",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:6yz0xqPARnAC",
+     "citation_id": "mXUOEzwAAAAJ:6yz0xqPARnAC"
+    },
+    {
+     "title": "Yi-PingHung,\"",
+     "authors": "JW Hsieh, HYM Liao, KC Fan, MT Ko",
+     "venue": "Image Registration Using a New Edge-based Approach\", Computer Visionand …, 0",
+     "cited_by": 2,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4vMrXwiscB8C",
+     "citation_id": "mXUOEzwAAAAJ:4vMrXwiscB8C"
+    },
+    {
+     "title": "An automatic traffic surveillance system for tracking and classifying vehicles",
+     "authors": "SH Yu, YS Chen, JW Hsieh, WF Hu",
+     "venue": "Proceeding SCIA 3, 379-386, 0",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:7Hz3ACDFbsoC",
+     "citation_id": "mXUOEzwAAAAJ:7Hz3ACDFbsoC"
+    },
+    {
+     "title": "Jun-Wei HSIEH a I-Hau YEH. CSPNet: A New Backbone that can Enhance Learning Capability of CNN",
+     "authors": "CY WANG, M Hong-Yuan, YHWU LIAO, C Ping-Yang",
+     "venue": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 0",
+     "cited_by": 1,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:-7ulzOJl1JYC",
+     "citation_id": "mXUOEzwAAAAJ:-7ulzOJl1JYC"
+    },
+    {
+     "title": "2025 IEEE 8th International Conference on Multimedia Information Processing and Retrieval (MIPR)| 979-8-3315-9465-7/25/$31.00© 2025 IEEE| DOI: 10.1109/MIPR67560. 2025.00099",
+     "authors": "V Adzic, U Ahmad, M Ahtesham, S Allagi, J Alsakran, K Araki, OE Ashtiani, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WC23djZS0W4C",
+     "citation_id": "mXUOEzwAAAAJ:WC23djZS0W4C"
+    },
+    {
+     "title": "A Novel Shadow Elimination Method for Vehicle Analysis",
+     "authors": "JW Hsieh, YS Chen, YT Hsu",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:q3oQSFYPqjQC",
+     "citation_id": "mXUOEzwAAAAJ:q3oQSFYPqjQC"
+    },
+    {
+     "title": "Automatic Text Extraction from a Color Image",
+     "authors": "JC Wu, JW Hsieh, YS Chen",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:4hFrxpcac9AC",
+     "citation_id": "mXUOEzwAAAAJ:4hFrxpcac9AC"
+    },
+    {
+     "title": "Background Construction and Human Tracking with Multiple Cameras",
+     "authors": "YT Hsu, JW Hsieh",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:R3hNpaxXUhUC",
+     "citation_id": "mXUOEzwAAAAJ:R3hNpaxXUhUC"
+    },
+    {
+     "title": "CARTS: Cooperative Reinforcement Learning for Traffic Signal Control and Carbon Emission Reduction",
+     "authors": "CR Tang, JW Hsieh, YK Hsieh, X Li, MC Chang",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:L1USKYWJimsC",
+     "citation_id": "mXUOEzwAAAAJ:L1USKYWJimsC"
+    },
+    {
+     "title": "Classification in Chronic Kidney Disease by Nakagami distribution and Local Binary Pattern",
+     "authors": "CH Lee, JW Hsieh, WS Lee, YC Chen, HF Chiang",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:u_35RYKgDlwC",
+     "citation_id": "mXUOEzwAAAAJ:u_35RYKgDlwC"
+    },
+    {
+     "title": "CLUE-NAS: A CLIP-Inspired Contrastive Learnable Unifying Encoder for Neural Architecture Search",
+     "authors": "YM Zhang, JW Hsieh, MC Chang, X Li, YK Hsieh, CC Lee, KC Fan",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:nRpfm8aw39MC",
+     "citation_id": "mXUOEzwAAAAJ:nRpfm8aw39MC"
+    },
+    {
+     "title": "Co-Organizers: IEEE Consumer Electronics Society Taipei Chapter Honorary Chair: Kuo-En Chang, TW",
+     "authors": "CH Hsia, C Kobert",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:wMgC3FpKEyYC",
+     "citation_id": "mXUOEzwAAAAJ:wMgC3FpKEyYC"
+    },
+    {
+     "title": "Counting Very Small Vehicles and Crowds in Uav Images Using Mdamdl Framework",
+     "authors": "CM Tsai, JW Hsieh, MC Chang, PY Chen, GL He",
+     "venue": "Available at SSRN 4455947, 0",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LI9QrySNdTsC",
+     "citation_id": "mXUOEzwAAAAJ:LI9QrySNdTsC"
+    },
+    {
+     "title": "Cross-scale Patch-Attention with Prototype-guided Siamese Network for Effective Anomaly Detection",
+     "authors": "JW Hsieh, TL Wang, YK Hsieh, MC Chang",
+     "venue": "Available at SSRN 7139006, 0",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:6bLC7aUMtPcC",
+     "citation_id": "mXUOEzwAAAAJ:6bLC7aUMtPcC"
+    },
+    {
+     "title": "CSL-YOLO: A new lightweight object detection system for edge computing. arXiv 2021",
+     "authors": "YM Zhang, CC Lee, JW Hsieh, KC Fan",
+     "venue": "arXiv preprint arXiv:2107.04829, 0",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LO7wyVUgiFcC",
+     "citation_id": "mXUOEzwAAAAJ:LO7wyVUgiFcC"
+    },
+    {
+     "title": "ICS 2016 Program Committee",
+     "authors": "BM Chang, BJ Chang, CT Chang, CY Chang, CC Chang, CY Chang, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:W5xh706n7nkC",
+     "citation_id": "mXUOEzwAAAAJ:W5xh706n7nkC"
+    },
+    {
+     "title": "IIH-MSP 2013",
+     "authors": "T Amano, A Asano, S Aramvith, N Babaguchi, C Busch, C Cai, P Campisi, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:Wp0gIr-vW9MC",
+     "citation_id": "mXUOEzwAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+     "title": "IIH-MSP 2014 Program Committee",
+     "authors": "T Amano, A Asano, S Aramvith, C Busch, P Campisi, T Celik, CS Chan, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:pyW8ca7W8N0C",
+     "citation_id": "mXUOEzwAAAAJ:pyW8ca7W8N0C"
+    },
+    {
+     "title": "IIHMSP 2010",
+     "authors": "A Abraham, S Aramvith, A Asano, T Celik, CS Chan, BR Chang, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:RHpTSmoSYBkC",
+     "citation_id": "mXUOEzwAAAAJ:RHpTSmoSYBkC"
+    },
+    {
+     "title": "Implicit Reinforcement Learning Properties in Supervised Transformer-based Object Detection",
+     "authors": "CH Weng, JW Hsieh, Y Zhang, CC Lee, KC Fan",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:ruyezt5ZtCIC",
+     "citation_id": "mXUOEzwAAAAJ:ruyezt5ZtCIC"
+    },
+    {
+     "title": "Jih. Gau Juang Mi Jusheng Li Ke Loi Lei Lai",
+     "authors": "J Lee, D Chen, DY Chen, RC Chen, SM Chen, S Chen, YS Chen, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:WHdLCjDvYFkC",
+     "citation_id": "mXUOEzwAAAAJ:WHdLCjDvYFkC"
+    },
+    {
+     "title": "Kuo-Chin Fan, Pedestrian segmentation using deformable triangulation and kernel",
+     "authors": "J Hsieh, SY Chen, CH Chuang, YS Chen, ZY Guo",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:xtRiw3GOFMkC",
+     "citation_id": "mXUOEzwAAAAJ:xtRiw3GOFMkC"
+    },
+    {
+     "title": "MIPR 2025",
+     "authors": "P Nanjundan, R Deokar, J Ramakrishnan, J Cai, K Yang, L Ouyang, L Fu, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:U_HPUtbDl20C",
+     "citation_id": "mXUOEzwAAAAJ:U_HPUtbDl20C"
+    },
+    {
+     "title": "Morphology-based License Plate Detection",
+     "authors": "JW Hsieh, SH Yu, YS Chen",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:r0BpntZqJG4C",
+     "citation_id": "mXUOEzwAAAAJ:r0BpntZqJG4C"
+    },
+    {
+     "title": "Novel Aircraft Type Recognition with Lea rning Capabilities",
+     "authors": "JW Hsieh, JM Chen, CH Chuang, KC Fan",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:8k81kl-MbHgC",
+     "citation_id": "mXUOEzwAAAAJ:8k81kl-MbHgC"
+    },
+    {
+     "title": "OCCLUDED HUMAN ACTION ANALYSIS THROUGH MODEL PROJECTION",
+     "authors": "JW Hsieh, CH Chuang",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:IWHjjKOFINEC",
+     "citation_id": "mXUOEzwAAAAJ:IWHjjKOFINEC"
+    },
+    {
+     "title": "Pushing Past Saturation: An EEG Spike-Detection System for NeuroMM-2026 Track-1",
+     "authors": "JWH Ming-Chun Chiang, Kuan-Chuan Peng, Bo-Yun Yu",
+     "venue": "ACM International Conference on Multimedia (ACMMM), https://openreview.net …, 0",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:6_hjMsCP8ZoC",
+     "citation_id": "mXUOEzwAAAAJ:6_hjMsCP8ZoC"
+    },
+    {
+     "title": "Real-time Vehicle Color Classification Using Symmetrical SURFs and Chromatic Strength",
+     "authors": "LC Chen, JW Hsieh, HF Chiang, TH Tsai",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:isC4tDSrTZIC",
+     "citation_id": "mXUOEzwAAAAJ:isC4tDSrTZIC"
+    },
+    {
+     "title": "SILVA-Mamba: Spatial-Integrity For Landslide Segmentation Via Vectorized HILBERT Scanning and Adaptive Mamba",
+     "authors": "YT Hsieh, CC Hsu, X Li, MC Chang, JW Hsieh",
+     "venue": "IEEE International Conference on Image Processing 2026, 0",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:hsZV8lGYWTMC",
+     "citation_id": "mXUOEzwAAAAJ:hsZV8lGYWTMC"
+    },
+    {
+     "title": "Technical program committee members",
+     "authors": "JM Guo, H Kiya, T Shih, YH Li, CY Yao, TL Lin, CH Chou, EM Kim, ...",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:7T2F9Uy0os0C",
+     "citation_id": "mXUOEzwAAAAJ:7T2F9Uy0os0C"
+    },
+    {
+     "title": "TiTT",
+     "authors": "HR Tyan, JW Hsieh",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:MLfJN-KU85MC",
+     "citation_id": "mXUOEzwAAAAJ:MLfJN-KU85MC"
+    },
+    {
+     "title": "Vehicle orientation analysis using eigen color, edge map, and normalized cut",
+     "authors": "JC Wu, JW Hsieh, SY Chen, CM Tu, YS Chen",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:OU6Ihb5iCvQC",
+     "citation_id": "mXUOEzwAAAAJ:OU6Ihb5iCvQC"
+    },
+    {
+     "title": "Video Object Segmentation Using Kernel-based Models and Spatiotemporal Similarity",
+     "authors": "JX Lee, JW Hsieh, JW Chang",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:hFOr9nPyWt4C",
+     "citation_id": "mXUOEzwAAAAJ:hFOr9nPyWt4C"
+    },
+    {
+     "title": "Wireless Video Surveillance System for Home Security Protection",
+     "authors": "P Wu, JW Hsieh, YT Hsu",
+     "venue": "",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:UebtZRa9Y70C",
+     "citation_id": "mXUOEzwAAAAJ:UebtZRa9Y70C"
+    },
+    {
+     "title": "Y. et al.(2020) CSPNet: A new backbone that can enhance learning capability of CNN",
+     "authors": "CL Wang, H Wu",
+     "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 0",
+     "cited_by": 0,
+     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:g3aElNc5_aQC",
+     "citation_id": "mXUOEzwAAAAJ:g3aElNc5_aQC"
+    }
+   ]
+  }
+ ]
+}
