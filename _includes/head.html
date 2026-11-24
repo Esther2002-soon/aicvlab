@@ -24,7 +24,7 @@
     var ml = window.location.search.match(/[?&]lang=(en|zh)\b/);
     if (ml) { l = ml[1]; }
     if (!l) { try { l = localStorage.getItem('lab-lang'); } catch (e) {} }
-    if (l !== 'zh') { l = 'en'; }
+    if (l !== 'en') { l = 'zh'; } /* default language: Chinese */
     document.documentElement.setAttribute('data-lang', l);
     document.documentElement.setAttribute('lang', l === 'zh' ? 'zh-Hant' : 'en');
   })();
