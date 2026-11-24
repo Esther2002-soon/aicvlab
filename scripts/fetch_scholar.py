@@ -75,6 +75,17 @@ def fetch_page(author_id, key, start):
     raise ScholarError(f"SerpApi unreachable after retries: {last}")
 
 
+def diagnose_order(data, batch):
+    """Print what order SerpApi really returned, so a wrong sort is visible in the Actions log."""
+    sp = data.get("search_parameters") or {}
+    print(f"  SerpApi echoed sort={sp.get('sort')!r} (we asked for 'pubdate')")
+    for a in batch[:8]:
+        print(f"    {a.get('year') or '----'}  cited={(a.get('cited_by') or {}).get('value') or 0:<5} {(a.get('title') or '')[:70]}")
+    cites = [int((a.get("cited_by") or {}).get("value") or 0) for a in batch]
+    if len(cites) > 10 and all(x >= y for x, y in zip(cites, cites[1:])):
+        print("  WARNING: the first page is ordered by citations, not by date. The sort parameter may be ignored.", file=sys.stderr)
+
+
 def collect(author_id, key):
     articles, stats, searches = [], None, 0
     for page in range(MAX_PAGES):
@@ -93,6 +104,8 @@ def collect(author_id, key):
                     if k in row:
                         stats[k] = int((row[k] or {}).get("all") or 0)
         batch = data.get("articles") or []
+        if start == 0:
+            diagnose_order(data, batch)
         articles.extend(batch)
         print(f"  start={start}: {len(batch)} articles")
         if len(batch) < PAGE_SIZE:
@@ -132,7 +145,7 @@ def normalise(articles):
 
     years = []
     for y in sorted(by_year, key=ykey):
-        group = sorted(by_year[y], key=lambda i: (-i["cited_by"], i["title"].lower()))
+        group = by_year[y]  # keep Scholar order (request uses sort=pubdate: newest first)
         for g in group:
             g.pop("year", None)
         years.append({"year": y, "items": group})
