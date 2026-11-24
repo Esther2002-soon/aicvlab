@@ -2,6 +2,9 @@ name: "AICV Lab"
 full_name: "Artificial Intelligence & Computer Vision Lab"
 university: "National Yang Ming Chiao Tung University"
 college: "College of Artificial Intelligence"
+college_zh: "人工智慧學院"
+university_zh: "國立陽明交通大學"
+full_name_zh: "人工智慧與電腦視覺實驗室"
 founded: 2019
 # Edit these two lines if the address needs a different English rendering.
 address_en: "Room 222, Zhiyuan Building, No. 160, Sec. 1, Guiren 13th Rd., Guiren Dist., Tainan City 711010, Taiwan"

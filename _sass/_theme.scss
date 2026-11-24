@@ -144,26 +144,35 @@ html[data-theme="dark"] {
 .masthead .greedy-nav button { background: var(--accent); }
 
 /* Theme toggle */
-.theme-toggle {
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  z-index: 200;
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--ink-2);
-  font-size: 1.05rem;
-  cursor: pointer;
-  box-shadow: var(--card-shadow-hover);
-  transition: transform 0.2s ease, color 0.2s ease, background-color 0.3s ease;
+/* ---------- Floating display settings (theme + language), collapsed by default ---------- */
+.prefs { position: fixed; right: 18px; bottom: 18px; z-index: 200; display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.prefs__fab {
+  width: 46px; height: 46px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--surface); color: var(--ink-2);
+  font-size: 1.05rem; cursor: pointer; box-shadow: var(--card-shadow-hover);
+  transition: transform 0.25s ease, color 0.2s ease, background-color 0.3s ease;
 }
-.theme-toggle:hover { transform: scale(1.1) rotate(12deg); color: var(--accent); }
-.theme-toggle .fa-sun { display: none; }
-html[data-theme="dark"] .theme-toggle .fa-sun { display: inline-block; }
-html[data-theme="dark"] .theme-toggle .fa-moon { display: none; }
+.prefs__fab:hover { color: var(--accent); }
+.prefs__fab[aria-expanded="true"] { transform: rotate(60deg); color: var(--accent); }
+.prefs__panel {
+  min-width: 230px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 14px;
+  background: var(--surface); box-shadow: var(--card-shadow-hover);
+  animation: prefs-pop 0.18s ease-out;
+}
+@keyframes prefs-pop { from { opacity: 0; transform: translateY(6px) scale(0.97); } to { opacity: 1; transform: none; } }
+.prefs__row { display: flex; flex-direction: column; gap: 6px; }
+.prefs__row + .prefs__row { margin-top: 12px; }
+.prefs__label { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-3); }
+.seg { display: flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+.seg__btn { flex: 1; padding: 6px 12px; border: 0; background: transparent; color: var(--ink-2); font: inherit; font-size: 0.88rem; cursor: pointer; white-space: nowrap; }
+.seg__btn + .seg__btn { border-left: 1px solid var(--border); }
+.seg__btn:hover { color: var(--accent); }
+.seg__btn[aria-pressed="true"] { background: var(--accent); color: #fff; font-weight: 700; }
+@media (prefers-reduced-motion: reduce) { .prefs__panel { animation: none; } .prefs__fab { transition: none; } }
+
+/* Bilingual text: both languages are in the page, only the active one is shown. */
+html:not([data-lang="zh"]) .i18n-zh { display: none !important; }
+html[data-lang="zh"] .i18n-en { display: none !important; }
 
 /* ---------- 4. Sidebar author profile ---------- */
 

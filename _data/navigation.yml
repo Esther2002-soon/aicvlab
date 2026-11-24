@@ -1,11 +1,11 @@
 main:
-  - { title: "News", url: "#news" }
-  - { title: "Awards", url: "#awards" }
-  - { title: "Publications", url: "#publications" }
-  - { title: "People", url: "#people" }
-  - { title: "Equipment", url: "#equipment" }
-  - { title: "Courses", url: "#courses" }
-  - { title: "Demo", url: "#demo" }
-  - { title: "Gallery", url: "#gallery" }
-  - { title: "Resources", url: "#resources" }
-  - { title: "Location", url: "#location" }
+  - { title: "News", zh: "消息", url: "#news" }
+  - { title: "Awards", zh: "獎項", url: "#awards" }
+  - { title: "Publications", zh: "論文", url: "#publications" }
+  - { title: "People", zh: "成員", url: "#people" }
+  - { title: "Equipment", zh: "設備", url: "#equipment" }
+  - { title: "Courses", zh: "課程", url: "#courses" }
+  - { title: "Demo", zh: "展示", url: "#demo" }
+  - { title: "Gallery", zh: "相簿", url: "#gallery" }
+  - { title: "Resources", zh: "資源", url: "#resources" }
+  - { title: "Location", zh: "位置", url: "#location" }

@@ -20,6 +20,13 @@
       t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
     }
     document.documentElement.setAttribute('data-theme', t);
+    var l;
+    var ml = window.location.search.match(/[?&]lang=(en|zh)\b/);
+    if (ml) { l = ml[1]; }
+    if (!l) { try { l = localStorage.getItem('lab-lang'); } catch (e) {} }
+    if (l !== 'zh') { l = 'en'; }
+    document.documentElement.setAttribute('data-lang', l);
+    document.documentElement.setAttribute('lang', l === 'zh' ? 'zh-Hant' : 'en');
   })();
 </script>
 

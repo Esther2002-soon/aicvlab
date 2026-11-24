@@ -6,7 +6,7 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about" target="_self">AICV Lab</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url }}" target="_self">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ link.url }}" target="_self">{% include t.html en=link.title zh=link.zh %}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -14,6 +14,24 @@
     </div>
   </div>
 </div>
-<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
-  <i class="fas fa-moon" aria-hidden="true"></i><i class="fas fa-sun" aria-hidden="true"></i>
-</button>
+<div class="prefs" id="prefs">
+  <div class="prefs__panel" id="prefs-panel" hidden>
+    <div class="prefs__row">
+      <span class="prefs__label">{% include t.html en="Theme" zh="主題" %}</span>
+      <div class="seg" role="group">
+        <button type="button" class="seg__btn" data-theme-set="light" aria-pressed="false"><i class="fas fa-sun" aria-hidden="true"></i> {% include t.html en="Light" zh="淺色" %}</button>
+        <button type="button" class="seg__btn" data-theme-set="dark" aria-pressed="false"><i class="fas fa-moon" aria-hidden="true"></i> {% include t.html en="Night" zh="夜間" %}</button>
+      </div>
+    </div>
+    <div class="prefs__row">
+      <span class="prefs__label">{% include t.html en="Language" zh="語言" %}</span>
+      <div class="seg" role="group">
+        <button type="button" class="seg__btn" data-lang-set="en" aria-pressed="false" lang="en">English</button>
+        <button type="button" class="seg__btn" data-lang-set="zh" aria-pressed="false" lang="zh-Hant">中文</button>
+      </div>
+    </div>
+  </div>
+  <button id="prefs-toggle" class="prefs__fab" type="button" aria-expanded="false" aria-controls="prefs-panel" aria-label="Display settings" title="Display settings">
+    <i class="fas fa-cog" aria-hidden="true"></i>
+  </button>
+</div>

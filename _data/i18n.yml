@@ -1,0 +1,6 @@
+# Chinese labels for data-driven headings. Page text lives in index.html next to its English version.
+groups:
+  "Ph.D. Students": "博士生"
+  "Master Students": "碩士生"
+  "Ph.D. Alumni": "博士畢業生"
+  "Master Alumni": "碩士畢業生"

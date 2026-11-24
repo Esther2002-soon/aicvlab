@@ -12,13 +12,17 @@ title: "AICV Lab"
 <div class="hero">
   <span class="hero__blob hero__blob--1" aria-hidden="true"></span>
   <span class="hero__blob hero__blob--2" aria-hidden="true"></span>
-  <p class="hero__greet">{{ lab.college }}, {{ lab.university }}</p>
+  <p class="hero__greet"><span class="i18n-en">{{ lab.college }}, {{ lab.university }}</span><span class="i18n-zh" lang="zh-Hant">{{ lab.university_zh }}{{ lab.college_zh }}</span></p>
   <h1 class="hero__name">{{ lab.name }}</h1>
-  <p class="hero__typing-line">{{ lab.full_name }}</p>
+  <p class="hero__typing-line">{% include t.html en=lab.full_name zh=lab.full_name_zh %}</p>
 
-  <div class="hero__intro">
+  <div class="hero__intro i18n-en">
     <p>The AICV Lab, situated in the AI College at National Yang Ming Chiao Tung University, was established in {{ lab.founded }} under the leadership of Dr. Jun-Wei Hsieh. Our research focuses on intelligent image and video processing, multimedia standards, and associated technologies.</p>
     <p>The lab runs its own GPU cluster with {{ eq.total_gpus }} GPUs across {{ eq.total_servers }} servers, ranging from A100, RTX 5090 and RTX 4090 down to RTX 2080 Ti class cards. See <a href="#equipment" target="_self">Equipment</a> for the full list.</p>
+  </div>
+  <div class="hero__intro i18n-zh" lang="zh-Hant">
+    <p>AICV 實驗室隸屬國立陽明交通大學人工智慧學院，由謝君偉教授於 {{ lab.founded }} 年創立，研究重點為智慧影像與視訊處理、多媒體標準及相關技術。</p>
+    <p>實驗室擁有自建的 GPU 叢集，共 {{ eq.total_servers }} 台伺服器、{{ eq.total_gpus }} 張 GPU，涵蓋 A100、RTX 5090、RTX 4090 到 RTX 2080 Ti 等級。完整清單請見<a href="#equipment" target="_self">設備</a>一節。</p>
   </div>
 
   <div class="hero__interests">
@@ -29,34 +33,34 @@ title: "AICV Lab"
     {% if pubs.count > 0 %}
     <a class="stat-tile" href="#publications" target="_self">
       <span class="stat-tile__value js-count" data-count="{{ pubs.count }}">0</span>
-      <span class="stat-tile__label">Publications</span>
+      <span class="stat-tile__label">{% include t.html en="Publications" zh="論文" %}</span>
     </a>
     <a class="stat-tile" href="{{ site.scholar.url }}" target="_blank" rel="noopener">
       <span class="stat-tile__value js-count js-cit-count" data-count="{{ st.citations }}">0</span>
-      <span class="stat-tile__label">Citations</span>
+      <span class="stat-tile__label">{% include t.html en="Citations" zh="引用次數" %}</span>
     </a>
     <a class="stat-tile" href="{{ site.scholar.url }}" target="_blank" rel="noopener">
       <span class="stat-tile__value js-count" data-count="{{ st.h_index }}">0</span>
-      <span class="stat-tile__label">h-index</span>
+      <span class="stat-tile__label">{% include t.html en="h-index" zh="h 指數" %}</span>
     </a>
     <a class="stat-tile" href="{{ site.scholar.url }}" target="_blank" rel="noopener">
       <span class="stat-tile__value js-count" data-count="{{ st.i10_index }}">0</span>
-      <span class="stat-tile__label">i10-index</span>
+      <span class="stat-tile__label">{% include t.html en="i10-index" zh="i10 指數" %}</span>
     </a>
     {% endif %}
     <a class="stat-tile" href="#equipment" target="_self">
       <span class="stat-tile__value js-count" data-count="{{ eq.total_gpus }}">0</span>
-      <span class="stat-tile__label">GPUs</span>
+      <span class="stat-tile__label">{% include t.html en="GPUs" zh="GPU" %}</span>
     </a>
     <a class="stat-tile" href="#awards" target="_self">
       <span class="stat-tile__value js-count" data-count="{% assign n = 0 %}{% for y in site.data.awards %}{% assign n = n | plus: y.items.size %}{% endfor %}{{ n }}">0</span>
-      <span class="stat-tile__label">Awards</span>
+      <span class="stat-tile__label">{% include t.html en="Awards" zh="獎項" %}</span>
     </a>
   </div>
 </div>
 
 <span class="anchor" id="advisor"></span>
-<h1>Advisor</h1>
+<h1>{% include t.html en="Advisor" zh="指導教授" %}</h1>
 
 <div class="advisor-card">
   <div class="advisor-card__photo">
@@ -69,21 +73,21 @@ title: "AICV Lab"
   </div>
   <div class="advisor-card__body">
     <h2 class="advisor-card__name">{{ adv.name }} <span lang="zh-Hant">{{ adv.zh }}</span></h2>
-    <p class="advisor-card__title">{{ adv.title }}</p>
+    <p class="advisor-card__title">{% include t.html en=adv.title zh=adv.title_zh %}</p>
     <p><a class="btn-pill" href="{{ site.scholar.url }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></p>
-    <h3>Education</h3>
-    <ul>{% for e in adv.education %}<li>{{ e }}</li>{% endfor %}</ul>
-    <h3>Experience</h3>
-    <ul>{% for e in adv.experience %}<li>{{ e }}</li>{% endfor %}</ul>
+    <h3>{% include t.html en="Education" zh="學歷" %}</h3>
+    <ul>{% for e in adv.education %}<li>{% include t.html en=e zh=adv.education_zh[forloop.index0] %}</li>{% endfor %}</ul>
+    <h3>{% include t.html en="Experience" zh="經歷" %}</h3>
+    <ul>{% for e in adv.experience %}<li>{% include t.html en=e zh=adv.experience_zh[forloop.index0] %}</li>{% endfor %}</ul>
   </div>
 </div>
 
 <span class="anchor" id="news"></span>
-<h1>News</h1>
+<h1>{% include t.html en="News" zh="消息" %}</h1>
 
 {% for y in site.data.news %}
 <details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
-  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{{ y.items.size }} item{% if y.items.size != 1 %}s{% endif %}</span></summary>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{{ y.items.size }} item{% if y.items.size != 1 %}s{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{{ y.items.size }} 則</span></span></summary>
   <div class="pub-topic__scroll">
     <div class="timeline">
     {% for item in y.items %}
@@ -93,7 +97,7 @@ title: "AICV Lab"
         <span class="timeline__text">
           <strong>{{ item.title }}</strong>
           {% if item.text %}<span class="news-text">{{ item.text }}</span>{% endif %}
-          {% for l in item.links %}<a class="news-link" href="{{ l.url }}" target="_blank" rel="noopener">{% if l.label and l.label != 'Link' %}{{ l.label }}{% else %}Link{% endif %}</a>{% endfor %}
+          {% for l in item.links %}<a class="news-link" href="{{ l.url }}" target="_blank" rel="noopener">{% if l.label and l.label != 'Link' %}<span class="i18n-en">{{ l.label }}</span><span class="i18n-zh" lang="zh-Hant">{% if l.label == 'Read More >>' %}閱讀更多 &gt;&gt;{% else %}{{ l.label }}{% endif %}</span>{% else %}{% include t.html en="Link" zh="連結" %}{% endif %}</a>{% endfor %}
           {% if item.images %}<span class="thumbs">{% for im in item.images %}{% include img.html img=im alt=item.title %}{% endfor %}</span>{% endif %}
           {% if item.videos %}<span class="video-grid video-grid--tight">{% for v in item.videos %}{% include yt.html id=v title=item.title %}{% endfor %}</span>{% endif %}
         </span>
@@ -105,13 +109,13 @@ title: "AICV Lab"
 {% endfor %}
 
 <span class="anchor" id="awards"></span>
-<h1>Awards</h1>
+<h1>{% include t.html en="Awards" zh="獎項" %}</h1>
 
-<p class="lab-note">Honors and awards of the advisor and the lab. Certificate photos that could not be matched to a specific award are shown under the year they belong to.</p>
+<p class="lab-note"><span class="i18n-en">Honors and awards of the advisor and the lab. Certificate photos that could not be matched to a specific award are shown under the year they belong to.</span><span class="i18n-zh" lang="zh-Hant">指導教授與實驗室所獲得的榮譽與獎項。無法對應到特定獎項的獎狀照片，會歸在所屬年份的獎狀項目下。</span></p>
 
 {% for y in site.data.awards %}
 <details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
-  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{% if y.items.size > 0 %}{{ y.items.size }} award{% if y.items.size != 1 %}s{% endif %}{% endif %}{% if y.items.size > 0 and y.certificates.size > 0 %}, {% endif %}{% if y.certificates.size > 0 %}{{ y.certificates.size }} certificate{% if y.certificates.size != 1 %}s{% endif %}{% endif %}</span></summary>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{% if y.items.size > 0 %}{{ y.items.size }} award{% if y.items.size != 1 %}s{% endif %}{% endif %}{% if y.items.size > 0 and y.certificates.size > 0 %}, {% endif %}{% if y.certificates.size > 0 %}{{ y.certificates.size }} certificate{% if y.certificates.size != 1 %}s{% endif %}{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{% if y.items.size > 0 %}{{ y.items.size }} 項獎項{% endif %}{% if y.items.size > 0 and y.certificates.size > 0 %}、{% endif %}{% if y.certificates.size > 0 %}{{ y.certificates.size }} 張獎狀{% endif %}</span></span></summary>
   <div class="pub-topic__scroll">
     {% if y.items.size > 0 %}
     <div class="award-list">
@@ -124,7 +128,7 @@ title: "AICV Lab"
     </div>
     {% endif %}
     {% if y.certificates.size > 0 %}
-    <p class="sub-label">Certificates</p>
+    <p class="sub-label">{% include t.html en="Certificates" zh="獎狀" %}</p>
     <div class="thumbs thumbs--grid">{% for im in y.certificates %}{% include img.html img=im alt="Award certificate" %}{% endfor %}</div>
     {% endif %}
   </div>
@@ -132,19 +136,20 @@ title: "AICV Lab"
 {% endfor %}
 
 <span class="anchor" id="publications"></span>
-<h1>Publications</h1>
+<h1>{% include t.html en="Publications" zh="論文" %}</h1>
 
 {% if pubs.count > 0 %}
-<p class="lab-note">This list is synchronized automatically from <a href="{{ site.scholar.url }}" target="_blank" rel="noopener">Professor Hsieh's Google Scholar profile</a>. It currently has {{ pubs.count }} papers{% if pubs.updated %}, last changed on {{ pubs.updated | date: "%Y-%m-%d" }}{% endif %}. Titles link to Google Scholar.</p>
+<p class="lab-note i18n-en">This list is synchronized automatically from <a href="{{ site.scholar.url }}" target="_blank" rel="noopener">Professor Hsieh's Google Scholar profile</a>. It currently has {{ pubs.count }} papers{% if pubs.updated %}, last changed on {{ pubs.updated | date: "%Y-%m-%d" }}{% endif %}. Titles link to Google Scholar.</p>
+<p class="lab-note i18n-zh" lang="zh-Hant">此清單自動同步自謝君偉教授的 <a href="{{ site.scholar.url }}" target="_blank" rel="noopener">Google Scholar 頁面</a>，目前共有 {{ pubs.count }} 篇論文{% if pubs.updated %}，最後更新於 {{ pubs.updated | date: "%Y-%m-%d" }}{% endif %}。點選標題會前往 Google Scholar。論文標題與作者維持原文。</p>
 
 <div class="publication-search" role="search">
-  <label for="publication-search-input">Search publications</label>
-  <input id="publication-search-input" type="search" placeholder="Title, author, venue, or year" autocomplete="off">
+  <label for="publication-search-input">{% include t.html en="Search publications" zh="搜尋論文" %}</label>
+  <input id="publication-search-input" type="search" placeholder="Title, author, venue, or year" data-ph-en="Title, author, venue, or year" data-ph-zh="標題、作者、期刊或年份" autocomplete="off">
   <p id="publication-search-status" class="publication-search__status" aria-live="polite"></p>
   <div class="pub-sort" role="group" aria-label="Sort publications">
-    <span class="pub-sort__label">Sort by</span>
-    <button type="button" class="pub-sort__btn is-active" data-sort="year" aria-pressed="true">Year</button>
-    <button type="button" class="pub-sort__btn" data-sort="cites" aria-pressed="false">Citations</button>
+    <span class="pub-sort__label">{% include t.html en="Sort by" zh="排序方式" %}</span>
+    <button type="button" class="pub-sort__btn is-active" data-sort="year" aria-pressed="true">{% include t.html en="Year" zh="年份" %}</button>
+    <button type="button" class="pub-sort__btn" data-sort="cites" aria-pressed="false">{% include t.html en="Citations" zh="引用次數" %}</button>
   </div>
 </div>
 
@@ -158,14 +163,14 @@ title: "AICV Lab"
 
 {% for y in pubs.years %}
 <details class="pub-topic pub-topic--year" id="pubs-{{ y.year }}"{% if forloop.first %} open{% endif %}>
-  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{{ y.items.size }} paper{% if y.items.size != 1 %}s{% endif %}</span></summary>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{{ y.items.size }} paper{% if y.items.size != 1 %}s{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{{ y.items.size }} 篇</span></span></summary>
   <div class="pub-topic__scroll">
     <ol class="scholar-pub-list scholar-pub-list--year">
       {% for p in y.items %}
       <li class="all-publication-item" data-cited="{{ p.cited_by | default: 0 }}" data-year="{{ y.year }}">
         <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>
         <span class="scholar-pub-meta">{{ p.authors }}{% if p.authors %}. {% endif %}{{ p.venue }}{% if p.venue %}.{% endif %}</span>
-        {% if p.cited_by > 0 %}<span class="cite-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Cited by {{ p.cited_by }}</span>{% endif %}<span class="pub-year-chip">{{ y.year }}</span>
+        {% if p.cited_by > 0 %}<span class="cite-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> <span class="i18n-en">Cited by {{ p.cited_by }}</span><span class="i18n-zh" lang="zh-Hant">被引用 {{ p.cited_by }} 次</span></span>{% endif %}<span class="pub-year-chip">{{ y.year }}</span>
       </li>
       {% endfor %}
     </ol>
@@ -174,13 +179,13 @@ title: "AICV Lab"
 {% endfor %}
 </div>
 {% else %}
-<p class="lab-note">The publication list is generated automatically from Google Scholar. It will appear here after the daily update workflow has run for the first time (see README).</p>
+<p class="lab-note"><span class="i18n-en">The publication list is generated automatically from Google Scholar. It will appear here after the daily update workflow has run for the first time (see README).</span><span class="i18n-zh" lang="zh-Hant">論文清單由 Google Scholar 自動產生，每日更新流程首次執行後就會顯示在這裡。</span></p>
 {% endif %}
 
 <span class="anchor" id="people"></span>
-<h1>People</h1>
+<h1>{% include t.html en="People" zh="成員" %}</h1>
 
-<h2 class="people-heading">Advisor</h2>
+<h2 class="people-heading">{% include t.html en="Advisor" zh="指導教授" %}</h2>
 <div class="people-grid">
   <div class="person">
     <div class="person__photo"><img src="{{ adv.photo.src | relative_url }}" width="{{ adv.photo.w }}" height="{{ adv.photo.h }}" alt="{{ adv.name }}" loading="lazy"></div>
@@ -190,7 +195,7 @@ title: "AICV Lab"
 </div>
 
 {% for g in site.data.people.current %}
-<h2 class="people-heading">{{ g.group }} <span class="people-count">{{ g.people.size }}</span></h2>
+<h2 class="people-heading">{% include t.html en=g.group zh=site.data.i18n.groups[g.group] %} <span class="people-count">{{ g.people.size }}</span></h2>
 <div class="people-grid">
   {% for p in g.people %}
   <div class="person">
@@ -201,14 +206,14 @@ title: "AICV Lab"
 </div>
 {% endfor %}
 
-<h2 class="people-heading">Alumni</h2>
+<h2 class="people-heading">{% include t.html en="Alumni" zh="畢業生" %}</h2>
 {% for g in site.data.people.alumni %}
 <details class="pub-topic pub-topic--flow">
-  <summary class="pub-topic__toggle"><span>{{ g.group }}</span><span class="pub-topic__count">{% assign total = 0 %}{% for y in g.years %}{% assign total = total | plus: y.names.size %}{% endfor %}{{ total }} alumni</span></summary>
+  <summary class="pub-topic__toggle"><span>{% include t.html en=g.group zh=site.data.i18n.groups[g.group] %}</span><span class="pub-topic__count">{% assign total = 0 %}{% for y in g.years %}{% assign total = total | plus: y.names.size %}{% endfor %}<span class="i18n-en">{{ total }} alumni</span><span class="i18n-zh" lang="zh-Hant">{{ total }} 位</span></span></summary>
   <div class="pub-topic__scroll">
     {% for y in g.years %}
     <div class="alumni-row">
-      <span class="alumni-row__year">{{ y.label }}</span>
+      <span class="alumni-row__year">{% if y.label == "Other" %}{% include t.html en="Other" zh="其他" %}{% else %}{{ y.label }}{% endif %}</span>
       <span class="alumni-row__names">{% for n in y.names %}<span class="tag-chip" lang="zh-Hant">{{ n }}</span>{% endfor %}</span>
     </div>
     {% endfor %}
@@ -217,42 +222,42 @@ title: "AICV Lab"
 {% endfor %}
 
 <span class="anchor" id="equipment"></span>
-<h1>Equipment</h1>
+<h1>{% include t.html en="Equipment" zh="設備" %}</h1>
 
-<p>{{ eq.total_gpus }} GPUs across {{ eq.total_servers }} servers.</p>
+<p><span class="i18n-en">{{ eq.total_gpus }} GPUs across {{ eq.total_servers }} servers.</span><span class="i18n-zh" lang="zh-Hant">共 {{ eq.total_servers }} 台伺服器、{{ eq.total_gpus }} 張 GPU。</span></p>
 <div class="gpu-chips">
   {% for t in eq.totals %}<span class="gpu-chip"><strong>{{ t.count }}&times;</strong> {{ t.model }}</span>{% endfor %}
 </div>
 
 <div class="table-wrap">
 <table class="lab-table">
-  <thead><tr><th>Server</th><th>GPUs</th></tr></thead>
+  <thead><tr><th>{% include t.html en="Server" zh="伺服器" %}</th><th>GPU</th></tr></thead>
   <tbody>
     {% for s in eq.servers %}
-    <tr><td>{{ s.name }}</td><td>{% for g in s.gpus %}{{ g.count }}&times; {{ g.model }}{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>
+    <tr><td><span class="i18n-en">{{ s.name }}</span><span class="i18n-zh" lang="zh-Hant">{{ s.name | replace: "Server ", "伺服器 " }}</span></td><td>{% for g in s.gpus %}{{ g.count }}&times; {{ g.model }}{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>
     {% endfor %}
   </tbody>
 </table>
 </div>
-<p class="lab-note">{{ eq.note }}</p>
+<p class="lab-note">{% include t.html en=eq.note zh=eq.note_zh %}</p>
 
 {% assign ph = site.data.equipment_photos %}
-<h2 class="people-heading">Other equipment</h2>
+<h2 class="people-heading">{% include t.html en="Other equipment" zh="其他設備" %}</h2>
 <div class="equip-grid">
-  <figure class="equip-card">{% include img.html img=ph.rack1 alt="GPU servers" %}<figcaption>GPU servers for deep learning</figcaption></figure>
-  <figure class="equip-card">{% include img.html img=ph.rack2 alt="GPU servers" %}<figcaption>GPU server racks</figcaption></figure>
-  <figure class="equip-card">{% include img.html img=ph.gpu alt="Good GPU for deep learning" %}<figcaption>GPUs for deep learning</figcaption></figure>
-  <figure class="equip-card">{% include img.html img=ph.uav alt="UAV and drones" %}<figcaption>UAV and drones</figcaption></figure>
-  <figure class="equip-card">{% include img.html img=ph.imac alt="iMac and PC with large monitors" %}<figcaption>iMac 27&prime; and PCs with 27&prime;/32&prime; monitors</figcaption></figure>
-  <figure class="equip-card">{% include img.html img=ph.printer alt="3D printer" %}<figcaption>3D printer</figcaption></figure>
-  <figure class="equip-card">{% include img.html img=ph.laptop alt="ROG laptop" %}<figcaption>ROG laptop with RTX 2080 / 3080</figcaption></figure>
-  <figure class="equip-card">{% include img.html img=ph.jetson alt="Jetson TX2" %}<figcaption>Jetson TX2 &times; 3</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.rack1 alt="GPU servers" %}<figcaption><span class="i18n-en">GPU servers for deep learning</span><span class="i18n-zh" lang="zh-Hant">深度學習用 GPU 伺服器</span></figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.rack2 alt="GPU servers" %}<figcaption><span class="i18n-en">GPU server racks</span><span class="i18n-zh" lang="zh-Hant">GPU 伺服器機櫃</span></figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.gpu alt="Good GPU for deep learning" %}<figcaption><span class="i18n-en">GPUs for deep learning</span><span class="i18n-zh" lang="zh-Hant">深度學習用 GPU</span></figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.uav alt="UAV and drones" %}<figcaption><span class="i18n-en">UAV and drones</span><span class="i18n-zh" lang="zh-Hant">無人機</span></figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.imac alt="iMac and PC with large monitors" %}<figcaption><span class="i18n-en">iMac 27&prime; and PCs with 27&prime;/32&prime; monitors</span><span class="i18n-zh" lang="zh-Hant">iMac 27 吋與配備 27 吋、32 吋螢幕的個人電腦</span></figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.printer alt="3D printer" %}<figcaption><span class="i18n-en">3D printer</span><span class="i18n-zh" lang="zh-Hant">3D 列印機</span></figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.laptop alt="ROG laptop" %}<figcaption><span class="i18n-en">ROG laptop with RTX 2080 / 3080</span><span class="i18n-zh" lang="zh-Hant">搭載 RTX 2080 與 3080 的 ROG 筆電</span></figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.jetson alt="Jetson TX2" %}<figcaption><span class="i18n-en">Jetson TX2 &times; 3</span><span class="i18n-zh" lang="zh-Hant">Jetson TX2 三台</span></figcaption></figure>
 </div>
 
 <span class="anchor" id="courses"></span>
-<h1>Courses</h1>
+<h1>{% include t.html en="Courses" zh="課程" %}</h1>
 
-<p class="lab-note">Lecture videos (in Chinese). Click a thumbnail to play.</p>
+<p class="lab-note"><span class="i18n-en">Lecture videos (in Chinese). Click a thumbnail to play.</span><span class="i18n-zh" lang="zh-Hant">課程錄影，點擊縮圖即可播放。</span></p>
 {% for s in site.data.courses %}
 <h2 class="people-heading">{{ s.series }}</h2>
 <div class="video-grid">
@@ -263,7 +268,7 @@ title: "AICV Lab"
 {% endfor %}
 
 <span class="anchor" id="demo"></span>
-<h1>Demo</h1>
+<h1>{% include t.html en="Demo" zh="展示" %}</h1>
 
 <div class="demo-list">
 {% for d in site.data.demos %}
@@ -277,11 +282,11 @@ title: "AICV Lab"
 </div>
 
 <span class="anchor" id="gallery"></span>
-<h1>Gallery</h1>
+<h1>{% include t.html en="Gallery" zh="相簿" %}</h1>
 
 {% for y in site.data.gallery %}
 <details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
-  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{{ y.events.size }} event{% if y.events.size != 1 %}s{% endif %}</span></summary>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{{ y.events.size }} event{% if y.events.size != 1 %}s{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{{ y.events.size }} 場活動</span></span></summary>
   <div class="pub-topic__scroll">
     {% for e in y.events %}
     <section class="gallery-event">
@@ -295,19 +300,19 @@ title: "AICV Lab"
 {% endfor %}
 
 <span class="anchor" id="resources"></span>
-<h1>Resources</h1>
+<h1>{% include t.html en="Resources" zh="資源" %}</h1>
 
-<h2 class="people-heading">Opening Dataset</h2>
+<h2 class="people-heading">{% include t.html en="Opening Dataset" zh="開放資料集" %}</h2>
 <ul class="dataset-list">
   {% for d in site.data.resources.datasets %}
   <li><a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.name }}</a>{% if d.zh %} <span class="zh" lang="zh-Hant">{{ d.zh }}</span>{% endif %}</li>
   {% endfor %}
 </ul>
 
-<h2 class="people-heading">Coding Practice</h2>
-<p class="lab-note">Course assignments, kept in their original language (Chinese).</p>
+<h2 class="people-heading">{% include t.html en="Coding Practice" zh="程式練習" %}</h2>
+<p class="lab-note"><span class="i18n-en">Course assignments, kept in their original language (Chinese).</span><span class="i18n-zh" lang="zh-Hant">課程作業，維持原文。</span></p>
 <details class="pub-topic pub-topic--flow">
-  <summary class="pub-topic__toggle"><span>Assignments</span><span class="pub-topic__count">{{ site.data.coding_practice.size }} items</span></summary>
+  <summary class="pub-topic__toggle"><span>{% include t.html en="Assignments" zh="作業" %}</span><span class="pub-topic__count"><span class="i18n-en">{{ site.data.coding_practice.size }} items</span><span class="i18n-zh" lang="zh-Hant">{{ site.data.coding_practice.size }} 項</span></span></summary>
   <div class="pub-topic__scroll">
     {% for hw in site.data.coding_practice %}
     <details class="hw">
@@ -323,14 +328,15 @@ title: "AICV Lab"
 </details>
 
 <span class="anchor" id="location"></span>
-<h1>Location</h1>
+<h1>{% include t.html en="Location" zh="位置" %}</h1>
 
 <address class="lab-address">
   <p>{{ lab.address_en }}</p>
   <p lang="zh-Hant">{{ lab.address_zh }}</p>
-  <p><a class="btn-pill" href="https://www.google.com/maps/search/?api=1&amp;query={{ lab.address_zh | url_encode }}" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Open in Google Maps</a></p>
+  <p><a class="btn-pill" href="https://www.google.com/maps/search/?api=1&amp;query={{ lab.address_zh | url_encode }}" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {% include t.html en="Open in Google Maps" zh="在 Google 地圖開啟" %}</a></p>
 </address>
 
 <footer class="lab-footer">
-  <p>&copy; {{ site.time | date: "%Y" }} {{ lab.name }}, {{ lab.university }}. Page layout adapted from <a href="https://github.com/mingching/mingching.github.io" target="_blank" rel="noopener">mingching.github.io</a> (MIT License, see LICENSE).</p>
+  <p class="i18n-en">&copy; {{ site.time | date: "%Y" }} {{ lab.name }}, {{ lab.university }}. Page layout adapted from <a href="https://github.com/mingching/mingching.github.io" target="_blank" rel="noopener">mingching.github.io</a> (MIT License, see LICENSE).</p>
+  <p class="i18n-zh" lang="zh-Hant">&copy; {{ site.time | date: "%Y" }} {{ lab.name }}，{{ lab.university_zh }}。版面改編自 <a href="https://github.com/mingching/mingching.github.io" target="_blank" rel="noopener">mingching.github.io</a>（MIT 授權，詳見 LICENSE）。</p>
 </footer>

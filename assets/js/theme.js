@@ -19,13 +19,64 @@
     if (meta) meta.setAttribute("content", theme === "dark" ? "#0d1117" : "#ffffff");
   }
 
-  var toggle = document.getElementById("theme-toggle");
-  if (toggle) {
-    toggle.addEventListener("click", function () {
-      var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
-      applyTheme(next);
+  /* ---------- Language ---------- */
+  var langListeners = [];
+  function applyLang(lang, skipSave) {
+    lang = lang === "zh" ? "zh" : "en";
+    root.setAttribute("data-lang", lang);
+    root.setAttribute("lang", lang === "zh" ? "zh-Hant" : "en");
+    if (!skipSave) {
+      try {
+        localStorage.setItem("lab-lang", lang);
+      } catch (e) {}
+    }
+    Array.prototype.forEach.call(document.querySelectorAll("[data-ph-en]"), function (el) {
+      el.setAttribute("placeholder", el.getAttribute(lang === "zh" ? "data-ph-zh" : "data-ph-en"));
+    });
+    langListeners.forEach(function (fn) { fn(lang); });
+    syncPrefs();
+    /* the nav is measured by script, so ask it to re-measure after the labels change */
+    window.dispatchEvent(new Event("resize"));
+  }
+
+  /* ---------- Floating settings button (collapsed) ---------- */
+  var prefs = document.getElementById("prefs");
+  var prefsFab = document.getElementById("prefs-toggle");
+  var prefsPanel = document.getElementById("prefs-panel");
+
+  function syncPrefs() {
+    if (!prefs) return;
+    var theme = root.getAttribute("data-theme");
+    var lang = root.getAttribute("data-lang");
+    Array.prototype.forEach.call(prefs.querySelectorAll("[data-theme-set]"), function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-theme-set") === theme ? "true" : "false");
+    });
+    Array.prototype.forEach.call(prefs.querySelectorAll("[data-lang-set]"), function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-lang-set") === lang ? "true" : "false");
     });
   }
+  function setPrefsOpen(open) {
+    if (!prefsFab || !prefsPanel) return;
+    prefsPanel.hidden = !open;
+    prefsFab.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  if (prefs && prefsFab && prefsPanel) {
+    prefsFab.addEventListener("click", function () { setPrefsOpen(prefsPanel.hidden); });
+    prefs.addEventListener("click", function (ev) {
+      var t = ev.target.closest ? ev.target.closest("[data-theme-set],[data-lang-set]") : null;
+      if (!t) return;
+      if (t.hasAttribute("data-theme-set")) { applyTheme(t.getAttribute("data-theme-set")); syncPrefs(); }
+      else { applyLang(t.getAttribute("data-lang-set")); }
+    });
+    document.addEventListener("click", function (ev) {
+      if (!prefsPanel.hidden && !prefs.contains(ev.target)) setPrefsOpen(false);
+    });
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && !prefsPanel.hidden) { setPrefsOpen(false); prefsFab.focus(); }
+    });
+    syncPrefs();
+  }
+  applyLang(root.getAttribute("data-lang"), true);
 
   /* ---------- Scroll reveal (staggered) ---------- */
   var revealEls = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
@@ -388,6 +439,16 @@
   if (publicationSearch) {
     var publicationStatus = document.getElementById("publication-search-status");
     var publicationItems = Array.prototype.slice.call(document.querySelectorAll(".all-publication-item"));
+    var lastQuery = "";
+    var lastVisible = 0;
+    function renderStatus() {
+      if (!publicationStatus) return;
+      if (!lastQuery) { publicationStatus.textContent = ""; return; }
+      publicationStatus.textContent = root.getAttribute("data-lang") === "zh"
+        ? "找到 " + lastVisible + " 篇相符的論文。"
+        : lastVisible + " matching publication" + (lastVisible === 1 ? "" : "s") + ".";
+    }
+    langListeners.push(renderStatus);
     publicationSearch.addEventListener("input", function () {
       var query = (publicationSearch.value || "").trim().toLowerCase();
       var visible = 0;
@@ -402,9 +463,9 @@
           }
         }
       });
-      if (publicationStatus) {
-        publicationStatus.textContent = query ? visible + " matching publication" + (visible === 1 ? "" : "s") + "." : "";
-      }
+      lastQuery = query;
+      lastVisible = visible;
+      renderStatus();
     });
 
     /* Sort toggle: by year (grouped) or by citations (one flat list). The same <li>
