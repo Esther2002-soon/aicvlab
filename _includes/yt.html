@@ -1,0 +1,5 @@
+{%- comment -%} Click-to-play YouTube embed. No third-party code loads until the visitor clicks. {%- endcomment -%}
+<a class="yt-lite" href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank" rel="noopener" data-yt="{{ include.id }}" title="{{ include.title | escape }}">
+  <img src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" loading="lazy" decoding="async" width="480" height="360" alt="Video thumbnail: {{ include.title | escape }}">
+  <span class="yt-lite__play" aria-hidden="true"></span>
+</a>

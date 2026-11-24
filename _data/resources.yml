@@ -1,0 +1,6 @@
+datasets:
+  - name: "Electricity Meter Database"
+    zh: "電表資料庫"
+    url: "http://140.113.110.150:5000/sharing/XA0aSNMmK"
+  - name: "FishEye8K"
+    url: "https://github.com/MoyoG/FishEye8K"

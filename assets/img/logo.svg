@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="AICV Lab">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+  <rect width="160" height="160" rx="36" fill="url(#g)"/>
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M24 80c14-26 34-38 56-38s42 12 56 38c-14 26-34 38-56 38S38 106 24 80z"/>
+    <circle cx="80" cy="80" r="17"/>
+  </g>
+  <text x="80" y="143" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#fff" letter-spacing="2">AICV</text>
+</svg>

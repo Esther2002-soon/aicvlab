@@ -1,0 +1,39 @@
+# AICV Lab website (Jekyll, GitHub Pages)
+title: "AICV Lab"
+description: "Artificial Intelligence & Computer Vision Lab, National Yang Ming Chiao Tung University"
+
+# Set `url` to your GitHub Pages address, for example https://YOUR-USER.github.io
+# Leave `baseurl` empty for a user or organization site (YOUR-USER.github.io).
+# For a project site (YOUR-USER.github.io/REPO) the deploy workflow fills it in automatically.
+url: ""
+baseurl: ""
+
+# The GitHub repository that holds this site (used in the footer only).
+repository: "YOUR-USER/YOUR-REPO"
+
+# Professor Jun-Wei Hsieh on Google Scholar. The daily update script reads the ID from the
+# GOOGLE_SCHOLAR_ID repository secret, this copy is only used for links on the page.
+scholar:
+  id: "mXUOEzwAAAAJ"
+  url: "https://scholar.google.com/citations?user=mXUOEzwAAAAJ&hl=en"
+
+markdown: kramdown
+encoding: "utf-8"
+timezone: Asia/Taipei
+permalink: /:categories/:title/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - scripts
+  - tools
+  - vendor
+  - node_modules
+  - assets/js/_main.js
+  - _data/README.md
+
+sass:
+  sass_dir: _sass
+  style: compressed

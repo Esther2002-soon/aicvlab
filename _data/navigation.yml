@@ -1,0 +1,11 @@
+main:
+  - { title: "News", url: "#news" }
+  - { title: "Awards", url: "#awards" }
+  - { title: "Publications", url: "#publications" }
+  - { title: "People", url: "#people" }
+  - { title: "Equipment", url: "#equipment" }
+  - { title: "Courses", url: "#courses" }
+  - { title: "Demo", url: "#demo" }
+  - { title: "Gallery", url: "#gallery" }
+  - { title: "Resources", url: "#resources" }
+  - { title: "Location", url: "#location" }

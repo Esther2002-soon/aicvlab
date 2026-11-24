@@ -1,0 +1,88 @@
+# GPU inventory. Only models and counts are published. Never add IP addresses or remote-desktop IDs here, this repository is public.
+total_gpus: 84
+total_servers: 13
+note: One RTX 2080 Ti is currently under repair and is included in the count. It will return to service after maintenance.
+totals:
+- model: A100
+  count: 2
+- model: RTX Pro 6000
+  count: 1
+- model: RTX 5090
+  count: 2
+- model: RTX 4090
+  count: 6
+- model: RTX 3090 Ti
+  count: 6
+- model: RTX 3090
+  count: 27
+- model: RTX 3070
+  count: 2
+- model: RTX 2080 Ti
+  count: 18
+- model: TITAN RTX
+  count: 4
+- model: GTX 1080 Ti
+  count: 8
+- model: Tesla V100
+  count: 8
+servers:
+- name: Server 1
+  gpus:
+  - model: RTX 3090
+    count: 8
+- name: Server 2
+  gpus:
+  - model: RTX 3090
+    count: 9
+- name: Server 3
+  gpus:
+  - model: RTX 3090
+    count: 10
+- name: Server 4
+  gpus:
+  - model: RTX 4090
+    count: 6
+  - model: RTX Pro 6000
+    count: 1
+  - model: A100
+    count: 2
+- name: Server 5
+  gpus:
+  - model: RTX 3090 Ti
+    count: 4
+- name: Server 6
+  gpus:
+  - model: RTX 3090 Ti
+    count: 2
+  - model: RTX 5090
+    count: 2
+- name: Server 7
+  gpus:
+  - model: RTX 3070
+    count: 2
+- name: Server 8
+  gpus:
+  - model: GTX 1080 Ti
+    count: 2
+- name: Server 9
+  gpus:
+  - model: GTX 1080 Ti
+    count: 2
+- name: Server 10
+  gpus:
+  - model: Tesla V100
+    count: 8
+- name: Server 11
+  gpus:
+  - model: RTX 2080 Ti
+    count: 8
+- name: Server 12
+  gpus:
+  - model: TITAN RTX
+    count: 4
+  - model: GTX 1080 Ti
+    count: 4
+- name: Server 13
+  gpus:
+  - model: RTX 2080 Ti
+    count: 10

@@ -1,0 +1,2 @@
+{%- comment -%} Usage: include img.html img=item.image alt="text" {%- endcomment -%}
+<a class="zoom" href="{{ include.img.src | relative_url }}" target="_blank" rel="noopener"><img src="{{ include.img.src | relative_url }}" width="{{ include.img.w }}" height="{{ include.img.h }}" loading="lazy" decoding="async" alt="{{ include.alt | escape }}"></a>

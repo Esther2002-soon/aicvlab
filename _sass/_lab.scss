@@ -1,0 +1,121 @@
+/* ==========================================================================
+   AICV lab additions. Built on the design tokens in _theme.scss.
+   ========================================================================== */
+
+.lab-note { color: var(--ink-2); font-size: 0.92em; max-width: 60em; }
+.zh { display: block; color: var(--ink-3); font-size: 0.86em; font-weight: 400; }
+.sub-label { margin: 1rem 0 0.4rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+
+/* Collapsible blocks that grow with their content instead of scrolling inside */
+.pub-topic--flow .pub-topic__scroll { max-height: none; overflow: visible; padding-bottom: 1rem; }
+
+/* ---------- Advisor ---------- */
+.advisor-card {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 1.5rem;
+  padding: 1.3rem 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: var(--card-shadow);
+  margin-bottom: 1.5rem;
+}
+.advisor-card__photo img { width: 100%; height: auto; border-radius: 14px; display: block; }
+.advisor-card__name { margin: 0 0 0.1em; font-size: 1.5em; }
+.advisor-card__name span { font-size: 0.7em; font-weight: 500; color: var(--ink-2); margin-left: 0.4em; }
+.advisor-card__title { margin: 0 0 0.8em; color: var(--ink-2); }
+.advisor-card h3 { font-size: 0.95em; margin: 1em 0 0.3em; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-3); }
+.advisor-card ul { margin: 0; padding-left: 1.2em; }
+@media (max-width: 640px) { .advisor-card { grid-template-columns: 1fr; } .advisor-card__photo { max-width: 170px; } }
+
+/* ---------- Images and thumbnails ---------- */
+.thumbs { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 4px; }
+.thumbs a.zoom { display: block; line-height: 0; }
+.thumbs img { height: 150px; width: auto; max-width: 100%; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.thumbs a.zoom:hover img { transform: translateY(-2px); box-shadow: var(--card-shadow-hover); }
+.thumbs--grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.thumbs--grid img { width: 100%; height: 170px; object-fit: cover; }
+.news-text { display: block; color: var(--ink-2); margin-top: 2px; }
+.news-link { display: inline-block; margin-right: 10px; font-size: 0.9em; }
+.timeline__text { flex: 1 1 18rem; min-width: 0; }
+.award-item__text { min-width: 0; }
+.award-item__text .zh { margin-top: 1px; }
+
+/* ---------- People ---------- */
+.people-heading { font-size: 1.15em; margin: 1.6em 0 0.6em; display: flex; align-items: baseline; gap: 0.5em; }
+.people-count { font-size: 0.75em; font-weight: 600; color: var(--ink-3); }
+.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 16px 12px; }
+.person { text-align: center; }
+.person__photo {
+  width: 88px; height: 88px; margin: 0 auto 8px;
+  border-radius: 50%;
+  border: 2px dashed var(--border);
+  background: var(--surface-2);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--ink-3); font-size: 1.8rem; overflow: hidden;
+}
+.person__photo img { width: 100%; height: 100%; object-fit: cover; }
+.person__name { font-weight: 600; font-size: 0.92em; }
+.person__zh { color: var(--ink-3); font-size: 0.85em; }
+.alumni-row { display: flex; gap: 14px; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--border); }
+.alumni-row:last-child { border-bottom: 0; }
+.alumni-row__year { flex: 0 0 6.5rem; font-weight: 700; color: var(--ink-3); font-size: 0.85rem; white-space: nowrap; }
+.alumni-row__names { display: flex; flex-wrap: wrap; gap: 2px 0; }
+
+/* ---------- Equipment ---------- */
+.gpu-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0.8em 0 1.2em; }
+.gpu-chip { padding: 5px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); font-size: 0.9em; box-shadow: var(--card-shadow); }
+.gpu-chip strong { color: var(--accent); }
+.table-wrap { overflow-x: auto; }
+.lab-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; font-size: 0.93em; }
+.lab-table th, .lab-table td { padding: 9px 14px; text-align: left; border-bottom: 1px solid var(--border); }
+.lab-table th { background: var(--surface-2); color: var(--ink-2); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.05em; }
+.lab-table tr:last-child td { border-bottom: 0; }
+.equip-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+.equip-card { margin: 0; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--surface); box-shadow: var(--card-shadow); }
+.equip-card a.zoom, .equip-card img { display: block; width: 100%; height: auto; }
+.equip-card img { aspect-ratio: 4 / 3; object-fit: cover; }
+.equip-card figcaption { padding: 8px 12px; font-size: 0.88em; color: var(--ink-2); }
+
+/* ---------- Videos ---------- */
+.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin: 0.4em 0 1em; }
+.video-grid--tight { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 4px; }
+.video-grid--tight .yt-lite { width: 260px; }
+.video-card { margin: 0; }
+.video-card figcaption { font-size: 0.86em; color: var(--ink-2); margin-top: 6px; }
+.yt-lite { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 10px; border: 1px solid var(--border); background: #000; line-height: 0; }
+.yt-lite img { width: 100%; height: 100%; object-fit: cover; opacity: 0.92; transition: opacity 0.2s ease; }
+.yt-lite:hover img { opacity: 1; }
+.yt-lite__play { position: absolute; left: 50%; top: 50%; width: 56px; height: 40px; margin: -20px 0 0 -28px; border-radius: 10px; background: rgba(220, 38, 38, 0.92); }
+.yt-lite__play::after { content: ""; position: absolute; left: 22px; top: 11px; border-left: 15px solid #fff; border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
+iframe[src*="youtube"] { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 10px; }
+.video-grid--tight iframe { width: 260px; }
+.demo-item { padding: 0.4em 0 0.8em; border-bottom: 1px solid var(--border); }
+.demo-item h3 { margin: 0.8em 0 0.3em; font-size: 1.05em; }
+.demo-item p { margin: 0.2em 0; color: var(--ink-2); }
+
+/* ---------- Gallery ---------- */
+.gallery-event { margin-bottom: 1.4rem; }
+.gallery-event h3 { margin: 0.2em 0 0.4em; font-size: 1.02em; }
+.gallery-event__date { color: var(--ink-3); font-weight: 700; font-size: 0.85em; margin-right: 0.5em; }
+.gallery-event__note { margin: 0 0 6px; color: var(--ink-2); }
+
+/* ---------- Resources ---------- */
+.dataset-list { padding-left: 1.2em; }
+details.hw { border-bottom: 1px solid var(--border); padding: 4px 0; }
+details.hw > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+.hw__body { padding: 2px 0 10px 1em; color: var(--ink-2); }
+.hw__body p { margin: 0.3em 0; }
+
+/* ---------- Location / footer ---------- */
+.lab-address { font-style: normal; }
+.lab-address p { margin: 0.3em 0; }
+.lab-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--ink-3); font-size: 0.82rem; }
+.lab-footer a { color: var(--ink-2); }
+
+h1 { scroll-margin-top: 4em; }
+
+/* Keep grid video cards the same width even before the thumbnail has loaded */
+.video-card .yt-lite, .video-card iframe { width: 100%; }
+.yt-lite img { display: block; }

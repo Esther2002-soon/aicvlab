@@ -1,0 +1,317 @@
+---
+layout: default
+title: "AICV Lab"
+---
+{% assign lab = site.data.lab %}
+{% assign eq = site.data.equipment %}
+{% assign pubs = site.data.scholar_publications %}
+{% assign st = site.data.scholar_stats %}
+{% assign adv = site.data.advisor %}
+
+<span class="anchor" id="about"></span>
+<div class="hero">
+  <span class="hero__blob hero__blob--1" aria-hidden="true"></span>
+  <span class="hero__blob hero__blob--2" aria-hidden="true"></span>
+  <p class="hero__greet">{{ lab.college }}, {{ lab.university }}</p>
+  <h1 class="hero__name">{{ lab.name }}</h1>
+  <p class="hero__typing-line">{{ lab.full_name }}</p>
+
+  <div class="hero__intro">
+    <p>The AICV Lab, situated in the AI College at National Yang Ming Chiao Tung University, was established in {{ lab.founded }} under the leadership of Dr. Jun-Wei Hsieh. Our research focuses on intelligent image and video processing, multimedia standards, and associated technologies.</p>
+    <p>The lab runs its own GPU cluster with {{ eq.total_gpus }} GPUs across {{ eq.total_servers }} servers, ranging from A100, RTX 5090 and RTX 4090 down to RTX 2080 Ti class cards. See <a href="#equipment" target="_self">Equipment</a> for the full list.</p>
+  </div>
+
+  <div class="hero__interests">
+    {% for f in adv.fields %}<span class="tag-chip">{{ f }}</span>{% endfor %}
+  </div>
+
+  <div class="stats-row" aria-label="Lab metrics">
+    {% if pubs.count > 0 %}
+    <a class="stat-tile" href="#publications" target="_self">
+      <span class="stat-tile__value js-count" data-count="{{ pubs.count }}">0</span>
+      <span class="stat-tile__label">Publications</span>
+    </a>
+    <a class="stat-tile" href="{{ site.scholar.url }}" target="_blank" rel="noopener">
+      <span class="stat-tile__value js-count js-cit-count" data-count="{{ st.citations }}">0</span>
+      <span class="stat-tile__label">Citations</span>
+    </a>
+    <a class="stat-tile" href="{{ site.scholar.url }}" target="_blank" rel="noopener">
+      <span class="stat-tile__value js-count" data-count="{{ st.h_index }}">0</span>
+      <span class="stat-tile__label">h-index</span>
+    </a>
+    <a class="stat-tile" href="{{ site.scholar.url }}" target="_blank" rel="noopener">
+      <span class="stat-tile__value js-count" data-count="{{ st.i10_index }}">0</span>
+      <span class="stat-tile__label">i10-index</span>
+    </a>
+    {% endif %}
+    <a class="stat-tile" href="#equipment" target="_self">
+      <span class="stat-tile__value js-count" data-count="{{ eq.total_gpus }}">0</span>
+      <span class="stat-tile__label">GPUs</span>
+    </a>
+    <a class="stat-tile" href="#awards" target="_self">
+      <span class="stat-tile__value js-count" data-count="{% assign n = 0 %}{% for y in site.data.awards %}{% assign n = n | plus: y.items.size %}{% endfor %}{{ n }}">0</span>
+      <span class="stat-tile__label">Awards</span>
+    </a>
+  </div>
+</div>
+
+<span class="anchor" id="advisor"></span>
+<h1>Advisor</h1>
+
+<div class="advisor-card">
+  <div class="advisor-card__photo">
+    <img src="{{ adv.photo.src | relative_url }}" width="{{ adv.photo.w }}" height="{{ adv.photo.h }}" alt="{{ adv.name }}" loading="lazy">
+  </div>
+  <div class="advisor-card__body">
+    <h2 class="advisor-card__name">{{ adv.name }} <span lang="zh-Hant">{{ adv.zh }}</span></h2>
+    <p class="advisor-card__title">{{ adv.title }}</p>
+    <p><a class="btn-pill" href="{{ site.scholar.url }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></p>
+    <h3>Education</h3>
+    <ul>{% for e in adv.education %}<li>{{ e }}</li>{% endfor %}</ul>
+    <h3>Experience</h3>
+    <ul>{% for e in adv.experience %}<li>{{ e }}</li>{% endfor %}</ul>
+  </div>
+</div>
+
+<span class="anchor" id="news"></span>
+<h1>News</h1>
+
+{% for y in site.data.news %}
+<details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{{ y.items.size }} item{% if y.items.size != 1 %}s{% endif %}</span></summary>
+  <div class="pub-topic__scroll">
+    <div class="timeline">
+    {% for item in y.items %}
+      <div class="timeline__item">
+        <span class="timeline__dot" aria-hidden="true"></span>
+        <span class="timeline__date">{{ item.date }}</span>
+        <span class="timeline__text">
+          <strong>{{ item.title }}</strong>
+          {% if item.text %}<span class="news-text">{{ item.text }}</span>{% endif %}
+          {% for l in item.links %}<a class="news-link" href="{{ l.url }}" target="_blank" rel="noopener">{% if l.label and l.label != 'Link' %}{{ l.label }}{% else %}Link{% endif %}</a>{% endfor %}
+          {% if item.images %}<span class="thumbs">{% for im in item.images %}{% include img.html img=im alt=item.title %}{% endfor %}</span>{% endif %}
+          {% if item.videos %}<span class="video-grid video-grid--tight">{% for v in item.videos %}{% include yt.html id=v title=item.title %}{% endfor %}</span>{% endif %}
+        </span>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</details>
+{% endfor %}
+
+<span class="anchor" id="awards"></span>
+<h1>Awards</h1>
+
+<p class="lab-note">Honors and awards of the advisor and the lab. Certificate photos that could not be matched to a specific award are shown under the year they belong to.</p>
+
+{% for y in site.data.awards %}
+<details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{% if y.items.size > 0 %}{{ y.items.size }} award{% if y.items.size != 1 %}s{% endif %}{% endif %}{% if y.items.size > 0 and y.certificates.size > 0 %}, {% endif %}{% if y.certificates.size > 0 %}{{ y.certificates.size }} certificate{% if y.certificates.size != 1 %}s{% endif %}{% endif %}</span></summary>
+  <div class="pub-topic__scroll">
+    {% if y.items.size > 0 %}
+    <div class="award-list">
+      {% for a in y.items %}
+      <div class="award-item{% if a.tier %} award-item--{{ a.tier }}{% endif %}">
+        <span class="award-item__medal" aria-hidden="true">{% case a.tier %}{% when 'gold' %}🥇{% when 'silver' %}🥈{% when 'bronze' %}🥉{% else %}🏅{% endcase %}</span>
+        <span class="award-item__text"><strong>{{ a.title }}</strong>{% if a.zh %}<span class="zh" lang="zh-Hant">{{ a.zh }}</span>{% endif %}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if y.certificates.size > 0 %}
+    <p class="sub-label">Certificates</p>
+    <div class="thumbs thumbs--grid">{% for im in y.certificates %}{% include img.html img=im alt="Award certificate" %}{% endfor %}</div>
+    {% endif %}
+  </div>
+</details>
+{% endfor %}
+
+<span class="anchor" id="publications"></span>
+<h1>Publications</h1>
+
+{% if pubs.count > 0 %}
+<p class="lab-note">This list is synchronized automatically from <a href="{{ site.scholar.url }}" target="_blank" rel="noopener">Professor Hsieh's Google Scholar profile</a>. It currently has {{ pubs.count }} papers{% if pubs.updated %}, last changed on {{ pubs.updated | date: "%Y-%m-%d" }}{% endif %}. Titles link to Google Scholar.</p>
+
+<div class="publication-search" role="search">
+  <label for="publication-search-input">Search publications</label>
+  <input id="publication-search-input" type="search" placeholder="Title, author, venue, or year" autocomplete="off">
+  <p id="publication-search-status" class="publication-search__status" aria-live="polite"></p>
+</div>
+
+{% for y in pubs.years %}
+<details class="pub-topic pub-topic--year" id="pubs-{{ y.year }}"{% if forloop.first %} open{% endif %}>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{{ y.items.size }} paper{% if y.items.size != 1 %}s{% endif %}</span></summary>
+  <div class="pub-topic__scroll">
+    <ol class="scholar-pub-list scholar-pub-list--year">
+      {% for p in y.items %}
+      <li class="all-publication-item">
+        <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>
+        <span class="scholar-pub-meta">{{ p.authors }}{% if p.authors %}. {% endif %}{{ p.venue }}{% if p.venue %}.{% endif %}</span>
+        {% if p.cited_by > 0 %}<span class="cite-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Cited by {{ p.cited_by }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</details>
+{% endfor %}
+{% else %}
+<p class="lab-note">The publication list is generated automatically from Google Scholar. It will appear here after the daily update workflow has run for the first time (see README).</p>
+{% endif %}
+
+<span class="anchor" id="people"></span>
+<h1>People</h1>
+
+<h2 class="people-heading">Advisor</h2>
+<div class="people-grid">
+  <div class="person">
+    <div class="person__photo"><img src="{{ adv.photo.src | relative_url }}" width="{{ adv.photo.w }}" height="{{ adv.photo.h }}" alt="{{ adv.name }}" loading="lazy"></div>
+    <div class="person__name">{{ adv.name }}</div>
+    <div class="person__zh" lang="zh-Hant">{{ adv.zh }}</div>
+  </div>
+</div>
+
+{% for g in site.data.people.current %}
+<h2 class="people-heading">{{ g.group }} <span class="people-count">{{ g.people.size }}</span></h2>
+<div class="people-grid">
+  {% for p in g.people %}
+  <div class="person">
+    <div class="person__photo">{% if p.photo %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">{% else %}<i class="fas fa-user" aria-hidden="true"></i>{% endif %}</div>
+    <div class="person__name" lang="zh-Hant">{{ p.name }}</div>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<h2 class="people-heading">Alumni</h2>
+{% for g in site.data.people.alumni %}
+<details class="pub-topic pub-topic--flow">
+  <summary class="pub-topic__toggle"><span>{{ g.group }}</span><span class="pub-topic__count">{% assign total = 0 %}{% for y in g.years %}{% assign total = total | plus: y.names.size %}{% endfor %}{{ total }} alumni</span></summary>
+  <div class="pub-topic__scroll">
+    {% for y in g.years %}
+    <div class="alumni-row">
+      <span class="alumni-row__year">{{ y.label }}</span>
+      <span class="alumni-row__names">{% for n in y.names %}<span class="tag-chip" lang="zh-Hant">{{ n }}</span>{% endfor %}</span>
+    </div>
+    {% endfor %}
+  </div>
+</details>
+{% endfor %}
+
+<span class="anchor" id="equipment"></span>
+<h1>Equipment</h1>
+
+<p>{{ eq.total_gpus }} GPUs across {{ eq.total_servers }} servers.</p>
+<div class="gpu-chips">
+  {% for t in eq.totals %}<span class="gpu-chip"><strong>{{ t.count }}&times;</strong> {{ t.model }}</span>{% endfor %}
+</div>
+
+<div class="table-wrap">
+<table class="lab-table">
+  <thead><tr><th>Server</th><th>GPUs</th></tr></thead>
+  <tbody>
+    {% for s in eq.servers %}
+    <tr><td>{{ s.name }}</td><td>{% for g in s.gpus %}{{ g.count }}&times; {{ g.model }}{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="lab-note">{{ eq.note }}</p>
+
+{% assign ph = site.data.equipment_photos %}
+<h2 class="people-heading">Other equipment</h2>
+<div class="equip-grid">
+  <figure class="equip-card">{% include img.html img=ph.rack1 alt="GPU servers" %}<figcaption>GPU servers for deep learning</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.rack2 alt="GPU servers" %}<figcaption>GPU server racks</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.gpu alt="Good GPU for deep learning" %}<figcaption>GPUs for deep learning</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.uav alt="UAV and drones" %}<figcaption>UAV and drones</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.imac alt="iMac and PC with large monitors" %}<figcaption>iMac 27&prime; and PCs with 27&prime;/32&prime; monitors</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.printer alt="3D printer" %}<figcaption>3D printer</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.laptop alt="ROG laptop" %}<figcaption>ROG laptop with RTX 2080 / 3080</figcaption></figure>
+  <figure class="equip-card">{% include img.html img=ph.jetson alt="Jetson TX2" %}<figcaption>Jetson TX2 &times; 3</figcaption></figure>
+</div>
+
+<span class="anchor" id="courses"></span>
+<h1>Courses</h1>
+
+<p class="lab-note">Lecture videos (in Chinese). Click a thumbnail to play.</p>
+{% for s in site.data.courses %}
+<h2 class="people-heading">{{ s.series }}</h2>
+<div class="video-grid">
+  {% for l in s.lectures %}
+  <figure class="video-card">{% include yt.html id=l.video title=l.title %}<figcaption lang="zh-Hant">{{ l.title }}</figcaption></figure>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<span class="anchor" id="demo"></span>
+<h1>Demo</h1>
+
+<div class="demo-list">
+{% for d in site.data.demos %}
+  <section class="demo-item">
+    <h3 lang="zh-Hant">{{ d.title }}</h3>
+    {% if d.text %}<p lang="zh-Hant">{{ d.text }}</p>{% endif %}
+    {% if d.videos %}<div class="video-grid video-grid--tight">{% for v in d.videos %}{% include yt.html id=v title=d.title %}{% endfor %}</div>{% endif %}
+    {% if d.images %}<div class="thumbs">{% for im in d.images %}{% include img.html img=im alt=d.title %}{% endfor %}</div>{% endif %}
+  </section>
+{% endfor %}
+</div>
+
+<span class="anchor" id="gallery"></span>
+<h1>Gallery</h1>
+
+{% for y in site.data.gallery %}
+<details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
+  <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count">{{ y.events.size }} event{% if y.events.size != 1 %}s{% endif %}</span></summary>
+  <div class="pub-topic__scroll">
+    {% for e in y.events %}
+    <section class="gallery-event">
+      <h3><span class="gallery-event__date">{{ e.date }}</span> {{ e.title }}</h3>
+      {% if e.note %}<p class="gallery-event__note" lang="zh-Hant">{{ e.note }}</p>{% endif %}
+      <div class="thumbs thumbs--grid">{% for im in e.images %}{% include img.html img=im alt=e.title %}{% endfor %}</div>
+    </section>
+    {% endfor %}
+  </div>
+</details>
+{% endfor %}
+
+<span class="anchor" id="resources"></span>
+<h1>Resources</h1>
+
+<h2 class="people-heading">Opening Dataset</h2>
+<ul class="dataset-list">
+  {% for d in site.data.resources.datasets %}
+  <li><a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.name }}</a>{% if d.zh %} <span class="zh" lang="zh-Hant">{{ d.zh }}</span>{% endif %}</li>
+  {% endfor %}
+</ul>
+
+<h2 class="people-heading">Coding Practice</h2>
+<p class="lab-note">Course assignments, kept in their original language (Chinese).</p>
+<details class="pub-topic pub-topic--flow">
+  <summary class="pub-topic__toggle"><span>Assignments</span><span class="pub-topic__count">{{ site.data.coding_practice.size }} items</span></summary>
+  <div class="pub-topic__scroll">
+    {% for hw in site.data.coding_practice %}
+    <details class="hw">
+      <summary>{{ hw.title }}</summary>
+      <div class="hw__body" lang="zh-Hant">
+        {% for t in hw.text %}<p>{{ t }}</p>{% endfor %}
+        {% for l in hw.links %}<p><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></p>{% endfor %}
+        {% if hw.images %}<div class="thumbs">{% for im in hw.images %}{% include img.html img=im alt=hw.title %}{% endfor %}</div>{% endif %}
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+</details>
+
+<span class="anchor" id="location"></span>
+<h1>Location</h1>
+
+<address class="lab-address">
+  <p>{{ lab.address_en }}</p>
+  <p lang="zh-Hant">{{ lab.address_zh }}</p>
+  <p><a class="btn-pill" href="https://www.google.com/maps/search/?api=1&amp;query={{ lab.address_zh | url_encode }}" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Open in Google Maps</a></p>
+</address>
+
+<footer class="lab-footer">
+  <p>&copy; {{ site.time | date: "%Y" }} {{ lab.name }}, {{ lab.university }}. Page layout adapted from <a href="https://github.com/mingching/mingching.github.io" target="_blank" rel="noopener">mingching.github.io</a> (MIT License, see LICENSE).</p>
+</footer>

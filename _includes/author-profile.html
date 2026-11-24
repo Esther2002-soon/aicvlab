@@ -1,0 +1,13 @@
+<div itemscope itemtype="http://schema.org/Organization" class="profile_box">
+  <div class="author__avatar"><img src="{{ '/assets/img/logo.svg' | relative_url }}" class="author__avatar" alt="AICV Lab logo" width="160" height="160"></div>
+  <div class="author__content">
+    <h3 class="author__name">{{ site.data.lab.name }}</h3>
+    <p class="author__bio">{{ site.data.lab.college }}<br>{{ site.data.lab.university }}</p>
+  </div>
+  <div class="author__urls-wrapper"><ul class="author__urls social-icons">
+    <li><a href="#about" target="_self">About</a></li>
+    <li><a href="#advisor" target="_self">Advisor</a></li>
+    <li><a href="{{ site.scholar.url }}" target="_blank" rel="noopener">Google Scholar</a></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&amp;query={{ site.data.lab.address_zh | url_encode }}" target="_blank" rel="noopener">Location</a></li>
+  </ul></div>
+</div>
