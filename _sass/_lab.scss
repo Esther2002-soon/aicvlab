@@ -22,6 +22,21 @@
   margin-bottom: 1.5rem;
 }
 .advisor-card__photo img { width: 100%; height: auto; border-radius: 14px; display: block; }
+
+/* Advisor photo: flips like a coin to a second photo */
+.flip { position: relative; width: 100%; aspect-ratio: 1 / 1; perspective: 800px; cursor: pointer; border-radius: 14px; outline-offset: 3px; }
+.flip__inner { position: relative; width: 100%; height: 100%; transition: transform 0.7s cubic-bezier(.4, .2, .2, 1); transform-style: preserve-3d; }
+.flip:focus-visible .flip__inner, .flip.is-flipped .flip__inner { transform: rotateY(180deg); }
+@media (hover: hover) { .flip:hover .flip__inner { transform: rotateY(180deg); } }
+.advisor-card__photo .flip__face { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; backface-visibility: hidden; -webkit-backface-visibility: hidden; box-shadow: var(--card-shadow); }
+.advisor-card__photo .flip__back { transform: rotateY(180deg); object-position: 50% 8%; }
+@media (prefers-reduced-motion: reduce) {
+  .flip__inner { transition: none; transform-style: flat; }
+  .flip__face { transition: opacity 0.2s; }
+  .flip__back { transform: none; opacity: 0; }
+  .flip:hover .flip__inner, .flip:focus-visible .flip__inner, .flip.is-flipped .flip__inner { transform: none; }
+  .flip:hover .flip__back, .flip:focus-visible .flip__back, .flip.is-flipped .flip__back { opacity: 1; }
+}
 .advisor-card__name { margin: 0 0 0.1em; font-size: 1.5em; }
 .advisor-card__name span { font-size: 0.7em; font-weight: 500; color: var(--ink-2); margin-left: 0.4em; }
 .advisor-card__title { margin: 0 0 0.8em; color: var(--ink-2); }
@@ -114,8 +129,18 @@ details.hw > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .lab-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--ink-3); font-size: 0.82rem; }
 .lab-footer a { color: var(--ink-2); }
 
-h1 { scroll-margin-top: 4em; }
 
 /* Keep grid video cards the same width even before the thumbnail has loaded */
 .video-card .yt-lite, .video-card iframe { width: 100%; }
 .yt-lite img { display: block; }
+
+/* ---------- Publication sort toggle ---------- */
+[hidden] { display: none !important; }
+.pub-sort { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.4rem; }
+.pub-sort__label { color: var(--ink-2); font-size: 0.9rem; font-weight: 600; }
+.pub-sort__btn { padding: 0.3rem 0.9rem; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--ink); font: inherit; font-size: 0.9rem; cursor: pointer; }
+.pub-sort__btn:hover { border-color: var(--accent); }
+.pub-sort__btn.is-active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+.pub-year-chip { display: none; margin: 0 6px 6px 0; padding: 2px 11px; font-size: 0.75rem; font-weight: 700; border-radius: 999px; border: 1px solid var(--border); color: var(--ink-2); }
+#pubs-by-cites .pub-year-chip { display: inline-block; }
+#pubs-by-cites .pub-topic__scroll { max-height: 60rem; }

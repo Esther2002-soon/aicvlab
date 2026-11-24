@@ -60,7 +60,12 @@ title: "AICV Lab"
 
 <div class="advisor-card">
   <div class="advisor-card__photo">
-    <img src="{{ adv.photo.src | relative_url }}" width="{{ adv.photo.w }}" height="{{ adv.photo.h }}" alt="{{ adv.name }}" loading="lazy">
+    <div class="flip" tabindex="0" role="button" aria-pressed="false" aria-label="{{ adv.name }} photo. Press to flip.">
+      <div class="flip__inner">
+        <img class="flip__face flip__front" src="{{ adv.photo.src | relative_url }}" width="{{ adv.photo.w }}" height="{{ adv.photo.h }}" alt="{{ adv.name }}" loading="lazy">
+        <img class="flip__face flip__back" src="{{ adv.photo_back.src | relative_url }}" width="{{ adv.photo_back.w }}" height="{{ adv.photo_back.h }}" alt="{{ adv.photo_back.alt }}" loading="lazy">
+      </div>
+    </div>
   </div>
   <div class="advisor-card__body">
     <h2 class="advisor-card__name">{{ adv.name }} <span lang="zh-Hant">{{ adv.zh }}</span></h2>
@@ -136,7 +141,20 @@ title: "AICV Lab"
   <label for="publication-search-input">Search publications</label>
   <input id="publication-search-input" type="search" placeholder="Title, author, venue, or year" autocomplete="off">
   <p id="publication-search-status" class="publication-search__status" aria-live="polite"></p>
+  <div class="pub-sort" role="group" aria-label="Sort publications">
+    <span class="pub-sort__label">Sort by</span>
+    <button type="button" class="pub-sort__btn is-active" data-sort="year" aria-pressed="true">Year</button>
+    <button type="button" class="pub-sort__btn" data-sort="cites" aria-pressed="false">Citations</button>
+  </div>
 </div>
+
+<div id="pubs-by-cites" class="pub-topic pub-topic--year" hidden>
+  <div class="pub-topic__scroll">
+    <ol class="scholar-pub-list scholar-pub-list--flat" id="pubs-flat-list"></ol>
+  </div>
+</div>
+
+<div id="pubs-by-year">
 
 {% for y in pubs.years %}
 <details class="pub-topic pub-topic--year" id="pubs-{{ y.year }}"{% if forloop.first %} open{% endif %}>
@@ -144,16 +162,17 @@ title: "AICV Lab"
   <div class="pub-topic__scroll">
     <ol class="scholar-pub-list scholar-pub-list--year">
       {% for p in y.items %}
-      <li class="all-publication-item">
+      <li class="all-publication-item" data-cited="{{ p.cited_by | default: 0 }}" data-year="{{ y.year }}">
         <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>
         <span class="scholar-pub-meta">{{ p.authors }}{% if p.authors %}. {% endif %}{{ p.venue }}{% if p.venue %}.{% endif %}</span>
-        {% if p.cited_by > 0 %}<span class="cite-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Cited by {{ p.cited_by }}</span>{% endif %}
+        {% if p.cited_by > 0 %}<span class="cite-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Cited by {{ p.cited_by }}</span>{% endif %}<span class="pub-year-chip">{{ y.year }}</span>
       </li>
       {% endfor %}
     </ol>
   </div>
 </details>
 {% endfor %}
+</div>
 {% else %}
 <p class="lab-note">The publication list is generated automatically from Google Scholar. It will appear here after the daily update workflow has run for the first time (see README).</p>
 {% endif %}

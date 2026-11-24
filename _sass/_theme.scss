@@ -47,7 +47,8 @@ html[data-theme="dark"] {
 
 /* ---------- 2. Global surfaces ---------- */
 
-html { scroll-behavior: smooth; background: var(--bg); }
+html { scroll-behavior: smooth; background: var(--bg); overflow-x: hidden; }
+body { overflow-x: clip; } /* decorative hero blobs must not create a sideways scrollbar */
 
 body {
   background: var(--bg);
@@ -449,7 +450,9 @@ html[data-theme="dark"] .author__urls_sm i[class*="ai-"] {
 }
 .publication-search label { display: block; margin-bottom: 0.45rem; color: #124b7c; font-weight: 800; font-size: 1.05rem; }
 .publication-search input {
+  box-sizing: border-box;
   width: 100%;
+  max-width: 100%;
   padding: 0.7rem 0.8rem;
   border: 1px solid #77addb;
   border-radius: 8px;

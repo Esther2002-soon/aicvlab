@@ -406,5 +406,51 @@
         publicationStatus.textContent = query ? visible + " matching publication" + (visible === 1 ? "" : "s") + "." : "";
       }
     });
+
+    /* Sort toggle: by year (grouped) or by citations (one flat list). The same <li>
+       elements are moved between the two views, so search keeps working in both. */
+    var byYear = document.getElementById("pubs-by-year");
+    var byCites = document.getElementById("pubs-by-cites");
+    var flatList = document.getElementById("pubs-flat-list");
+    var sortButtons = Array.prototype.slice.call(document.querySelectorAll(".pub-sort__btn"));
+    if (byYear && byCites && flatList && sortButtons.length) {
+      var homes = publicationItems.map(function (li) { return { li: li, parent: li.parentNode }; });
+      var setSort = function (mode) {
+        if (mode === "cites") {
+          publicationItems.slice().sort(function (a, b) {
+            return (parseInt(b.getAttribute("data-cited"), 10) || 0) - (parseInt(a.getAttribute("data-cited"), 10) || 0);
+          }).forEach(function (li) { flatList.appendChild(li); });
+          byYear.hidden = true;
+          byCites.hidden = false;
+        } else {
+          homes.forEach(function (h) { h.parent.appendChild(h.li); });
+          byCites.hidden = true;
+          byYear.hidden = false;
+        }
+        sortButtons.forEach(function (b) {
+          var on = b.getAttribute("data-sort") === mode;
+          b.classList.toggle("is-active", on);
+          b.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+      };
+      sortButtons.forEach(function (b) {
+        b.addEventListener("click", function () { setSort(b.getAttribute("data-sort")); });
+      });
+    }
   }
+
+  /* ---------- Advisor photo flip (hover on desktop, tap or Enter elsewhere) ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll(".flip"), function (card) {
+    var toggle = function () {
+      var on = card.classList.toggle("is-flipped");
+      card.setAttribute("aria-pressed", on ? "true" : "false");
+    };
+    card.addEventListener("click", function () {
+      if (window.matchMedia && window.matchMedia("(hover: hover)").matches) return; /* desktop uses hover */
+      toggle();
+    });
+    card.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); }
+    });
+  });
 })();

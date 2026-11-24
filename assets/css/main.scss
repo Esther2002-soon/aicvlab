@@ -44,12 +44,8 @@
 
 // anchor scroll offset — must clear the sticky masthead
 $scroll_offset : 4em;
-h1:before, .anchor:before {
-    content: '';
-    display: block;
-    position: relative;
-    width: 0;
-    height: $scroll_offset;
-    margin-top: -$scroll_offset;
-}
+// Anchor jumps must clear the sticky masthead. (Do NOT use a negative-margin
+// pseudo-element here: it overlays the element above the heading and blocks clicks.)
+h1, .anchor { scroll-margin-top: $scroll_offset; }
+.anchor { display: block; height: 0; }
 @import "lab"; // AICV lab additions (people, equipment, gallery, videos)
