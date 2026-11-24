@@ -76,9 +76,9 @@ title: "AICV Lab"
     <p class="advisor-card__title">{% include t.html en=adv.title zh=adv.title_zh %}</p>
     <p><a class="btn-pill" href="{{ site.scholar.url }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></p>
     <h3>{% include t.html en="Education" zh="學歷" %}</h3>
-    <ul>{% for e in adv.education %}<li>{% include t.html en=e zh=adv.education_zh[forloop.index0] %}</li>{% endfor %}</ul>
+    <ul>{% for e in adv.education %}{% assign ez = adv.education_zh[forloop.index0] %}<li>{% include t.html en=e zh=ez %}</li>{% endfor %}</ul>
     <h3>{% include t.html en="Experience" zh="經歷" %}</h3>
-    <ul>{% for e in adv.experience %}<li>{% include t.html en=e zh=adv.experience_zh[forloop.index0] %}</li>{% endfor %}</ul>
+    <ul>{% for e in adv.experience %}{% assign ez = adv.experience_zh[forloop.index0] %}<li>{% include t.html en=e zh=ez %}</li>{% endfor %}</ul>
   </div>
 </div>
 
@@ -195,7 +195,7 @@ title: "AICV Lab"
 </div>
 
 {% for g in site.data.people.current %}
-<h2 class="people-heading">{% include t.html en=g.group zh=site.data.i18n.groups[g.group] %} <span class="people-count">{{ g.people.size }}</span></h2>
+<h2 class="people-heading">{% assign gz = site.data.i18n.groups[g.group] %}{% include t.html en=g.group zh=gz %} <span class="people-count">{{ g.people.size }}</span></h2>
 <div class="people-grid">
   {% for p in g.people %}
   <div class="person">
@@ -209,7 +209,7 @@ title: "AICV Lab"
 <h2 class="people-heading">{% include t.html en="Alumni" zh="畢業生" %}</h2>
 {% for g in site.data.people.alumni %}
 <details class="pub-topic pub-topic--flow">
-  <summary class="pub-topic__toggle"><span>{% include t.html en=g.group zh=site.data.i18n.groups[g.group] %}</span><span class="pub-topic__count">{% assign total = 0 %}{% for y in g.years %}{% assign total = total | plus: y.names.size %}{% endfor %}<span class="i18n-en">{{ total }} alumni</span><span class="i18n-zh" lang="zh-Hant">{{ total }} 位</span></span></summary>
+  <summary class="pub-topic__toggle"><span>{% assign gz = site.data.i18n.groups[g.group] %}{% include t.html en=g.group zh=gz %}</span><span class="pub-topic__count">{% assign total = 0 %}{% for y in g.years %}{% assign total = total | plus: y.names.size %}{% endfor %}<span class="i18n-en">{{ total }} alumni</span><span class="i18n-zh" lang="zh-Hant">{{ total }} 位</span></span></summary>
   <div class="pub-topic__scroll">
     {% for y in g.years %}
     <div class="alumni-row">
