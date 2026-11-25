@@ -86,7 +86,7 @@ title: "AICV Lab"
 <h1>{% include t.html en="News" zh="消息" %}</h1>
 
 {% for y in site.data.news %}
-{% if forloop.index == 4 %}{% assign more_n = site.data.news.size | minus: 3 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More ({{ more_n }} earlier year{% if more_n != 1 %}s{% endif %})</span><span class="i18n-zh" lang="zh-Hant">更多（{{ more_n }} 個較早的年份）</span></summary><div class="more-years__body">{% endif %}
+{% if forloop.index == 4 %}{% assign more_n = site.data.news.size | minus: 3 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More</span><span class="i18n-zh" lang="zh-Hant">更多</span></summary><div class="more-years__body">{% endif %}
 <details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
   <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{{ y.items.size }} item{% if y.items.size != 1 %}s{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{{ y.items.size }} 則</span></span></summary>
   <div class="pub-topic__scroll">
@@ -113,10 +113,9 @@ title: "AICV Lab"
 <span class="anchor" id="awards"></span>
 <h1>{% include t.html en="Awards" zh="獎項" %}</h1>
 
-<p class="lab-note"><span class="i18n-en">Honors and awards of the advisor and the lab. Certificate photos that could not be matched to a specific award are shown under the year they belong to.</span><span class="i18n-zh" lang="zh-Hant">指導教授與實驗室所獲得的榮譽與獎項。無法對應到特定獎項的獎狀照片，會歸在所屬年份的獎狀項目下。</span></p>
 
 {% for y in site.data.awards %}
-{% if forloop.index == 4 %}{% assign more_n = site.data.awards.size | minus: 3 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More ({{ more_n }} earlier year{% if more_n != 1 %}s{% endif %})</span><span class="i18n-zh" lang="zh-Hant">更多（{{ more_n }} 個較早的年份）</span></summary><div class="more-years__body">{% endif %}
+{% if forloop.index == 4 %}{% assign more_n = site.data.awards.size | minus: 3 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More</span><span class="i18n-zh" lang="zh-Hant">更多</span></summary><div class="more-years__body">{% endif %}
 <details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
   <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{% if y.items.size > 0 %}{{ y.items.size }} award{% if y.items.size != 1 %}s{% endif %}{% endif %}{% if y.items.size > 0 and y.certificates.size > 0 %}, {% endif %}{% if y.certificates.size > 0 %}{{ y.certificates.size }} certificate{% if y.certificates.size != 1 %}s{% endif %}{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{% if y.items.size > 0 %}{{ y.items.size }} 項獎項{% endif %}{% if y.items.size > 0 and y.certificates.size > 0 %}、{% endif %}{% if y.certificates.size > 0 %}{{ y.certificates.size }} 張獎狀{% endif %}</span></span></summary>
   <div class="pub-topic__scroll">
@@ -143,8 +142,6 @@ title: "AICV Lab"
 <h1>{% include t.html en="Publications" zh="論文" %}</h1>
 
 {% if pubs.count > 0 %}
-<p class="lab-note i18n-en">This list is synchronized automatically from <a href="{{ site.scholar.url }}" target="_blank" rel="noopener">Professor Hsieh's Google Scholar profile</a>. It currently has {{ pubs.count }} papers{% if pubs.updated %}, last changed on {{ pubs.updated | date: "%Y-%m-%d" }}{% endif %}. Titles link to Google Scholar.</p>
-<p class="lab-note i18n-zh" lang="zh-Hant">此清單自動同步自謝君偉教授的 <a href="{{ site.scholar.url }}" target="_blank" rel="noopener">Google Scholar 頁面</a>，目前共有 {{ pubs.count }} 篇論文{% if pubs.updated %}，最後更新於 {{ pubs.updated | date: "%Y-%m-%d" }}{% endif %}。點選標題會前往 Google Scholar。論文標題與作者維持原文。</p>
 
 <div class="publication-search" role="search">
   <label for="publication-search-input">{% include t.html en="Search publications" zh="搜尋論文" %}</label>
@@ -166,7 +163,6 @@ title: "AICV Lab"
 <div id="pubs-by-year">
 
 {% for y in pubs.years %}
-{% if forloop.index == 4 %}{% assign more_n = pubs.years.size | minus: 3 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More ({{ more_n }} earlier year{% if more_n != 1 %}s{% endif %})</span><span class="i18n-zh" lang="zh-Hant">更多（{{ more_n }} 個較早的年份）</span></summary><div class="more-years__body">{% endif %}
 <details class="pub-topic pub-topic--year" id="pubs-{{ y.year }}"{% if forloop.first %} open{% endif %}>
   <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{{ y.items.size }} paper{% if y.items.size != 1 %}s{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{{ y.items.size }} 篇</span></span></summary>
   <div class="pub-topic__scroll">
@@ -181,11 +177,9 @@ title: "AICV Lab"
     </ol>
   </div>
 </details>
-{% if forloop.last and forloop.index > 3 %}</div></details>{% endif %}
 {% endfor %}
 </div>
 {% else %}
-<p class="lab-note"><span class="i18n-en">The publication list is generated automatically from Google Scholar. It will appear here after the daily update workflow has run for the first time (see README).</span><span class="i18n-zh" lang="zh-Hant">論文清單由 Google Scholar 自動產生，每日更新流程首次執行後就會顯示在這裡。</span></p>
 {% endif %}
 
 <span class="anchor" id="people"></span>
@@ -262,7 +256,6 @@ title: "AICV Lab"
 <span class="anchor" id="courses"></span>
 <h1>{% include t.html en="Courses" zh="課程" %}</h1>
 
-<p class="lab-note"><span class="i18n-en">Lecture videos (in Chinese). Click a thumbnail to play.</span><span class="i18n-zh" lang="zh-Hant">課程錄影，點擊縮圖即可播放。</span></p>
 {% for s in site.data.courses %}
 <h2 class="people-heading">{{ s.series }}</h2>
 <div class="video-grid">
@@ -290,7 +283,7 @@ title: "AICV Lab"
 <h1>{% include t.html en="Gallery" zh="相簿" %}</h1>
 
 {% for y in site.data.gallery %}
-{% if forloop.index == 4 %}{% assign more_n = site.data.gallery.size | minus: 3 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More ({{ more_n }} earlier year{% if more_n != 1 %}s{% endif %})</span><span class="i18n-zh" lang="zh-Hant">更多（{{ more_n }} 個較早的年份）</span></summary><div class="more-years__body">{% endif %}
+{% if forloop.index == 4 %}{% assign more_n = site.data.gallery.size | minus: 3 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More</span><span class="i18n-zh" lang="zh-Hant">更多</span></summary><div class="more-years__body">{% endif %}
 <details class="pub-topic pub-topic--year pub-topic--flow"{% if forloop.first %} open{% endif %}>
   <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{{ y.events.size }} event{% if y.events.size != 1 %}s{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{{ y.events.size }} 場活動</span></span></summary>
   <div class="pub-topic__scroll">

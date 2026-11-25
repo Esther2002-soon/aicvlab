@@ -11,7 +11,7 @@ The layout is adapted from <https://github.com/mingching/mingching.github.io> (M
 4. **Settings > Secrets and variables > Actions > New repository secret**, name `SERPAPI_API_KEY`, value is the key.
    Never put the key in a file, the repository is public.
 5. **Actions > Update publications from Google Scholar > Run workflow.** This fills the Publications section.
-   The site is rebuilt automatically afterwards. Later it runs by itself every day at 03:00 Taiwan time.
+   The site is rebuilt automatically afterwards. Later it runs by itself every day at about 03:17 Taiwan time.
 6. Optional. Open `_config.yml` and set `url` to the final address, for example `https://YOUR-USER.github.io`.
 
 If the repository is named `YOUR-USER.github.io` the site lives at `https://YOUR-USER.github.io/`.

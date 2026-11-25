@@ -2,7 +2,7 @@ name: Update publications from Google Scholar
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # every day at 19:00 UTC, which is 03:00 in Taiwan
+    - cron: "17 19 * * *"  # every day at 19:17 UTC (03:17 in Taiwan). Not on the hour, because GitHub delays or drops jobs scheduled at :00
   workflow_dispatch:        # "Run workflow" button in the Actions tab
 
 permissions:
