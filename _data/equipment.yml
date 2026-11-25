@@ -1,8 +1,6 @@
 # GPU inventory. Only models and counts are published. Never add IP addresses or remote-desktop IDs here, this repository is public.
 total_gpus: 84
 total_servers: 13
-note: One RTX 2080 Ti is currently under repair and is included in the count. It will return to service after maintenance.
-note_zh: 其中一張 RTX 2080 Ti 目前送修，已計入總數，維修完成後會恢復使用。
 totals:
 - model: A100
   count: 2

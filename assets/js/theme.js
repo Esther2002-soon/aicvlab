@@ -460,6 +460,8 @@
           if (query && item.closest) {
             var section = item.closest("details.pub-topic");
             if (section) section.open = true;
+            var fold = item.closest("details.more-years");
+            if (fold) fold.open = true;
           }
         }
       });
