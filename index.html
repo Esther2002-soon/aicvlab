@@ -163,6 +163,7 @@ title: "AICV Lab"
 <div id="pubs-by-year">
 
 {% for y in pubs.years %}
+{% if forloop.index == 6 %}<details class="more-years"><summary class="more-years__toggle"><span class="i18n-en">More</span><span class="i18n-zh" lang="zh-Hant">更多</span></summary><div class="more-years__body">{% endif %}
 <details class="pub-topic pub-topic--year" id="pubs-{{ y.year }}"{% if forloop.first %} open{% endif %}>
   <summary class="pub-topic__toggle"><span>{{ y.year }}</span><span class="pub-topic__count"><span class="i18n-en">{{ y.items.size }} paper{% if y.items.size != 1 %}s{% endif %}</span><span class="i18n-zh" lang="zh-Hant">{{ y.items.size }} 篇</span></span></summary>
   <div class="pub-topic__scroll">
@@ -177,6 +178,7 @@ title: "AICV Lab"
     </ol>
   </div>
 </details>
+{% if forloop.last and forloop.index > 5 %}</div></details>{% endif %}
 {% endfor %}
 </div>
 {% else %}

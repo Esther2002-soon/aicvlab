@@ -1,5 +1,5 @@
 <div itemscope itemtype="http://schema.org/Organization" class="profile_box">
-  <div class="author__avatar"><img src="{{ '/assets/img/logo.svg' | relative_url }}" class="author__avatar" alt="AICV Lab logo" width="160" height="160"></div>
+  <div class="author__avatar"><img src="{{ '/assets/img/logo.svg' | relative_url }}?v={{ site.time | date: '%s' }}" class="author__avatar" alt="AICV Lab logo" width="160" height="160"></div>
   <div class="author__content">
     <h3 class="author__name">{{ site.data.lab.name }}</h3>
     <p class="author__bio">{% include t.html en=site.data.lab.college zh=site.data.lab.college_zh %}<br>{% include t.html en=site.data.lab.university zh=site.data.lab.university_zh %}</p>
