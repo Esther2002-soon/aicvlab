@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:58:55Z",
+ "updated": "2026-11-26T17:02:02Z",
  "author_id": "mXUOEzwAAAAJ",
  "count": 365,
  "years": [
@@ -146,7 +146,7 @@
      "title": "Partial Ring Scan: Revisiting Scan Order in Vision State Space Models",
      "authors": "YK Hsieh, JW Hsieh, MC Chang, YC Tseng, KC Peng",
      "venue": "International Conference on Machine Learning (ICML), 2026",
-     "cited_by": 1,
+     "cited_by": 2,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:LdasjJ6CEcoC",
      "citation_id": "mXUOEzwAAAAJ:LdasjJ6CEcoC"
     },
@@ -218,7 +218,7 @@
      "title": "Lightweight Regularized Wavelet-Domain Low-Frequency Color Compensation for Underwater Image Enhancement on Consumer Devices",
      "authors": "WC Hu, XR Huang, HS Hu, JW Hsieh, LB Chen",
      "venue": "2026 IEEE 2nd International Conference on Consumer Technology (ICCT-Pacific …, 2026",
-     "cited_by": 0,
+     "cited_by": 1,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:SjuI4pbJlxcC",
      "citation_id": "mXUOEzwAAAAJ:SjuI4pbJlxcC"
     },
@@ -383,7 +383,7 @@
      "title": "Scale-aware crowd counting network with annotation error modeling",
      "authors": "YK Hsieh, JW Hsieh, X Li, YM Zhang, YC Tseng, MC Chang",
      "venue": "IEEE Transactions on Image Processing 34, 2750-2764, 2025",
-     "cited_by": 5,
+     "cited_by": 6,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:BJbdYPG6LGMC",
      "citation_id": "mXUOEzwAAAAJ:BJbdYPG6LGMC"
     },
@@ -391,7 +391,7 @@
      "title": "Cross-scale overlapping patch-based attention network for road crack detection",
      "authors": "PH Chen, JW Hsieh, YK Hsieh, CW Chang, DY Huang",
      "venue": "IEEE Transactions on Intelligent Transportation Systems 26 (6), 7587-7599, 2025",
-     "cited_by": 11,
+     "cited_by": 12,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:vDZJ-YLwNdEC",
      "citation_id": "mXUOEzwAAAAJ:vDZJ-YLwNdEC"
     },
@@ -758,7 +758,7 @@
      "title": "SFPN: Synthetic FPN for Object Detection",
      "authors": "KCF Yu-Ming Zhang, Jun-Wei Hsieh, Chun-Chieh Lee",
      "venue": "2022 IEEE International Conference on Image Processing (ICIP), 1316-1320, 2022",
-     "cited_by": 38,
+     "cited_by": 39,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tYavs44e6CUC",
      "citation_id": "mXUOEzwAAAAJ:tYavs44e6CUC"
     },
@@ -1000,7 +1000,7 @@
      "title": "CSPNet: AnewbackbonethatcanenhancelearningcapabilityofCNN",
      "authors": "LHY WangcY, YH Wu",
      "venue": "IEEE/CVFConferenceonComputerVisionandPatternRecognitionWorkshops. Piscataway …, 2020",
-     "cited_by": 74,
+     "cited_by": 71,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:cWzG1nlazyYC",
      "citation_id": "mXUOEzwAAAAJ:cWzG1nlazyYC"
     },
@@ -1072,7 +1072,7 @@
      "title": "CSPNet: A new backbone that can enhance learning capability of CNN",
      "authors": "CY Wang, HYM Liao, YH Wu, PY Chen, JW Hsieh, IH Yeh",
      "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2020",
-     "cited_by": 7369,
+     "cited_by": 7379,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NhqRSupF_l8C",
      "citation_id": "mXUOEzwAAAAJ:NhqRSupF_l8C"
     }
@@ -2097,7 +2097,7 @@
      "title": "Vehicle detection using normalized color and edge map",
      "authors": "LW Tsai, JW Hsieh, KC Fan",
      "venue": "IEEE transactions on Image Processing 16 (3), 850-864, 2007",
-     "cited_by": 355,
+     "cited_by": 356,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:tOudhMTPpwUC",
      "citation_id": "mXUOEzwAAAAJ:tOudhMTPpwUC"
     },
@@ -2158,7 +2158,7 @@
      "title": "Automatic traffic surveillance system for vehicle tracking and classification",
      "authors": "JW Hsieh, SH Yu, YS Chen, WF Hu",
      "venue": "IEEE Transactions on intelligent transportation systems 7 (2), 175-187, 2006",
-     "cited_by": 642,
+     "cited_by": 641,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:a0OBvERweLwC",
      "citation_id": "mXUOEzwAAAAJ:a0OBvERweLwC"
     },
@@ -2426,7 +2426,7 @@
      "title": "Morphology-based license plate detection from complex scenes",
      "authors": "JW Hsieh, SH Yu, YS Chen",
      "venue": "2002 International Conference on Pattern Recognition 3, 176-179, 2002",
-     "cited_by": 277,
+     "cited_by": 278,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:UxriW0iASnsC",
      "citation_id": "mXUOEzwAAAAJ:UxriW0iASnsC"
     },
@@ -2619,7 +2619,7 @@
      "title": "A new wavelet-based edge detector via constrained optimization",
      "authors": "JW Hsieh, MT Ko, HYM Liao, KC Fan",
      "venue": "Image and Vision Computing 15 (7), 511-527, 1997",
-     "cited_by": 59,
+     "cited_by": 60,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:u-x6o8ySG0sC",
      "citation_id": "mXUOEzwAAAAJ:u-x6o8ySG0sC"
     },
