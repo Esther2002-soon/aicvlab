@@ -2,8 +2,11 @@ name: Update publications from Google Scholar
 
 on:
   schedule:
-    - cron: "17 19 * * *"  # every day at 19:17 UTC (03:17 in Taiwan). Not on the hour, because GitHub delays or drops jobs scheduled at :00
-  workflow_dispatch:        # "Run workflow" button in the Actions tab
+    # GitHub often delays or silently drops scheduled runs, so the job is triggered
+    # four times a day. Only the first one that actually runs each UTC day fetches
+    # data (see "Already fetched today?"), so SerpApi is still used about once a day.
+    - cron: "17 0,6,12,18 * * *"
+  workflow_dispatch:        # "Run workflow" button in the Actions tab, always fetches
 
 permissions:
   contents: write           # commit the refreshed JSON files
@@ -25,12 +28,26 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Today's date (UTC)
+        id: day
+        run: echo "day=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Already fetched today?
+        id: done
+        uses: actions/cache@v4
+        with:
+          path: .scholar-stamp
+          key: scholar-fetched-${{ steps.day.outputs.day }}
+
       - name: Fetch Google Scholar data
         id: fetch
+        if: github.event_name != 'schedule' || steps.done.outputs.cache-hit != 'true'
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}   # optional, defaults to mXUOEzwAAAAJ
-        run: python scripts/fetch_scholar.py --data-dir _data
+        run: |
+          python scripts/fetch_scholar.py --data-dir _data
+          echo "fetched" > .scholar-stamp
 
       - name: Commit changes
         if: steps.fetch.outputs.changed == 'true'
