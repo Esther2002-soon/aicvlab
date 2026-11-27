@@ -167,6 +167,20 @@ def write_json(path, obj):
     Path(path).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
+MIN_SEARCHES_LEFT = 12   # one run needs about 4; stop well before the monthly limit is reached
+
+
+def searches_left(key):
+    """Ask SerpApi how many searches remain this month (this call is free). None if unknown."""
+    try:
+        with urllib.request.urlopen(f"https://serpapi.com/account.json?api_key={urllib.parse.quote(key)}", timeout=30) as r:
+            info = json.load(r)
+        return int(info.get("total_searches_left"))
+    except Exception as e:  # never block the update because of this check
+        print(f"  (could not read SerpApi quota: {e})")
+        return None
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--data-dir", default="_data")
@@ -181,6 +195,14 @@ def main():
     data_dir = Path(args.data_dir)
     pub_path, stat_path = data_dir / "scholar_publications.json", data_dir / "scholar_stats.json"
     old_pubs, old_stats = read_json(pub_path) or {}, read_json(stat_path) or {}
+
+    if key and not os.environ.get("SCHOLAR_FIXTURE_DIR"):
+        left = searches_left(key)
+        if left is not None:
+            print(f"SerpApi searches left this month: {left}")
+            if left < MIN_SEARCHES_LEFT:
+                print("Monthly SerpApi quota almost used up. Skipping this update and keeping the existing data.")
+                return 0
 
     print(f"Fetching Google Scholar profile {author_id}")
     try:
