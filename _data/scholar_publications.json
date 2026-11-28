@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:02:02Z",
+ "updated": "2026-11-28T01:29:28Z",
  "author_id": "mXUOEzwAAAAJ",
  "count": 365,
  "years": [
@@ -375,7 +375,7 @@
      "title": "Microvit: A vision transformer with low complexity self attention for edge device",
      "authors": "N Setyawan, CC Sun, MH Hsu, WK Kuo, JW Hsieh",
      "venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS), 1-5, 2025",
-     "cited_by": 30,
+     "cited_by": 31,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:lvd772isFD0C",
      "citation_id": "mXUOEzwAAAAJ:lvd772isFD0C"
     },
@@ -540,7 +540,7 @@
      "title": "Aiot-based shrimp larvae counting system using scaled multilayer feature fusion network",
      "authors": "YK Hsieh, JW Hsieh, WC Hu, YC Tseng",
      "venue": "IEEE Internet of Things Journal 11 (22), 36438-36451, 2024",
-     "cited_by": 14,
+     "cited_by": 15,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:0N-VGjzr574C",
      "citation_id": "mXUOEzwAAAAJ:0N-VGjzr574C"
     },
@@ -572,7 +572,7 @@
      "title": "Smiletrack: Similarity learning for occlusion-aware multiple object tracking",
      "authors": "YH Wang, JW Hsieh, PY Chen, MC Chang, HH So, X Li",
      "venue": "Proceedings of the AAAI conference on artificial intelligence 38 (6), 5740-5748, 2024",
-     "cited_by": 209,
+     "cited_by": 210,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:HbR8gkJAVGIC",
      "citation_id": "mXUOEzwAAAAJ:HbR8gkJAVGIC"
     },
@@ -649,7 +649,7 @@
      "title": "SARAS-Net: Scale and relation aware Siamese network for change detection",
      "authors": "CP Chen, JW Hsieh, PY Chen, YK Hsieh, BS Wang",
      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence 37 (12), 14187 …, 2023",
-     "cited_by": 123,
+     "cited_by": 124,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:p__nRnzSRKYC",
      "citation_id": "mXUOEzwAAAAJ:p__nRnzSRKYC"
     },
@@ -1000,7 +1000,7 @@
      "title": "CSPNet: AnewbackbonethatcanenhancelearningcapabilityofCNN",
      "authors": "LHY WangcY, YH Wu",
      "venue": "IEEE/CVFConferenceonComputerVisionandPatternRecognitionWorkshops. Piscataway …, 2020",
-     "cited_by": 71,
+     "cited_by": 74,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:cWzG1nlazyYC",
      "citation_id": "mXUOEzwAAAAJ:cWzG1nlazyYC"
     },
@@ -1072,7 +1072,7 @@
      "title": "CSPNet: A new backbone that can enhance learning capability of CNN",
      "authors": "CY Wang, HYM Liao, YH Wu, PY Chen, JW Hsieh, IH Yeh",
      "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2020",
-     "cited_by": 7379,
+     "cited_by": 7382,
      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mXUOEzwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mXUOEzwAAAAJ:NhqRSupF_l8C",
      "citation_id": "mXUOEzwAAAAJ:NhqRSupF_l8C"
     }
